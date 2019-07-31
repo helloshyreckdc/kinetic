@@ -3,218 +3,218 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="Project" targetName="_run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="roscpp_generate_messages_eus" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="gmock" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest" />
+      <config projectName="Project" targetName="control_msgs_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
       <config projectName="Project" targetName="actionlib_generate_messages_eus" />
-      <config projectName="Project" targetName="ur10_kin" />
-      <config projectName="Project" targetName="run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
       <config projectName="Project" targetName="gtest_main" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Digital" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="run_tests_ur3_e_moveit_config" />
       <config projectName="Project" targetName="run_tests_ur5_e_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="_run_tests_ur_bringup" />
-      <config projectName="Project" targetName="run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="run_tests_ur3_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetPayload" />
       <config projectName="Project" targetName="std_srvs_generate_messages_py" />
-      <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="ur_msgs_gennodejs" />
+      <config projectName="Project" targetName="run_tests_ur_gazebo" />
       <config projectName="Project" targetName="tf_generate_messages_eus" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_IOStates" />
+      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="ur3_moveit_plugin" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_catkin_empty_exported_target" />
+      <config projectName="Project" targetName="ur10_kin" />
       <config projectName="Project" targetName="clean_test_results_ur5_e_moveit_config" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="ur_msgs_geneus" />
+      <config projectName="Project" targetName="run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="roscpp_generate_messages_py" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_py" />
       <config projectName="Project" targetName="run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
       <config projectName="Project" targetName="_run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
+      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_run_tests_ur_modern_driver" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="_run_tests_ur_gazebo" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="ur_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="run_tests_ur5_moveit_config" />
       <config projectName="Project" targetName="clean_test_results" />
       <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config" />
       <config projectName="Project" targetName="_run_tests_ur_modern_driver_gtest" />
       <config projectName="Project" targetName="control_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_run_tests_ur10_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="run_tests_ur_gazebo" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_IOStates" />
+      <config projectName="Project" targetName="ur10_moveit_plugin" />
       <config projectName="Project" targetName="moveit_ros_planning_gencfg" />
-      <config projectName="Project" targetName="ur3_kin" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotModeDataMsg" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="tf_generate_messages_py" />
+      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="clean_test_results_ur5_moveit_config" />
       <config projectName="Project" targetName="run_tests_ur_e_gazebo" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config" />
       <config projectName="Project" targetName="actionlib_generate_messages_py" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="Project" targetName="run_tests_ur3_moveit_config" />
       <config projectName="Project" targetName="ur_msgs_gencpp" />
-      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="industrial_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_run_tests_ur5_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="_run_tests_ur_gazebo_roslaunch-check" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="ur_msgs_genlisp" />
+      <config projectName="Project" targetName="run_tests_ur_modern_driver" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Analog" />
       <config projectName="Project" targetName="_run_tests_ur5_moveit_config" />
       <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_py" />
       <config projectName="Project" targetName="ur_driver" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_py" />
       <config projectName="Project" targetName="clean_test_results_ur10_e_moveit_config" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetIO" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotModeDataMsg" />
       <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_MasterboardDataMsg" />
+      <config projectName="Project" targetName="_run_tests_ur3_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotStateRTMsg" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="_run_tests_ur_gazebo" />
       <config projectName="Project" targetName="run_tests_ur10_e_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="tf_generate_messages_cpp" />
-      <config projectName="Project" targetName="run_tests_ur3_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="_run_tests_ur3_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="_run_tests_ur_e_gazebo_roslaunch-check" />
+      <config projectName="Project" targetName="moveit_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="ur_msgs_gennodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="_run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="control_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_catkin_empty_exported_target" />
       <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="_run_tests_ur_e_gazebo" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Digital" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="ur_msgs_genlisp" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="run_tests_ur_modern_driver" />
+      <config projectName="Project" targetName="_run_tests_ur10_moveit_config" />
       <config projectName="Project" targetName="clean_test_results_ur_e_gazebo" />
+      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="gtest" />
       <config projectName="Project" targetName="ur_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_py" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="ur10_moveit_plugin" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
       <config projectName="Project" targetName="gmock_main" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="clean_test_results_ur10_moveit_config" />
       <config projectName="Project" targetName="run_tests_ur3_e_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config" />
+      <config projectName="Project" targetName="_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="control_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="ur_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="ur5_moveit_plugin" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="_run_tests_ur_bringup_roslaunch-check" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="tf_generate_messages_nodejs" />
       <config projectName="Project" targetName="tests" />
       <config projectName="Project" targetName="run_tests_ur_bringup" />
       <config projectName="Project" targetName="clean_test_results_ur3_moveit_config" />
-      <config projectName="Project" targetName="ur_driver_gencfg" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="clean_test_results_ur_gazebo" />
-      <config projectName="Project" targetName="run_tests_ur10_moveit_config" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_MasterboardDataMsg" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="run_tests_ur_gazebo_roslaunch-check" />
+      <config projectName="Project" targetName="clean_test_results_ur3_e_moveit_config" />
+      <config projectName="Project" targetName="octomap_msgs_generate_messages_py" />
       <config projectName="Project" targetName="_run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="ur_msgs_generate_messages" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="ur_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="run_tests_ur10_moveit_config" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_run_tests_ur3_moveit_config" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
       <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="industrial_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="ur_modern_driver_test" />
-      <config projectName="Project" targetName="run_tests_ur_bringup_roslaunch-check" />
-      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="industrial_msgs_generate_messages_py" />
       <config projectName="Project" targetName="_run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="roscpp_generate_messages_py" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetIO" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
-      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config" />
+      <config projectName="Project" targetName="ur5_moveit_plugin" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="roscpp_generate_messages_eus" />
+      <config projectName="Project" targetName="clean_test_results_ur_gazebo" />
       <config projectName="Project" targetName="ur5_kin" />
       <config projectName="Project" targetName="clean_test_results_ur_modern_driver" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_ToolDataMsg" />
       <config projectName="Project" targetName="run_tests_ur10_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="ur_hardware_interface" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="ur_msgs_genpy" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="control_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
       <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
-      <config projectName="Project" targetName="industrial_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="control_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="Project" targetName="run_tests_ur_bringup_roslaunch-check" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="control_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="run_tests_ur10_e_moveit_config" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="ur_msgs_genpy" />
+      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="run_tests_ur5_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="clean_test_results_ur_bringup" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_run_tests_ur_e_gazebo_roslaunch-check" />
       <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="Project" targetName="tf_generate_messages_py" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="download_extra_data" />
-      <config projectName="Project" targetName="run_tests_ur_gazebo_roslaunch-check" />
-      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="control_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="visualization_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="ur_msgs_generate_messages_py" />
       <config projectName="Project" targetName="moveit_ros_manipulation_gencfg" />
-      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="ur_driver_gencfg" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf_generate_messages_lisp" />
-      <config projectName="Project" targetName="_run_tests_ur10_moveit_config" />
+      <config projectName="Project" targetName="run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="ur3_kin" />
       <config projectName="Project" targetName="doxygen" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="run_tests_ur_e_gazebo_roslaunch-check" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="_run_tests_ur3_moveit_config" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="clean_test_results_ur3_e_moveit_config" />
-      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config" />
-      <config projectName="Project" targetName="_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="run_tests_ur5_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="ur_msgs_geneus" />
+      <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
-      <config projectName="Project" targetName="_run_tests_ur_gazebo_roslaunch-check" />
+      <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -238,8 +238,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/universal_robot/ur5_moveit_config/config/joint_limits.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/universal_robot/ur5_moveit_config/config/joint_limits.yaml" afterDir="false" />
+    <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="test clion git">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference_6d_pose/scripts/listener.py" beforeDir="false" afterPath="$PROJECT_DIR$/reference_6d_pose/scripts/replay_trajectory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py" beforeDir="false" afterPath="$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -256,10 +259,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ur_modern_driver/launch/ur5_bringup.launch">
+        <entry file="file://$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="475">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="e#1738#1750#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reference_6d_pose/scripts/replay_trajectory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+              <folding>
+                <element signature="e#1666#1678#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -267,7 +294,16 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ur_modern_driver" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/reference_6d_pose/scripts/listener.py" />
+        <option value="$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py" />
+        <option value="$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="298" />
@@ -281,6 +317,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,6 +329,19 @@
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reference_6d_pose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reference_6d_pose" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -310,13 +360,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1397,115 +1448,37 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.clean_test_results" />
-      <item itemvalue="CMake Application.download_extra_data" />
-      <item itemvalue="CMake Application.doxygen" />
-      <item itemvalue="CMake Application.run_tests" />
-      <item itemvalue="CMake Application.tests" />
-      <item itemvalue="CMake Application.moveit_ros_manipulation_gencfg" />
       <item itemvalue="CMake Application._catkin_empty_exported_target" />
       <item itemvalue="CMake Application._run_tests_ur10_e_moveit_config" />
       <item itemvalue="CMake Application._run_tests_ur10_e_moveit_config_roslaunch-check" />
       <item itemvalue="CMake Application._run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.clean_test_results_ur10_e_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur10_e_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur10_e_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <item itemvalue="CMake Application._run_tests_ur10_moveit_config" />
       <item itemvalue="CMake Application._run_tests_ur10_moveit_config_roslaunch-check" />
       <item itemvalue="CMake Application._run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.clean_test_results_ur10_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur10_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur10_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <item itemvalue="CMake Application._run_tests_ur3_e_moveit_config" />
       <item itemvalue="CMake Application._run_tests_ur3_e_moveit_config_roslaunch-check" />
       <item itemvalue="CMake Application._run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.clean_test_results_ur3_e_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur3_e_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur3_e_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <item itemvalue="CMake Application._run_tests_ur3_moveit_config" />
       <item itemvalue="CMake Application._run_tests_ur3_moveit_config_roslaunch-check" />
       <item itemvalue="CMake Application._run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.clean_test_results_ur3_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur3_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur3_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <item itemvalue="CMake Application._run_tests_ur5_e_moveit_config" />
       <item itemvalue="CMake Application._run_tests_ur5_e_moveit_config_roslaunch-check" />
       <item itemvalue="CMake Application._run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.clean_test_results_ur5_e_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur5_e_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur5_e_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <item itemvalue="CMake Application._run_tests_ur5_moveit_config" />
       <item itemvalue="CMake Application._run_tests_ur5_moveit_config_roslaunch-check" />
       <item itemvalue="CMake Application._run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.clean_test_results_ur5_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur5_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur5_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <item itemvalue="CMake Application._run_tests_ur_bringup" />
       <item itemvalue="CMake Application._run_tests_ur_bringup_roslaunch-check" />
       <item itemvalue="CMake Application._run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application.clean_test_results_ur_bringup" />
-      <item itemvalue="CMake Application.run_tests_ur_bringup" />
-      <item itemvalue="CMake Application.run_tests_ur_bringup_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application.dynamic_reconfigure_gencfg" />
-      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_cpp" />
-      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_eus" />
-      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_lisp" />
-      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_py" />
-      <item itemvalue="CMake Application.ur_driver_gencfg" />
       <item itemvalue="CMake Application._run_tests_ur_e_gazebo" />
       <item itemvalue="CMake Application._run_tests_ur_e_gazebo_roslaunch-check" />
       <item itemvalue="CMake Application._run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application.clean_test_results_ur_e_gazebo" />
-      <item itemvalue="CMake Application.run_tests_ur_e_gazebo" />
-      <item itemvalue="CMake Application.run_tests_ur_e_gazebo_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
       <item itemvalue="CMake Application._run_tests_ur_gazebo" />
       <item itemvalue="CMake Application._run_tests_ur_gazebo_roslaunch-check" />
       <item itemvalue="CMake Application._run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application.clean_test_results_ur_gazebo" />
-      <item itemvalue="CMake Application.run_tests_ur_gazebo" />
-      <item itemvalue="CMake Application.run_tests_ur_gazebo_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application.moveit_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.moveit_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.moveit_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.moveit_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.moveit_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.moveit_ros_planning_gencfg" />
-      <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.octomap_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.octomap_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.octomap_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.octomap_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.octomap_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.shape_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.shape_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.shape_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.shape_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.shape_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.ur10_kin" />
-      <item itemvalue="CMake Application.ur10_moveit_plugin" />
-      <item itemvalue="CMake Application.ur3_kin" />
-      <item itemvalue="CMake Application.ur3_moveit_plugin" />
-      <item itemvalue="CMake Application.ur5_kin" />
-      <item itemvalue="CMake Application.ur5_moveit_plugin" />
-      <item itemvalue="CMake Application.visualization_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.visualization_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.visualization_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.visualization_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.visualization_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application._run_tests_ur_modern_driver" />
+      <item itemvalue="CMake Application._run_tests_ur_modern_driver_gtest" />
+      <item itemvalue="CMake Application._run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_Analog" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_Digital" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_IOStates" />
@@ -1515,25 +1488,6 @@
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_SetIO" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_SetPayload" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_ToolDataMsg" />
-      <item itemvalue="CMake Application.std_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.std_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.std_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.std_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.std_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.ur_msgs_gencpp" />
-      <item itemvalue="CMake Application.ur_msgs_generate_messages" />
-      <item itemvalue="CMake Application.ur_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.ur_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.ur_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.ur_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.ur_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.ur_msgs_geneus" />
-      <item itemvalue="CMake Application.ur_msgs_genlisp" />
-      <item itemvalue="CMake Application.ur_msgs_gennodejs" />
-      <item itemvalue="CMake Application.ur_msgs_genpy" />
-      <item itemvalue="CMake Application._run_tests_ur_modern_driver" />
-      <item itemvalue="CMake Application._run_tests_ur_modern_driver_gtest" />
-      <item itemvalue="CMake Application._run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
       <item itemvalue="CMake Application.actionlib_generate_messages_cpp" />
       <item itemvalue="CMake Application.actionlib_generate_messages_eus" />
       <item itemvalue="CMake Application.actionlib_generate_messages_lisp" />
@@ -1544,6 +1498,16 @@
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.clean_test_results" />
+      <item itemvalue="CMake Application.clean_test_results_ur10_e_moveit_config" />
+      <item itemvalue="CMake Application.clean_test_results_ur10_moveit_config" />
+      <item itemvalue="CMake Application.clean_test_results_ur3_e_moveit_config" />
+      <item itemvalue="CMake Application.clean_test_results_ur3_moveit_config" />
+      <item itemvalue="CMake Application.clean_test_results_ur5_e_moveit_config" />
+      <item itemvalue="CMake Application.clean_test_results_ur5_moveit_config" />
+      <item itemvalue="CMake Application.clean_test_results_ur_bringup" />
+      <item itemvalue="CMake Application.clean_test_results_ur_e_gazebo" />
+      <item itemvalue="CMake Application.clean_test_results_ur_gazebo" />
       <item itemvalue="CMake Application.clean_test_results_ur_modern_driver" />
       <item itemvalue="CMake Application.control_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.control_msgs_generate_messages_eus" />
@@ -1555,16 +1519,45 @@
       <item itemvalue="CMake Application.controller_manager_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.controller_manager_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.controller_manager_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.download_extra_data" />
+      <item itemvalue="CMake Application.doxygen" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_gencfg" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_cpp" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_eus" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_lisp" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_py" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.moveit_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.moveit_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.moveit_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.moveit_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.moveit_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.moveit_ros_manipulation_gencfg" />
+      <item itemvalue="CMake Application.moveit_ros_planning_gencfg" />
+      <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.octomap_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.octomap_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.octomap_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.octomap_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.octomap_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.roscpp_generate_messages_cpp" />
       <item itemvalue="CMake Application.roscpp_generate_messages_eus" />
       <item itemvalue="CMake Application.roscpp_generate_messages_lisp" />
@@ -1575,6 +1568,34 @@
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.run_tests" />
+      <item itemvalue="CMake Application.run_tests_ur10_e_moveit_config" />
+      <item itemvalue="CMake Application.run_tests_ur10_e_moveit_config_roslaunch-check" />
+      <item itemvalue="CMake Application.run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <item itemvalue="CMake Application.run_tests_ur10_moveit_config" />
+      <item itemvalue="CMake Application.run_tests_ur10_moveit_config_roslaunch-check" />
+      <item itemvalue="CMake Application.run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <item itemvalue="CMake Application.run_tests_ur3_e_moveit_config" />
+      <item itemvalue="CMake Application.run_tests_ur3_e_moveit_config_roslaunch-check" />
+      <item itemvalue="CMake Application.run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <item itemvalue="CMake Application.run_tests_ur3_moveit_config" />
+      <item itemvalue="CMake Application.run_tests_ur3_moveit_config_roslaunch-check" />
+      <item itemvalue="CMake Application.run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <item itemvalue="CMake Application.run_tests_ur5_e_moveit_config" />
+      <item itemvalue="CMake Application.run_tests_ur5_e_moveit_config_roslaunch-check" />
+      <item itemvalue="CMake Application.run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <item itemvalue="CMake Application.run_tests_ur5_moveit_config" />
+      <item itemvalue="CMake Application.run_tests_ur5_moveit_config_roslaunch-check" />
+      <item itemvalue="CMake Application.run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <item itemvalue="CMake Application.run_tests_ur_bringup" />
+      <item itemvalue="CMake Application.run_tests_ur_bringup_roslaunch-check" />
+      <item itemvalue="CMake Application.run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
+      <item itemvalue="CMake Application.run_tests_ur_e_gazebo" />
+      <item itemvalue="CMake Application.run_tests_ur_e_gazebo_roslaunch-check" />
+      <item itemvalue="CMake Application.run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
+      <item itemvalue="CMake Application.run_tests_ur_gazebo" />
+      <item itemvalue="CMake Application.run_tests_ur_gazebo_roslaunch-check" />
+      <item itemvalue="CMake Application.run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
       <item itemvalue="CMake Application.run_tests_ur_modern_driver" />
       <item itemvalue="CMake Application.run_tests_ur_modern_driver_gtest" />
       <item itemvalue="CMake Application.run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
@@ -1583,11 +1604,22 @@
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.shape_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.shape_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.shape_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.shape_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.shape_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_cpp" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_eus" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_lisp" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_py" />
+      <item itemvalue="CMake Application.tests" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_lisp" />
@@ -1603,13 +1635,32 @@
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.ur10_kin" />
+      <item itemvalue="CMake Application.ur10_moveit_plugin" />
+      <item itemvalue="CMake Application.ur3_kin" />
+      <item itemvalue="CMake Application.ur3_moveit_plugin" />
+      <item itemvalue="CMake Application.ur5_kin" />
+      <item itemvalue="CMake Application.ur5_moveit_plugin" />
       <item itemvalue="CMake Application.ur_driver" />
+      <item itemvalue="CMake Application.ur_driver_gencfg" />
       <item itemvalue="CMake Application.ur_hardware_interface" />
       <item itemvalue="CMake Application.ur_modern_driver_test" />
-      <item itemvalue="CMake Application.gmock" />
-      <item itemvalue="CMake Application.gmock_main" />
-      <item itemvalue="CMake Application.gtest" />
-      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="CMake Application.ur_msgs_gencpp" />
+      <item itemvalue="CMake Application.ur_msgs_generate_messages" />
+      <item itemvalue="CMake Application.ur_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.ur_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.ur_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.ur_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.ur_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.ur_msgs_geneus" />
+      <item itemvalue="CMake Application.ur_msgs_genlisp" />
+      <item itemvalue="CMake Application.ur_msgs_gennodejs" />
+      <item itemvalue="CMake Application.ur_msgs_genpy" />
+      <item itemvalue="CMake Application.visualization_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.visualization_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.visualization_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.visualization_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.visualization_msgs_generate_messages_py" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -1624,16 +1675,21 @@
       <updated>1564547838153</updated>
       <workItem from="1564547839545" duration="705000" />
       <workItem from="1564556490533" duration="13000" />
+      <workItem from="1564557979988" duration="721000" />
+      <workItem from="1564559300950" duration="1322000" />
+      <workItem from="1564560684491" duration="802000" />
+      <workItem from="1564561631571" duration="25000" />
+      <workItem from="1564561832315" duration="518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="718000" />
+    <option name="totallyTimeSpent" value="4106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26755112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1644,10 +1700,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32110092" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32925585" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3058104" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32925585" />
       <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1658,11 +1714,46 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/universal_robot" />
+      <path value="$PROJECT_DIR$/ur_modern_driver" />
+    </ignored-roots>
+    <MESSAGE value="test clion git" />
+    <option name="LAST_COMMIT_MESSAGE" value="test clion git" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ur_modern_driver/launch/ur5_bringup.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="494">
+          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#1738#1750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reference_6d_pose/scripts/replay_trajectory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="e#1666#1678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
