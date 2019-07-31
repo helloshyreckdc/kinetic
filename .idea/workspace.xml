@@ -238,10 +238,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="test clion git">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference_6d_pose/scripts/listener.py" beforeDir="false" afterPath="$PROJECT_DIR$/reference_6d_pose/scripts/replay_trajectory.py" afterDir="false" />
+    <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py" beforeDir="false" afterPath="$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -261,8 +258,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="796">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding>
                 <element signature="e#1738#1750#0" expanded="true" />
               </folding>
@@ -300,8 +297,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/reference_6d_pose/scripts/listener.py" />
-        <option value="$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py" />
         <option value="$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py" />
       </list>
     </option>
   </component>
@@ -1679,12 +1676,20 @@
       <workItem from="1564559300950" duration="1322000" />
       <workItem from="1564560684491" duration="802000" />
       <workItem from="1564561631571" duration="25000" />
-      <workItem from="1564561832315" duration="518000" />
+      <workItem from="1564561832315" duration="1169000" />
     </task>
+    <task id="LOCAL-00001" summary="test clion git">
+      <created>1564562420341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564562420341</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4106000" />
+    <option name="totallyTimeSpent" value="4757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -1700,7 +1705,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32925585" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32925585" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3058104" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32925585" />
@@ -1730,13 +1735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py">
+    <entry file="file://$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="e#1738#1750#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1750,10 +1752,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/reference_6d_pose/scripts/record_trajectory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="796">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="e#1738#1750#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
