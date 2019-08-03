@@ -8,16 +8,19 @@
 #include <rosbag/bag.h>
 #include <std_msgs/Int32.h>
 #include <std_msgs/String.h>
-#include <stdlib.h>
 #include <tf_system/Trans_angle_axis.h>
 #include <string>
 #include <reference_6d_pose/to_string.h>
+#include <rosbag/bag.h>
+#include <rosbag/view.h>
+
+
 using namespace std;
 
 std_msgs::String ur_string;
 ros::Publisher exec_ref_traj_pub;
 
-void sub_poseCB(const tf_system::Trans_angle_axis trans_angle_axis){
+void sub_poseCB(const tf_system::Trans_angle_axis &trans_angle_axis){
 
     std::string s = "movel(p[" + to_string(trans_angle_axis.translation.x) + ","
                     + to_string(trans_angle_axis.translation.y) + ","
@@ -38,15 +41,17 @@ int main(int argc, char** argv){
     exec_ref_traj_pub = node.advertise<std_msgs::String>("/ur_driver/URScript",10);
     ros::Subscriber trans_angle_axis_sub = node.subscribe("/trans_angle_axis",10,sub_poseCB);
 
+    string bag_name = to_string(argv[1]);
+
     ros::Duration(2).sleep();
-    system(("gnome-terminal -x rosbag play "+ to_string(argv[1]) +" __name:=replay_bag").c_str());
+    system(("gnome-terminal -x rosbag play "+ bag_name +" __name:=replay_bag").c_str());
 
 
     ros::Rate rate(50);
 
     while(node.ok()){
         ros::spinOnce();
-        if(ur_string.data != ""){
+        if(!ur_string.data.empty()){
             exec_ref_traj_pub.publish(ur_string);
             break;
         }
@@ -55,5 +60,16 @@ int main(int argc, char** argv){
 
 
     system("gnome-terminal -x rosnode kill replay_bag");
+    ros::Duration(1.0).sleep();
+
+    rosbag::Bag bag;
+    bag.open(bag_name,rosbag::bagmode::Read);
+    rosbag::View view(bag);
+    ros::Duration bag_length_time = view.getEndTime() - view.getBeginTime();
+    double bag_length = bag_length_time.toSec();
+    ros::param::set("/demo_bag_length",bag_length);
+    bag.close();
+
+    system(("rosrun reference_6d_pose replay_traj "+bag_name+" __name:=replay_trajectory").c_str());
     return 0;
-};
+}
