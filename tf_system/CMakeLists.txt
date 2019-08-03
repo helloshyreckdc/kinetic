@@ -1,29 +1,27 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(reference_6d_pose)
+project(tf_system)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
 
+find_package(cmake_modules REQUIRED)
+find_package(Eigen3 REQUIRED)
+include_directories(${EIGEN3_INCLUDE_DIR})
+add_definitions(${EIGEN_DEFINITIONS})
+
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-
-#find_package(cmake_modules REQUIRED)
-#find_package(Eigen3 REQUIRED)
-#include_directories(${EIGEN3_INCLUDE_DIR})
-#add_definitions(${EIGEN_DEFINITIONS})
-
 find_package(catkin REQUIRED COMPONENTS
-        rosbag
-        moveit_ros_planning_interface
-        roscpp
-        rospy
-        std_msgs
-        tf2
-        tf2_ros
-        tf
-        tf_system
-        )
+  roscpp
+  rospy
+  std_msgs
+  tf
+  tf2
+  tf2_ros
+  geometry_msgs
+  message_generation
+)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -59,11 +57,10 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
+ add_message_files(
+   FILES
+   Trans_angle_axis.msg
+ )
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -80,10 +77,11 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   std_msgs
-# )
+ generate_messages(
+   DEPENDENCIES
+   geometry_msgs
+   std_msgs
+ )
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -115,10 +113,11 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-           INCLUDE_DIRS include
-        #  LIBRARIES reference_6d_pose
-          CATKIN_DEPENDS moveit_ros_planning_interface roscpp rospy std_msgs tf tf2 tf2_ros tf_system
-        #  DEPENDS system_lib
+   INCLUDE_DIRS include
+#  LIBRARIES tf_system
+   CATKIN_DEPENDS roscpp rospy std_msgs tf tf2 tf2_ros message_runtime geometry_msgs
+#  DEPENDS system_lib
+
 )
 
 ###########
@@ -128,13 +127,13 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-        include
-        ${catkin_INCLUDE_DIRS}
+  include
+  ${catkin_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/reference_6d_pose.cpp
+#   src/${PROJECT_NAME}/tf_system.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -145,7 +144,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/reference_6d_pose_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/tf_system_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -202,21 +201,13 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_reference_6d_pose.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_tf_system.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-add_executable(record src/record.cpp)
-target_link_libraries(record ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(record tf_system_generate_messages_cpp)
-
-add_executable(replay_traj src/replay_traj.cpp)
-target_link_libraries(replay_traj ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(replay_traj tf_system_generate_messages_cpp)
-
-add_executable(replay_go_to_origin src/replay_go_to_origin.cpp)
-target_link_libraries(replay_go_to_origin ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(replay_go_to_origin tf_system_generate_messages_cpp)
+add_executable(quaternion2angle_axis src/quaternion2angle_axis.cpp)
+target_link_libraries(quaternion2angle_axis ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(quaternion2angle_axis tf_system_generate_messages_cpp)
