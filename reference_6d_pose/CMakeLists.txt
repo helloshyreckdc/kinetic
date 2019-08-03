@@ -209,6 +209,10 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+add_executable(pub_current_pose src/pub_current_pose.cpp)
+target_link_libraries(pub_current_pose ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(pub_current_pose tf_system_generate_messages_cpp)
+
 add_executable(record src/record.cpp)
 target_link_libraries(record ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(record tf_system_generate_messages_cpp)

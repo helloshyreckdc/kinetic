@@ -259,12 +259,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="add auto start replay in go to origin">
-      <change afterPath="$PROJECT_DIR$/demo50hz.bag" afterDir="false" />
+    <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/reference_6d_pose/src/pub_current_pose.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference_6d_pose/src/replay_go_to_origin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/reference_6d_pose/src/replay_go_to_origin.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference_6d_pose/src/replay_traj.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/reference_6d_pose/src/replay_traj.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_system/msg/Trans_angle_axis.msg" beforeDir="false" afterPath="$PROJECT_DIR$/tf_system/msg/Trans_angle_axis.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -284,13 +282,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/reference_6d_pose/src/record.cpp">
+        <entry file="file://$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="479">
+              <caret line="217" selection-start-line="217" selection-end-line="217" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reference_6d_pose/src/pub_current_pose.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reference_6d_pose/src/record.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -332,12 +348,12 @@
         <option value="$PROJECT_DIR$/reference_6d_pose/package.xml" />
         <option value="$PROJECT_DIR$/reference_6d_pose/src/replay.cpp" />
         <option value="$PROJECT_DIR$/tf_system/src/quaternion2angle_axis.cpp" />
-        <option value="$PROJECT_DIR$/reference_6d_pose/src/record.cpp" />
-        <option value="$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/tf_system/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/tf_system/msg/Trans_angle_axis.msg" />
         <option value="$PROJECT_DIR$/reference_6d_pose/src/replay_traj.cpp" />
         <option value="$PROJECT_DIR$/reference_6d_pose/src/replay_go_to_origin.cpp" />
+        <option value="$PROJECT_DIR$/reference_6d_pose/src/record.cpp" />
+        <option value="$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -1885,7 +1901,7 @@
       <workItem from="1564725417425" duration="3749000" />
       <workItem from="1564729196140" duration="29266000" />
       <workItem from="1564817303561" duration="1338000" />
-      <workItem from="1564818687747" duration="14425000" />
+      <workItem from="1564818687747" duration="16057000" />
     </task>
     <task id="LOCAL-00001" summary="test clion git">
       <created>1564562420341</created>
@@ -1908,17 +1924,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564818226493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add auto start replay_traj in replay_go_to_origin">
+      <created>1564838950202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564838950202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91727000" />
+    <option name="totallyTimeSpent" value="93359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29961306" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29961306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1929,7 +1952,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.5511332" visible="true" weight="0.32925585" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.5511332" visible="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2895005" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.44886678" side_tool="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32110092" />
@@ -1993,7 +2016,8 @@
     <MESSAGE value="1test clion git" />
     <MESSAGE value="add replay_go_to_origin.cpp" />
     <MESSAGE value="add auto start replay in go to origin" />
-    <option name="LAST_COMMIT_MESSAGE" value="add auto start replay in go to origin" />
+    <MESSAGE value="add auto start replay_traj in replay_go_to_origin" />
+    <option name="LAST_COMMIT_MESSAGE" value="add auto start replay_traj in replay_go_to_origin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2064,13 +2088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1459">
-          <caret line="118" column="37" selection-start-line="118" selection-start-column="37" selection-end-line="118" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tf_system/msg/Trans_angle_axis.msg">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2097,11 +2114,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reference_6d_pose/src/record.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="209">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reference_6d_pose/src/pub_current_pose.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reference_6d_pose/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
         </state>
       </provider>
     </entry>
