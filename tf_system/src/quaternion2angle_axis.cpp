@@ -68,8 +68,8 @@ int main(int argc, char **argv)
 {
 	ros::init(argc,argv,"quaternion2angle_axis");
 	ros::NodeHandle node;
-	trans_angle_axis_pub = node.advertise<tf_system::Trans_angle_axis>("trans_angle_axis",10);
-	ros::Subscriber sub = node.subscribe("ref_traj",10,quat2angle_axisCallback);
+	trans_angle_axis_pub = node.advertise<tf_system::Trans_angle_axis>("/trans_angle_axis",10);
+	ros::Subscriber sub = node.subscribe("/ref_traj",10,quat2angle_axisCallback);
 	ros::spin();
 
 	return 0;

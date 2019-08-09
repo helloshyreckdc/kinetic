@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Export-Package: tf_system;version="0.0.0";uses:="geometry_msgs,org.ros
+ .internal.message,std_msgs"
+Bundle-Version: 0.0.0
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: tf_system
+Bnd-LastModified: 1565158090000
+Created-By: 1.7.0_60 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.ros.rosjava_messages.tf_system
+Import-Package: geometry_msgs;version="[1.10,2)",org.ros.internal.mess
+ age,std_msgs;version="[0.5,1)"
+

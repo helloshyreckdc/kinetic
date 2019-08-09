@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tf_system" type="quaternion2angle_axis" name="quaternion2angle_axis"/>
+    <node pkg="pbd" type="pub_current_pose" name="current_pose"/>
+</launch>

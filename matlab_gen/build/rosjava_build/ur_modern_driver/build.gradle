@@ -1,0 +1,14 @@
+/*
+ * Copyright 2015 The MathWorks, Inc.
+ */
+
+try {
+    project.catkin.tree.generateMessageArtifact(project, 'ur_modern_driver')
+} catch (NullPointerException e) {
+    println("Couldn't find ur_modern_driver on the ROS_PACKAGE_PATH")
+}
+
+task bugfixtask << {
+    mkdir sourceSets.main.output.classesDir
+}
+jar.dependsOn(bugfixtask)
