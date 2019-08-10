@@ -62,7 +62,7 @@ int main(int argc, char** argv){
 
 
     system("gnome-terminal -x rosnode kill replay_bag");
-    ros::Duration(5.0).sleep();
+    ros::Duration(2.0).sleep();
 
     rosbag::Bag bag;
     bag.open(bag_name,rosbag::bagmode::Read);
@@ -71,6 +71,8 @@ int main(int argc, char** argv){
     double bag_length = bag_length_time.toSec();
     ros::param::set("/demo_bag_length",bag_length);
     bag.close();
+
+//    ros::param::set("/reset_mat",true);
 
     system(("rosrun pbd replay_traj "+bag_name+" __name:=replay_trajectory").c_str());
     return 0;

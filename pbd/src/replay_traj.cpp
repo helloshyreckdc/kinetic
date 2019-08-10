@@ -1,6 +1,6 @@
 //
 // Created by shyreckdc on 19-7-31.
-// calculate speed according to current pose and reference pose
+// subscribe matlab speed topic and publish to ur
 
 #include <ros/ros.h>
 #include <tf2_ros/transform_listener.h>
@@ -17,6 +17,7 @@ using namespace std;
 
 std_msgs::String ur_string;
 ros::Publisher exec_ref_traj_pub;
+bool end_exec = false;
 
 //template < typename T > std::string to_string( const T& n )
 //{
@@ -24,6 +25,7 @@ ros::Publisher exec_ref_traj_pub;
 //    stm << n ;
 //    return stm.str() ;
 //}
+
 void sub_poseCB(const geometry_msgs::Twist &msg){
 
     std::string s = "speedl(["
@@ -38,6 +40,7 @@ void sub_poseCB(const geometry_msgs::Twist &msg){
 
 }
 
+
 int main(int argc, char** argv){
     ros::init(argc, argv, "replay_trajectory");
 
@@ -49,27 +52,29 @@ int main(int argc, char** argv){
     double bag_length = 0;
     ros::param::get("/demo_bag_length", bag_length);
 
-    ros::Duration(3).sleep();
+//    ros::param::set("/reset_mat", false); // to solve matlab ros topic cache
+
     system(("gnome-terminal -x rosbag play "+ to_string(argv[1]) +" __name:=replay_bag").c_str());
+    ros::Duration(1).sleep();
 
 
     ros::Rate rate(50);
     ros::Time begin;
     begin = ros::Time::now();
 
-    int count = 0;  //used to delete the first two point in /ur/velocity
 
     while(node.ok()){
         ros::spinOnce();
-        if(count > 5)
-        {
-            exec_ref_traj_pub.publish(ur_string);
-            cout << ur_string << endl;
-        }
-        ++count;
+        exec_ref_traj_pub.publish(ur_string);
+        cout << ur_string << endl;
         ros::Duration duration = ros::Time::now()-begin;
+
 //        ROS_INFO("%f", duration.toSec());
-        if(duration.toSec() > bag_length)
+
+
+        ros::param::get("/end_exec", end_exec); // to solve matlab ros topic cache
+//            if(duration.toSec() > bag_length)
+        if(end_exec)
         {
             ur_string.data = "stopl(1)";
             exec_ref_traj_pub.publish(ur_string);
