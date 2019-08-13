@@ -81,6 +81,7 @@
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Analog" />
       <config projectName="Project" targetName="_run_tests_ur5_moveit_config" />
       <config projectName="Project" targetName="_tf_system_generate_messages_check_deps_Trans_angle_axis" />
+      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="ur_driver" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_eus" />
@@ -103,7 +104,7 @@
       <config projectName="Project" targetName="tf_system_genpy" />
       <config projectName="Project" targetName="control_msgs_generate_messages_py" />
       <config projectName="Project" targetName="run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
+      <config projectName="Project" targetName="run_tests" />
       <config projectName="Project" targetName="_run_tests_ur_e_gazebo" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf_system_generate_messages" />
@@ -148,7 +149,6 @@
       <config projectName="Project" targetName="run_tests_ur_gazebo_roslaunch-check" />
       <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
       <config projectName="Project" targetName="_run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="run_tests" />
       <config projectName="Project" targetName="quaternion2angle_axis" />
       <config projectName="Project" targetName="ur_msgs_generate_messages" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
@@ -169,7 +169,8 @@
       <config projectName="Project" targetName="tf_system_generate_messages_py" />
       <config projectName="Project" targetName="ur_msgs_genpy" />
       <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
+      <config projectName="Project" targetName="process_control" />
+      <config projectName="Project" targetName="pub_current_pose" />
       <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_py" />
       <config projectName="Project" targetName="ur5_kin" />
@@ -197,7 +198,7 @@
       <config projectName="Project" targetName="moveit_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="pub_current_pose" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_py" />
       <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
@@ -260,8 +261,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="test1">
+    <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo_rotate.bag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_rotateX.bag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbd/src/process_control.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pbd/src/replay_traj.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/src/replay_traj.cpp" afterDir="false" />
     </list>
@@ -285,10 +290,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pbd/src/replay_traj.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+            <state relative-caret-position="665">
+              <caret line="77" column="41" lean-forward="true" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
               <folding>
-                <element signature="e#104#124#0" expanded="true" />
+                <element signature="e#90#110#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -297,10 +302,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="473">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
               <folding>
                 <element signature="e#235#255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pbd/src/pub_current_pose.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding>
+                <element signature="e#43#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pbd/src/process_control.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#72#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pbd/src/record.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1197">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="e#43#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -333,8 +374,10 @@
         <option value="$PROJECT_DIR$/tf_system/src/quaternion2angle_axis.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/record.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/pub_current_pose.cpp" />
-        <option value="$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp" />
+        <option value="$PROJECT_DIR$/pbd/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/pbd/src/replay_traj.cpp" />
+        <option value="$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp" />
+        <option value="$PROJECT_DIR$/pbd/src/process_control.cpp" />
       </list>
     </option>
   </component>
@@ -344,7 +387,9 @@
     <option name="width" value="1392" />
     <option name="height" value="996" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -1002,6 +1047,11 @@
       </method>
     </configuration>
     <configuration name="octomap_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="octomap_msgs_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="process_control" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="process_control" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="process_control">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1744,6 +1794,7 @@
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.process_control" />
       <item itemvalue="CMake Application.pub_current_pose" />
       <item itemvalue="CMake Application.quaternion2angle_axis" />
       <item itemvalue="CMake Application.record" />
@@ -1907,7 +1958,8 @@
       <workItem from="1564974504859" duration="8338000" />
       <workItem from="1565179535578" duration="11000" />
       <workItem from="1565324936235" duration="5059000" />
-      <workItem from="1565350335917" duration="11371000" />
+      <workItem from="1565350335917" duration="20379000" />
+      <workItem from="1565576625480" duration="13642000" />
     </task>
     <task id="LOCAL-00001" summary="test clion git">
       <created>1564562420341</created>
@@ -1958,17 +2010,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565362348145</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="subscribe to matlab /ur/velocity topic">
+      <created>1565428160423</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565428160423</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121290000" />
+    <option name="totallyTimeSpent" value="143940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31398562" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31785518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1979,7 +2038,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.5511332" visible="true" weight="0.32925585" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.5511332" visible="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2895005" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.44886678" side_tool="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.31294596" />
@@ -2051,7 +2110,8 @@
     <MESSAGE value="add matlab generated msg" />
     <MESSAGE value="ignore matlab generated msg" />
     <MESSAGE value="test1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+    <MESSAGE value="subscribe to matlab /ur/velocity topic" />
+    <option name="LAST_COMMIT_MESSAGE" value="subscribe to matlab /ur/velocity topic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2112,13 +2172,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netft_utils/launch/netft_utils.launch" />
     <entry file="file://$PROJECT_DIR$/netft_utils/launch/netft_view.launch" />
     <entry file="file://$PROJECT_DIR$/pbd/launch/replay.launch">
@@ -2146,10 +2199,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="229" selection-start-line="229" selection-end-line="229" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pbd/src/record.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="1197">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>
@@ -2158,8 +2218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pbd/src/pub_current_pose.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="-2">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>
@@ -2168,20 +2228,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="473">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
           <folding>
             <element signature="e#235#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/src/process_control.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#72#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pbd/src/replay_traj.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        <state relative-caret-position="665">
+          <caret line="77" column="41" lean-forward="true" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
           <folding>
-            <element signature="e#104#124#0" expanded="true" />
+            <element signature="e#90#110#0" expanded="true" />
           </folding>
         </state>
       </provider>

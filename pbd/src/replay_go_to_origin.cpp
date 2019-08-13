@@ -31,7 +31,6 @@ void sub_poseCB(const tf_system::Trans_angle_axis &trans_angle_axis){
                     + to_string(trans_angle_axis.angle_axis.z) + "],0.1,0.1,0,0)";
 
     ur_string.data = s;
-    cout << s << endl;
 
 }
 
@@ -46,15 +45,19 @@ int main(int argc, char** argv){
     string bag_name = to_string(argv[1]);
 
     ros::Duration(2).sleep();
-    system(("gnome-terminal -x rosbag play "+ bag_name +" __name:=replay_bag").c_str());
+
+    bool robot_stable = false;
 
 
     ros::Rate rate(50);
 
+//    system(("rosbag play "+ bag_name +" __name:=replay_bag").c_str());
+    system(("gnome-terminal -x rosbag play "+ bag_name +" __name:=replay_bag").c_str());
     while(node.ok()){
         ros::spinOnce();
         if(!ur_string.data.empty()){
             exec_ref_traj_pub.publish(ur_string);
+            cout << ur_string << endl;
             break;
         }
         rate.sleep();
@@ -62,18 +65,21 @@ int main(int argc, char** argv){
 
 
     system("gnome-terminal -x rosnode kill replay_bag");
-    ros::Duration(2.0).sleep();
+    ros::Duration(1.0).sleep();
 
-    rosbag::Bag bag;
-    bag.open(bag_name,rosbag::bagmode::Read);
-    rosbag::View view(bag);
-    ros::Duration bag_length_time = view.getEndTime() - view.getBeginTime();
-    double bag_length = bag_length_time.toSec();
-    ros::param::set("/demo_bag_length",bag_length);
-    bag.close();
+    ros::param::get("/robot_stable",robot_stable);
+    while(!robot_stable)
 
-//    ros::param::set("/reset_mat",true);
+//    rosbag::Bag bag;
+//    bag.open(bag_name,rosbag::bagmode::Read);
+//    rosbag::View view(bag);
+//    ros::Duration bag_length_time = view.getEndTime() - view.getBeginTime();
+//    double bag_length = bag_length_time.toSec();
+//    ros::param::set("/demo_bag_length",bag_length);
+//    bag.close();
 
-    system(("rosrun pbd replay_traj "+bag_name+" __name:=replay_trajectory").c_str());
+//    ros::param::set("/end_exec",false);
+//
+//    system(("rosrun pbd replay_traj "+bag_name+" __name:=replay_trajectory").c_str());
     return 0;
 }

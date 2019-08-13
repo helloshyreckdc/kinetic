@@ -224,3 +224,7 @@ add_dependencies(replay_traj tf_system_generate_messages_cpp)
 add_executable(replay_go_to_origin src/replay_go_to_origin.cpp)
 target_link_libraries(replay_go_to_origin ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(replay_go_to_origin tf_system_generate_messages_cpp)
+
+add_executable(process_control src/process_control.cpp)
+target_link_libraries(process_control ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(process_control tf_system_generate_messages_cpp)

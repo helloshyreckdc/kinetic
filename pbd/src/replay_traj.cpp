@@ -17,7 +17,7 @@ using namespace std;
 
 std_msgs::String ur_string;
 ros::Publisher exec_ref_traj_pub;
-bool end_exec = false;
+bool robot_stable = false;
 
 //template < typename T > std::string to_string( const T& n )
 //{
@@ -65,16 +65,17 @@ int main(int argc, char** argv){
 
     while(node.ok()){
         ros::spinOnce();
-        exec_ref_traj_pub.publish(ur_string);
-        cout << ur_string << endl;
+        if(!ur_string.data.empty()) {
+            exec_ref_traj_pub.publish(ur_string);
+            cout << ur_string << endl;
+        }
         ros::Duration duration = ros::Time::now()-begin;
 
 //        ROS_INFO("%f", duration.toSec());
 
 
-        ros::param::get("/end_exec", end_exec); // to solve matlab ros topic cache
-//            if(duration.toSec() > bag_length)
-        if(end_exec)
+        ros::param::get("/robot_stable", robot_stable); // to solve matlab ros topic cache
+        if((duration.toSec()>bag_length) && robot_stable)
         {
             ur_string.data = "stopl(1)";
             exec_ref_traj_pub.publish(ur_string);
