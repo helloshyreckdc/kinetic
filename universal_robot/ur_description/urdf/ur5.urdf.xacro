@@ -378,5 +378,12 @@
       <child link="${prefix}tool0"/>
     </joint>
 
+    <link name="${prefix}ati_sensor"/>
+    <joint name="${prefix}tool0-ati_fixed_joint" type="fixed">
+      <origin xyz="0 0 0.0826" rpy="0 0 ${pi/2.0}"/>
+      <parent link="${prefix}tool0"/>
+      <child link="${prefix}ati_sensor"/>
+    </joint>
+
   </xacro:macro>
 </robot>

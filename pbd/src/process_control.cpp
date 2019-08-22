@@ -28,6 +28,7 @@ int main(int argc, char** argv){
     const int end_demo = 2;
     const int replay_origin = 5;
     const int replay = 10;
+    const int end_exec = 11;
 
     while (node.ok()){
         ros::param::get("/bag_name",bag_name);
@@ -58,15 +59,23 @@ int main(int argc, char** argv){
                     break;
 
                 case replay_origin:
-                    system(("rosrun pbd replay_go_to_origin "
-                    + bag_name + " __name:=replay_go_to_origin").c_str());
-//                    system(("gnome-terminal -x rosrun pbd replay_go_to_origin "
-//                            + bag_name + " __name:=replay_go_to_origin").c_str());
+//                    system(("rosrun pbd replay_go_to_origin "
+//                    + bag_name + " __name:=replay_go_to_origin").c_str());
+                    system(("gnome-terminal -x rosrun pbd replay_go_to_origin "
+                            + bag_name + " __name:=replay_go_to_origin").c_str());
                     break;
 
                 case replay:
-//                    system(("gnome-terminal -x rosrun pbd replay_traj "+bag_name+" __name:=replay_traj").c_str());
-                    system(("rosrun pbd replay_traj "+bag_name+" __name:=replay_traj").c_str());
+                    system(("gnome-terminal -x rosrun pbd replay_traj "+bag_name+" __name:=replay_traj").c_str());
+//                    system(("rosrun pbd replay_traj "+bag_name+" __name:=replay_traj").c_str());
+                    break;
+
+                case end_exec:
+                    system("gnome-terminal -x rosnode kill /replay_traj");
+                    break;
+
+                default:
+                    cout << "error command!" << endl;
                     break;
             }
 
