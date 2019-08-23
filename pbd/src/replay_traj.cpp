@@ -17,7 +17,7 @@ using namespace std;
 
 std_msgs::String ur_string;
 ros::Publisher exec_ref_traj_pub;
-bool robot_stable = false;
+bool robot_in_goal = false;
 
 //template < typename T > std::string to_string( const T& n )
 //{
@@ -74,8 +74,8 @@ int main(int argc, char** argv){
 //        ROS_INFO("%f", duration.toSec());
 
 
-        ros::param::get("/robot_stable", robot_stable); // to solve matlab ros topic cache
-        if((duration.toSec()>bag_length) && robot_stable)
+        ros::param::get("/robot_in_goal", robot_in_goal); // to solve matlab ros topic cache
+        if((duration.toSec()>bag_length) && robot_in_goal)
         {
             ur_string.data = "stopl(1)";
             exec_ref_traj_pub.publish(ur_string);
