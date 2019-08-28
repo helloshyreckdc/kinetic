@@ -24,6 +24,7 @@ int main(int argc, char** argv){
 
     int previous_task_id = 0;
     int current_task_id = 0;
+    const int reset_command = 0;
     const int start_demo = 1;
     const int end_demo = 2;
     const int replay_origin = 5;
@@ -48,6 +49,10 @@ int main(int argc, char** argv){
         ros::param::get("/process_control",current_task_id);
         if(previous_task_id != current_task_id){
             switch(current_task_id){
+                case reset_command:
+                    cout << "reset command!" << endl;
+                    break;
+
                 case start_demo:
                     system("gnome-terminal -x rosrun pbd record __name:=record");
                     ros::Duration(2).sleep();

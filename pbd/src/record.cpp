@@ -52,7 +52,7 @@ int main(int argc, char** argv){
             //if we don't use gnome-terminal, rosbag record will block the terminal and other system("")
             //command would not execute
             std::string time = "`date +%Y%m%d_%H_%m_%s`";
-            system(("gnome-terminal -x rosbag record -O demo"+time+" /ref_traj __name:=record_bag").c_str());
+            system(("gnome-terminal -x rosbag record -O demo"+time+" /ref_traj /joint_states __name:=record_bag").c_str());
             recording_bag = true;
         }
         if(!start_demo && recording_bag){

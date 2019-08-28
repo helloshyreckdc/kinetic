@@ -2,274 +2,276 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Project" targetName="replay_go_to_origin" />
-      <config projectName="Project" targetName="run_tests_ur10_e_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="run_tests_ur_gazebo" />
-      <config projectName="Project" targetName="netft_utils_genpy" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_run_tests_ur_gazebo" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
-      <config projectName="Project" targetName="tf_system_generate_messages_lisp" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="tf_system_generate_messages_cpp" />
-      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="tf_generate_messages_nodejs" />
-      <config projectName="Project" targetName="netft_utils_geneus" />
-      <config projectName="Project" targetName="tf_generate_messages_eus" />
-      <config projectName="Project" targetName="control_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="run_tests_ur5_moveit_config" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
-      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_MasterboardDataMsg" />
-      <config projectName="Project" targetName="run_tests_ur3_e_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="actionlib_generate_messages_py" />
-      <config projectName="Project" targetName="_run_tests_ur_modern_driver" />
-      <config projectName="Project" targetName="ur_msgs_gennodejs" />
-      <config projectName="Project" targetName="netft_utils_generate_messages" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetThreshold" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="pub_current_pose" />
-      <config projectName="Project" targetName="_run_tests_ur_e_gazebo_roslaunch-check" />
-      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_StartSim" />
-      <config projectName="Project" targetName="_run_tests_ur_bringup_roslaunch-check" />
-      <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="tf_generate_messages_py" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetPayload" />
-      <config projectName="Project" targetName="netft_utils_gencpp" />
-      <config projectName="Project" targetName="tf_generate_messages_cpp" />
-      <config projectName="Project" targetName="ur3_moveit_plugin" />
-      <config projectName="Project" targetName="gtest_main" />
-      <config projectName="Project" targetName="moveit_ros_manipulation_gencfg" />
-      <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="ur_driver_gencfg" />
-      <config projectName="Project" targetName="_run_tests_ur3_moveit_config" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
-      <config projectName="Project" targetName="run_tests_ur_modern_driver" />
-      <config projectName="Project" targetName="clean_test_results" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="ur_hardware_interface" />
-      <config projectName="Project" targetName="netft_rdt_driver" />
-      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config" />
-      <config projectName="Project" targetName="lpfilter" />
-      <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotStateRTMsg" />
-      <config projectName="Project" targetName="netft_node" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetIO" />
-      <config projectName="Project" targetName="clean_test_results_ur_modern_driver" />
-      <config projectName="Project" targetName="ur5_moveit_plugin" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_py" />
-      <config projectName="Project" targetName="tf_system_generate_messages_nodejs" />
-      <config projectName="Project" targetName="industrial_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
-      <config projectName="Project" targetName="_run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_GetDouble" />
-      <config projectName="Project" targetName="run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="clean_test_results_ur_gazebo" />
-      <config projectName="Project" targetName="diagnostic_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="clean_test_results_ur10_moveit_config" />
-      <config projectName="Project" targetName="clean_test_results_ur10_e_moveit_config" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
-      <config projectName="Project" targetName="ur_msgs_geneus" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="_run_tests_ur5_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="run_tests_ur3_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="run_tests_ur3_e_moveit_config" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Digital" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Analog" />
-      <config projectName="Project" targetName="ur_msgs_genlisp" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="diagnostic_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="gmock_main" />
-      <config projectName="Project" targetName="run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
-      <config projectName="Project" targetName="diagnostic_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="netft_utils_generate_messages_nodejs" />
-      <config projectName="Project" targetName="tf_system_generate_messages" />
-      <config projectName="Project" targetName="netft_utils_lean" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="ur_msgs_gencpp" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="visualization_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tf_system_generate_messages_lisp" />
+      <config projectName="Project" targetName="roscpp_generate_messages_py" />
+      <config projectName="Project" targetName="_run_tests_ur3_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="run_tests_ur10_e_moveit_config" />
+      <config projectName="Project" targetName="run_tests_ur10_e_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="clean_test_results_ur_e_gazebo" />
+      <config projectName="Project" targetName="clean_test_results" />
+      <config projectName="Project" targetName="run_tests_ur3_moveit_config" />
+      <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="moveit_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config" />
+      <config projectName="Project" targetName="_run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="_run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="tf_system_geneus" />
-      <config projectName="Project" targetName="tests" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="diagnostic_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
-      <config projectName="Project" targetName="_run_tests_ur3_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="industrial_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="netft_utils_sim" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetBias" />
-      <config projectName="Project" targetName="roscpp_generate_messages_py" />
-      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest" />
-      <config projectName="Project" targetName="_run_tests_ur5_moveit_config" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_StopSim" />
-      <config projectName="Project" targetName="tf_generate_messages_lisp" />
-      <config projectName="Project" targetName="tf_system_gencpp" />
-      <config projectName="Project" targetName="diagnostic_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="netft_utils_generate_messages_py" />
-      <config projectName="Project" targetName="tf_system_genlisp" />
-      <config projectName="Project" targetName="industrial_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_IOStates" />
-      <config projectName="Project" targetName="record" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="control_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
-      <config projectName="Project" targetName="ur_modern_driver_test" />
-      <config projectName="Project" targetName="_run_tests_ur_modern_driver_gtest" />
-      <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="_run_tests_ur10_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="netft_utils_gennodejs" />
-      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotModeDataMsg" />
-      <config projectName="Project" targetName="_run_tests_ur10_moveit_config" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="industrial_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="run_tests_ur_gazebo_roslaunch-check" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="netft_utils_genlisp" />
-      <config projectName="Project" targetName="ur_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="netft_utils_generate_messages_lisp" />
-      <config projectName="Project" targetName="run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="doxygen" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="run_tests_ur_e_gazebo" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_Cancel" />
-      <config projectName="Project" targetName="clean_test_results_ur3_moveit_config" />
-      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="Project" targetName="gtest" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetFilter" />
-      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="run_tests_ur10_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="ur3_kin" />
-      <config projectName="Project" targetName="run_tests_ur10_e_moveit_config" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="roscpp_generate_messages_eus" />
-      <config projectName="Project" targetName="_run_tests_ur_bringup" />
-      <config projectName="Project" targetName="control_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
-      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="run_tests_ur5_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="clean_test_results_ur3_e_moveit_config" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="tf_system_generate_messages_py" />
-      <config projectName="Project" targetName="_tf_system_generate_messages_check_deps_Trans_angle_axis" />
-      <config projectName="Project" targetName="_run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="netft_utils_generate_messages_cpp" />
-      <config projectName="Project" targetName="tf_system_generate_messages_eus" />
-      <config projectName="Project" targetName="_catkin_empty_exported_target" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="run_tests_ur10_moveit_config" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="clean_test_results_ur5_moveit_config" />
-      <config projectName="Project" targetName="run_tests_ur_bringup_roslaunch-check" />
-      <config projectName="Project" targetName="run_tests_ur_e_gazebo_roslaunch-check" />
-      <config projectName="Project" targetName="replay_traj" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="clean_test_results_ur_e_gazebo" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_py" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="_run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
-      <config projectName="Project" targetName="_run_tests_ur_gazebo_roslaunch-check" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
-      <config projectName="Project" targetName="clean_test_results_ur5_e_moveit_config" />
-      <config projectName="Project" targetName="moveit_ros_planning_gencfg" />
-      <config projectName="Project" targetName="run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
-      <config projectName="Project" targetName="_run_tests_ur_e_gazebo" />
-      <config projectName="Project" targetName="run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
-      <config projectName="Project" targetName="tf_system_genpy" />
-      <config projectName="Project" targetName="visualization_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_py" />
-      <config projectName="Project" targetName="run_tests_ur3_moveit_config" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="clean_test_results_ur_bringup" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetMax" />
-      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="moveit_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="tf_system_gennodejs" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_ToolDataMsg" />
-      <config projectName="Project" targetName="run_tests" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_cpp" />
+      <config projectName="Project" targetName="_run_tests_ur_e_gazebo_roslaunch-check" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="process_control" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="_run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetToolData" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="run_tests_ur_bringup" />
-      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
-      <config projectName="Project" targetName="ur10_kin" />
-      <config projectName="Project" targetName="control_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="netft_utils" />
-      <config projectName="Project" targetName="ur10_moveit_plugin" />
-      <config projectName="Project" targetName="ur5_kin" />
-      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="ur_msgs_genpy" />
-      <config projectName="Project" targetName="quaternion2angle_axis" />
-      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="netft_utils_generate_messages_lisp" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="netft_utils_generate_messages_eus" />
-      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="gmock" />
-      <config projectName="Project" targetName="actionlib_generate_messages_eus" />
+      <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
+      <config projectName="Project" targetName="_run_tests_ur_gazebo" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="clean_test_results_ur3_e_moveit_config" />
+      <config projectName="Project" targetName="ur_msgs_genlisp" />
+      <config projectName="Project" targetName="run_tests_ur_e_gazebo" />
+      <config projectName="Project" targetName="netft_utils_gennodejs" />
+      <config projectName="Project" targetName="_catkin_empty_exported_target" />
+      <config projectName="Project" targetName="lpfilter" />
+      <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="moveit_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="actionlib_generate_messages_py" />
+      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="ur_driver_gencfg" />
+      <config projectName="Project" targetName="run_tests_ur5_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="control_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="Project" targetName="tf_system_geneus" />
+      <config projectName="Project" targetName="ur_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetFilter" />
+      <config projectName="Project" targetName="clean_test_results_ur10_moveit_config" />
+      <config projectName="Project" targetName="run_tests_ur10_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_GetDouble" />
+      <config projectName="Project" targetName="gmock_main" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="ur5_kin" />
       <config projectName="Project" targetName="ur_driver" />
-      <config projectName="Project" targetName="netft_utils_cpp_test" />
-      <config projectName="Project" targetName="_run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="replay_go_to_origin" />
       <config projectName="Project" targetName="control_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_ToolDataMsg" />
+      <config projectName="Project" targetName="run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="clean_test_results_ur_gazebo" />
+      <config projectName="Project" targetName="tf_system_generate_messages" />
+      <config projectName="Project" targetName="netft_utils_generate_messages" />
+      <config projectName="Project" targetName="tf_generate_messages_eus" />
+      <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="ur10_kin" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
+      <config projectName="Project" targetName="diagnostic_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetPayload" />
+      <config projectName="Project" targetName="ur_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="diagnostic_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="_run_tests_ur_e_gazebo" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="run_tests_ur_modern_driver" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetIO" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="_run_tests_ur5_moveit_config" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetMax" />
+      <config projectName="Project" targetName="tf_generate_messages_cpp" />
+      <config projectName="Project" targetName="roscpp_generate_messages_eus" />
+      <config projectName="Project" targetName="gmock" />
+      <config projectName="Project" targetName="tf_system_generate_messages_nodejs" />
+      <config projectName="Project" targetName="run_tests_ur3_e_moveit_config" />
+      <config projectName="Project" targetName="diagnostic_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="tests" />
+      <config projectName="Project" targetName="tf_system_gencpp" />
+      <config projectName="Project" targetName="octomap_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="netft_utils_lean" />
+      <config projectName="Project" targetName="control_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="control_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="run_tests_ur_bringup_roslaunch-check" />
+      <config projectName="Project" targetName="netft_node" />
+      <config projectName="Project" targetName="run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetBias" />
+      <config projectName="Project" targetName="_tf_system_generate_messages_check_deps_Trans_angle_axis" />
+      <config projectName="Project" targetName="moveit_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="_run_tests_ur3_moveit_config" />
+      <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="Project" targetName="netft_utils_gencpp" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_cpp" />
+      <config projectName="Project" targetName="diagnostic_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config" />
+      <config projectName="Project" targetName="industrial_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="run_tests_ur_gazebo" />
+      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="ur5_moveit_plugin" />
+      <config projectName="Project" targetName="_run_tests_ur10_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="record" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="Project" targetName="industrial_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="tf_generate_messages_lisp" />
+      <config projectName="Project" targetName="netft_rdt_driver" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="netft_utils_geneus" />
+      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="Project" targetName="netft_utils_sim" />
+      <config projectName="Project" targetName="netft_utils_genlisp" />
+      <config projectName="Project" targetName="_run_tests_ur_modern_driver_gtest" />
+      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="tf_system_generate_messages_py" />
+      <config projectName="Project" targetName="visualization_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Analog" />
+      <config projectName="Project" targetName="tf_generate_messages_py" />
+      <config projectName="Project" targetName="run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="ur3_moveit_plugin" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="diagnostic_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="industrial_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="clean_test_results_ur3_moveit_config" />
+      <config projectName="Project" targetName="netft_utils_cpp_test" />
+      <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_run_tests_ur_bringup_roslaunch-check" />
+      <config projectName="Project" targetName="_run_tests_ur10_moveit_config" />
+      <config projectName="Project" targetName="visualization_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="octomap_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotStateRTMsg" />
+      <config projectName="Project" targetName="tf_system_generate_messages_cpp" />
+      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_run_tests_ur_modern_driver" />
+      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="run_tests_ur_gazebo_roslaunch-check" />
+      <config projectName="Project" targetName="moveit_ros_planning_gencfg" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="netft_utils_generate_messages_py" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="ur_msgs_geneus" />
+      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="actionlib_generate_messages_eus" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotModeDataMsg" />
+      <config projectName="Project" targetName="download_extra_data" />
+      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="clean_test_results_ur5_e_moveit_config" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="ur_msgs_generate_messages" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="moveit_ros_manipulation_gencfg" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="ur_msgs_gennodejs" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_py" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetThreshold" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_py" />
+      <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="Project" targetName="ur_msgs_gencpp" />
+      <config projectName="Project" targetName="process_control" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="gtest_main" />
+      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest" />
+      <config projectName="Project" targetName="tf_system_genpy" />
+      <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="netft_utils_genpy" />
+      <config projectName="Project" targetName="run_tests_ur5_moveit_config" />
+      <config projectName="Project" targetName="clean_test_results_ur_modern_driver" />
+      <config projectName="Project" targetName="control_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="_run_tests_ur_bringup" />
+      <config projectName="Project" targetName="_run_tests_ur_gazebo_roslaunch-check" />
+      <config projectName="Project" targetName="visualization_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="tf_generate_messages_nodejs" />
+      <config projectName="Project" targetName="ur3_kin" />
+      <config projectName="Project" targetName="pub_ati_current_pose" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
+      <config projectName="Project" targetName="run_tests_ur3_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="_run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
+      <config projectName="Project" targetName="_run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="run_tests_ur3_e_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="industrial_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="gtest" />
+      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="replay_traj" />
+      <config projectName="Project" targetName="ur_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="average_force_repub" />
+      <config projectName="Project" targetName="run_tests_ur_e_gazebo_roslaunch-check" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="netft_utils" />
+      <config projectName="Project" targetName="netft_utils_generate_messages_nodejs" />
+      <config projectName="Project" targetName="doxygen" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_MasterboardDataMsg" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_StartSim" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_StopSim" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="Project" targetName="tf_system_gennodejs" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="quaternion2angle_axis" />
+      <config projectName="Project" targetName="ur_hardware_interface" />
+      <config projectName="Project" targetName="controller_manager_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="netft_utils_generate_messages_cpp" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_py" />
+      <config projectName="Project" targetName="_run_tests_ur5_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="ur_modern_driver_test" />
+      <config projectName="Project" targetName="ur_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="ur10_moveit_plugin" />
+      <config projectName="Project" targetName="pub_current_pose" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
+      <config projectName="Project" targetName="clean_test_results_ur5_moveit_config" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_Cancel" />
+      <config projectName="Project" targetName="tf_system_generate_messages_eus" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetToolData" />
+      <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="_run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="ur_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config" />
+      <config projectName="Project" targetName="clean_test_results_ur_bringup" />
+      <config projectName="Project" targetName="run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
+      <config projectName="Project" targetName="tf_system_genlisp" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
+      <config projectName="Project" targetName="clean_test_results_ur10_e_moveit_config" />
+      <config projectName="Project" targetName="run_tests_ur_bringup" />
+      <config projectName="Project" targetName="netft_utils_generate_messages_eus" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="ur_msgs_genpy" />
+      <config projectName="Project" targetName="moveit_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="run_tests_ur10_moveit_config" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
+      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_IOStates" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config_roslaunch-check" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -294,11 +296,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pbd/src/pub_ati_current_pose.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbd/src/average_force_repub.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pbd/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/launch/replay.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/src/replay_traj.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/src/replay_traj.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/src/process_control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/src/process_control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/src/record.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/src/record.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -317,11 +320,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pbd/src/process_control.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="323">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#72#92#0" expanded="true" />
               </folding>
@@ -330,22 +333,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pbd/src/replay_traj.cpp">
+        <entry file="file://$PROJECT_DIR$/pbd/src/average_force_repub.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+            <state relative-caret-position="568">
+              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
               <folding>
-                <element signature="e#90#110#0" expanded="true" />
+                <element signature="e#235#255#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pbd/src/pub_current_pose.cpp">
+        <entry file="file://$PROJECT_DIR$/pbd/src/record.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+            <state relative-caret-position="644">
+              <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -356,17 +359,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pbd/src/pub_ati_current_pose.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="399">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/universal_robot/ur_description/urdf/ur5.urdf.xacro">
+        <entry file="file://$PROJECT_DIR$/pbd/launch/pbd_pre.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="796">
-              <caret line="388" selection-start-line="388" selection-end-line="388" />
+            <state relative-caret-position="95">
+              <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -374,17 +377,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pbd/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="216" selection-start-line="216" selection-end-line="216" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pbd/launch/pbd_pre.launch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="4104">
+              <caret line="216" column="23" selection-start-line="216" selection-start-column="23" selection-end-line="216" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -414,22 +408,23 @@
         <option value="$PROJECT_DIR$/reference_6d_pose/src/replay_go_to_origin.cpp" />
         <option value="$PROJECT_DIR$/pbd/launch/replay.launch" />
         <option value="$PROJECT_DIR$/tf_system/src/quaternion2angle_axis.cpp" />
-        <option value="$PROJECT_DIR$/pbd/src/record.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/pub_current_pose.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp" />
-        <option value="$PROJECT_DIR$/pbd/src/process_control.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/replay_traj.cpp" />
         <option value="$PROJECT_DIR$/pbd/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/pbd/src/pub_ati_current_pose.cpp" />
+        <option value="$PROJECT_DIR$/pbd/src/record.cpp" />
         <option value="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" />
+        <option value="$PROJECT_DIR$/pbd/src/average_force_repub.cpp" />
+        <option value="$PROJECT_DIR$/pbd/src/process_control.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="308" />
-    <option name="y" value="128" />
-    <option name="width" value="1388" />
-    <option name="height" value="952" />
+    <option name="x" value="1872" />
+    <option name="y" value="90" />
+    <option name="width" value="1386" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -862,6 +857,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="average_force_repub" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="average_force_repub" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="average_force_repub">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1278,6 +1278,11 @@
       </method>
     </configuration>
     <configuration name="process_control" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="process_control" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="process_control">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pub_ati_current_pose" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="pub_ati_current_pose" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="pub_ati_current_pose">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -2044,6 +2049,7 @@
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.process_control" />
+      <item itemvalue="CMake Application.pub_ati_current_pose" />
       <item itemvalue="CMake Application.pub_current_pose" />
       <item itemvalue="CMake Application.quaternion2angle_axis" />
       <item itemvalue="CMake Application.record" />
@@ -2130,6 +2136,7 @@
       <item itemvalue="CMake Application.tf_generate_messages_lisp" />
       <item itemvalue="CMake Application.tf_generate_messages_nodejs" />
       <item itemvalue="CMake Application.tf_generate_messages_py" />
+      <item itemvalue="CMake Application.average_force_repub" />
       <item itemvalue="CMake Application.tf_system_gencpp" />
       <item itemvalue="CMake Application.tf_system_generate_messages" />
       <item itemvalue="CMake Application.tf_system_generate_messages_cpp" />
@@ -2221,7 +2228,8 @@
       <workItem from="1565783823363" duration="62000" />
       <workItem from="1565788635887" duration="6000" />
       <workItem from="1566452214503" duration="3802000" />
-      <workItem from="1566528211158" duration="2925000" />
+      <workItem from="1566528211158" duration="8529000" />
+      <workItem from="1566972993297" duration="5761000" />
     </task>
     <task id="LOCAL-00001" summary="test clion git">
       <created>1564562420341</created>
@@ -2279,17 +2287,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565428160423</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add pub ati force sensor pose">
+      <created>1566548456835</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566548456835</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154747000" />
+    <option name="totallyTimeSpent" value="166112000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33665007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34051964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2373,7 +2388,8 @@
     <MESSAGE value="ignore matlab generated msg" />
     <MESSAGE value="test1" />
     <MESSAGE value="subscribe to matlab /ur/velocity topic" />
-    <option name="LAST_COMMIT_MESSAGE" value="subscribe to matlab /ur/velocity topic" />
+    <MESSAGE value="add pub ati force sensor pose" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pub ati force sensor pose" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2458,30 +2474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/record.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#43#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tf_system/msg/Trans_angle_axis.msg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/process_control.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#72#92#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2495,9 +2491,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/universal_robot/ur_description/urdf/ur5.urdf.xacro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="388" selection-start-line="388" selection-end-line="388" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pbd/src/pub_current_pose.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
+        <state relative-caret-position="530">
           <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
@@ -2507,29 +2510,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pbd/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="216" selection-start-line="216" selection-end-line="216" />
+        <state relative-caret-position="4104">
+          <caret line="216" column="23" selection-start-line="216" selection-start-column="23" selection-end-line="216" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/universal_robot/ur_description/urdf/ur5.urdf.xacro">
+    <entry file="file://$PROJECT_DIR$/pbd/src/record.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="388" selection-start-line="388" selection-end-line="388" />
+        <state relative-caret-position="644">
+          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
+          <folding>
+            <element signature="e#43#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pbd/src/pub_ati_current_pose.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="399">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pbd/launch/pbd_pre.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="95">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/src/average_force_repub.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+          <folding>
+            <element signature="e#235#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/src/process_control.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#72#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

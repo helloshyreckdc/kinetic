@@ -221,6 +221,10 @@ add_executable(record src/record.cpp)
 target_link_libraries(record ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(record tf_system_generate_messages_cpp)
 
+add_executable(averaged_calibrated_force_repub src/averaged_calibrated_force_repub.cpp)
+target_link_libraries(averaged_calibrated_force_repub ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(averaged_calibrated_force_repub tf_system_generate_messages_cpp)
+
 add_executable(replay_traj src/replay_traj.cpp)
 target_link_libraries(replay_traj ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(replay_traj tf_system_generate_messages_cpp)
