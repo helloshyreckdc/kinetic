@@ -225,6 +225,10 @@ add_executable(averaged_calibrated_force_repub src/averaged_calibrated_force_rep
 target_link_libraries(averaged_calibrated_force_repub ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(averaged_calibrated_force_repub tf_system_generate_messages_cpp)
 
+add_executable(gravity_compensated_force_repub src/gravity_compensated_force_repub.cpp)
+target_link_libraries(gravity_compensated_force_repub ${catkin_LIBRARIES} yaml-cpp)
+add_dependencies(gravity_compensated_force_repub tf_system_generate_messages_cpp)
+
 add_executable(replay_traj src/replay_traj.cpp)
 target_link_libraries(replay_traj ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(replay_traj tf_system_generate_messages_cpp)

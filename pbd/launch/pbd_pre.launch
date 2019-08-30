@@ -4,4 +4,5 @@
     <node pkg="pbd" type="pub_ati_current_pose" name="ati_current_pose"/>
 	<node pkg="netft_utils" type="netft_node" name="netft_node" args="192.168.0.168"/>
     <node pkg="pbd" type="averaged_calibrated_force_repub" name="averaged_calibrated_force_repub"/>
+    <node pkg="pbd" type="gravity_compensated_force_repub" name="gravity_compensated_force_repub"/>
 </launch>
