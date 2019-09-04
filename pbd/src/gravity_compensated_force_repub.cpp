@@ -52,6 +52,8 @@ int main(int argc, char** argv){
     Vector3d g_world(0,0,-9.794); // gravity in world
     MatrixXd mass_matrix;
     mass_matrix.setZero(6,3);
+    MatrixXd Rworld2base(3,3);
+    Rworld2base.setIdentity();
     VectorXd compensated_wrench_vec(6);
     bool recompensate = false;
 
@@ -67,6 +69,13 @@ int main(int argc, char** argv){
     for(int column=0;column<3;column++) {
         for (int row = 0; row < 6; row++) {
             mass_matrix(row, column) = file_mass_matrix_array[column*6+row];
+        }
+    }
+
+    vector<double> file_world2base_array = yamlConfig["world2base"].as<vector<double> >();
+    for(int column=0;column<3;column++) {
+        for (int row = 0; row < 3; row++) {
+            Rworld2base(row, column) = file_world2base_array[column*3+row];
         }
     }
 
@@ -97,6 +106,14 @@ int main(int argc, char** argv){
                 }
             }
 
+            std::vector<double> world2base_array;
+            ros::param::get("/Rworld2base",world2base_array);
+            for(int column=0;column<3;column++) {
+                for (int row = 0; row < 3; row++) {
+                    Rworld2base(row, column) = world2base_array[column*3+row];
+                }
+            }
+
             ros::param::set("/recompensate_gravity_and_sensor_bias",false);
 
             ofstream fout("/home/shyreckdc/catkin_ws/src/pbd/config/gravity_bias.yaml");
@@ -106,12 +123,13 @@ int main(int argc, char** argv){
             out << YAML::Value << YAML::Flow << bias;
             out << YAML::Key << "mass_matrix";
             out << YAML::Value << YAML::Flow << mass_matrix_array;
-            out << YAML::Comment("matrix to array use matlab reshape, so in columns");
+            out << YAML::Key << "world2base";
+            out << YAML::Value << YAML::Flow << world2base_array;
             out << YAML::EndMap;
 
         }
 
-        compensated_wrench_vec = wrench_vec - sensor_bias - mass_matrix*rotation_mat.transpose()*g_world;
+        compensated_wrench_vec = wrench_vec - sensor_bias - mass_matrix*(Rworld2base*rotation_mat).transpose()*g_world;
 
         gravity_compensated_wrench.wrench.force.x = compensated_wrench_vec(0);
         gravity_compensated_wrench.wrench.force.y = compensated_wrench_vec(1);

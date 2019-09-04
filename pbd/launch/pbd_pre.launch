@@ -1,8 +1,19 @@
 <launch>
     <node pkg="tf_system" type="quaternion2angle_axis" name="quaternion2angle_axis"/>
+
     <node pkg="pbd" type="pub_current_pose" name="current_pose"/>
     <node pkg="pbd" type="pub_ati_current_pose" name="ati_current_pose"/>
-	<node pkg="netft_utils" type="netft_node" name="netft_node" args="192.168.0.168"/>
+
+    <node pkg="netft_utils" type="netft_node" name="netft_node" args="192.168.0.168"/>
     <node pkg="pbd" type="averaged_calibrated_force_repub" name="averaged_calibrated_force_repub"/>
     <node pkg="pbd" type="gravity_compensated_force_repub" name="gravity_compensated_force_repub"/>
+
+    <include file="$(find openni2_launch)/launch/openni2.launch"/>
+    <node pkg="tf" type="static_transform_publisher" name="xuhong_xtion"
+          args="-0.384597  -0.687958  0.322466  0.069318  -0.228055  -0.230399  -0.943452 /base_link /camera_link  100" />
+
+    <node pkg="pbd" type="point_cloud_preprocess" name="point_cloud_preprocess"/>
+
+
+
 </launch>

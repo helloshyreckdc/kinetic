@@ -28,6 +28,11 @@ find_package(catkin REQUIRED COMPONENTS
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
+find_package(PCL REQUIRED)
+include_directories(  ${catkin_INCLUDE_DIRS}  ${PCL_INCLUDE_DIRS} /usr/include/pcl-1.7/ )  # to use pcl, include the path /usr... of pcl
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -217,9 +222,21 @@ add_executable(pub_ati_current_pose src/pub_ati_current_pose.cpp)
 target_link_libraries(pub_ati_current_pose ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(pub_ati_current_pose tf_system_generate_messages_cpp)
 
+add_executable(assembly_base_pose_pub src/assembly_base_pose_pub.cpp)
+target_link_libraries(assembly_base_pose_pub ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(assembly_base_pose_pub tf_system_generate_messages_cpp)
+
 add_executable(record src/record.cpp)
 target_link_libraries(record ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(record tf_system_generate_messages_cpp)
+
+add_executable(point_cloud_preprocess src/point_cloud_preprocess.cpp)
+target_link_libraries(point_cloud_preprocess ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(point_cloud_preprocess tf_system_generate_messages_cpp)
+
+add_executable(scan_scene_to_pcd src/scan_scene_to_pcd.cpp)
+target_link_libraries(scan_scene_to_pcd ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(scan_scene_to_pcd tf_system_generate_messages_cpp)
 
 add_executable(averaged_calibrated_force_repub src/averaged_calibrated_force_repub.cpp)
 target_link_libraries(averaged_calibrated_force_repub ${PCL_LIBRARIES} ${catkin_LIBRARIES})
