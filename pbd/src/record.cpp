@@ -22,8 +22,8 @@ int main(int argc, char** argv){
     tf2_ros::Buffer tfBuffer;
     tf2_ros::TransformListener tfListener(tfBuffer);
 
-    ros::Publisher ref_traj_pub = node.advertise<geometry_msgs::Transform>("/ref_traj",10);
-    geometry_msgs::Transform ref_traj;
+    ros::Publisher object_frame_ref_traj_pub = node.advertise<geometry_msgs::Transform>("/object_frame_ref_traj",10);
+    geometry_msgs::Transform object_frame_ref_traj;
 
     ROS_INFO("haven't started demo");
 
@@ -34,8 +34,15 @@ int main(int argc, char** argv){
         ros::param::get("/start_demo", start_demo);
         geometry_msgs::TransformStamped transformStamped;
         try {
-            transformStamped = tfBuffer.lookupTransform("base", "tool0",
-                                                        ros::Time(0), ros::Duration(2.0)); //wait 2 seconds,else can't find frames
+            bool use_object_frame;
+            ros::param::get("/use_object_frame", use_object_frame);
+            if(use_object_frame){
+                transformStamped = tfBuffer.lookupTransform("assembly_base", "tool0",
+                                                            ros::Time(0), ros::Duration(2.0)); //wait 2 seconds,else can't find frames
+            } else{
+                transformStamped = tfBuffer.lookupTransform("base", "tool0",
+                                                            ros::Time(0), ros::Duration(2.0)); //wait 2 seconds,else can't find frames
+            }
         }
         catch (tf2::TransformException &ex) {
             ROS_WARN("%s", ex.what());
@@ -43,8 +50,8 @@ int main(int argc, char** argv){
             continue;
         }
 
-        ref_traj = transformStamped.transform;
-        ref_traj_pub.publish(ref_traj);
+        object_frame_ref_traj = transformStamped.transform;
+        object_frame_ref_traj_pub.publish(object_frame_ref_traj);
 
         if (start_demo && !recording_bag) {
             ROS_INFO("Start demo");
@@ -52,7 +59,7 @@ int main(int argc, char** argv){
             //if we don't use gnome-terminal, rosbag record will block the terminal and other system("")
             //command would not execute
             std::string time = "`date +%Y%m%d_%H_%m_%s`";
-            system(("gnome-terminal -x rosbag record -O demo"+time+" /ref_traj /joint_states __name:=record_bag").c_str());
+            system(("gnome-terminal -x rosbag record -O demo"+time+" /object_frame_ref_traj __name:=record_bag").c_str());
             recording_bag = true;
         }
         if(!start_demo && recording_bag){

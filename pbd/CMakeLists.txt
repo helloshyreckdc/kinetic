@@ -222,9 +222,9 @@ add_executable(pub_ati_current_pose src/pub_ati_current_pose.cpp)
 target_link_libraries(pub_ati_current_pose ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(pub_ati_current_pose tf_system_generate_messages_cpp)
 
-add_executable(assembly_base_pose_pub src/assembly_base_pose_pub.cpp)
-target_link_libraries(assembly_base_pose_pub ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(assembly_base_pose_pub tf_system_generate_messages_cpp)
+add_executable(assembly_base_frame_pub src/assembly_base_frame_pub.cpp)
+target_link_libraries(assembly_base_frame_pub ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(assembly_base_frame_pub tf_system_generate_messages_cpp)
 
 add_executable(record src/record.cpp)
 target_link_libraries(record ${PCL_LIBRARIES} ${catkin_LIBRARIES})

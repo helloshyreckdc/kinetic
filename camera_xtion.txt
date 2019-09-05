@@ -1,1 +1,6 @@
+12pose
 rosrun tf static_transform_publisher  -0.384597  -0.687958  0.322466  0.069318  -0.228055  -0.230399  -0.943452    /base_link /camera_link 40
+
+
+20pose
+rosrun tf static_transform_publisher  -0.373919  -0.678875  0.328127  0.073755  -0.242051  -0.226361  -0.940602    /base_link /camera_link 40

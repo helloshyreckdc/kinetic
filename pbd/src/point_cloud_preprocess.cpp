@@ -52,7 +52,7 @@ int main (int argc, char **argv)
     ros::NodeHandle node;
     ros::Subscriber cloud_sub = node.subscribe("/camera/depth/points", 10, cloudCB);//接收点云
     passed_cloud_pub = node.advertise<sensor_msgs::PointCloud2>("/passed_cloud",1);
-    ros::Duration(2).sleep();
+    ros::Duration(4).sleep(); // wait for camera msg
     ros::spin();
     return 0;
 }  

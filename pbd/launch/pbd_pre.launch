@@ -10,9 +10,13 @@
 
     <include file="$(find openni2_launch)/launch/openni2.launch"/>
     <node pkg="tf" type="static_transform_publisher" name="xuhong_xtion"
-          args="-0.384597  -0.687958  0.322466  0.069318  -0.228055  -0.230399  -0.943452 /base_link /camera_link  100" />
+          args="-0.373919  -0.678875  0.328127  0.073755  -0.242051  -0.226361  -0.940602    /base_link /camera_link 40"/>
 
     <node pkg="pbd" type="point_cloud_preprocess" name="point_cloud_preprocess"/>
+
+    <node pkg="pbd" type="assembly_base_frame_pub" name="assembly_base_frame_pub"/>
+    <node pkg="tf_system" type="pub_tool0_target_frame" name="pub_tool0_target_frame"/>
+    <node pkg="tf_system" type="pub_ref_traj" name="pub_ref_traj"/>
 
 
 
