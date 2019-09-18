@@ -1,0 +1,24 @@
+#calibration  参数读取
+#相机内参数 Xtion 
+
+# camera
+camera.cx=653.688171;
+camera.cy=513.727905;
+camera.fx=1074.30652;
+camera.fy=1068.48560;
+camera.scale=1000.0；
+
+
+//标定姿态的关节值
+JOINTSTATEFILEPATH=/home/mj/shadow/joint1019.xml
+
+#结果保存路径
+/home/mj/image/End2board.xml
+
+
+
+
+
+
+
+

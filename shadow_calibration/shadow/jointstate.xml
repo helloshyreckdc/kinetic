@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<jointstate type_id="opencv-matrix">
+  <rows>1</rows>
+  <cols>6</cols>
+  <dt>d</dt>
+  <data>
+-4.707249301056274 -1.670183792329838 2.2985871711544155 -2.727129272683035 1.3576617644939026 -4.7168907345574915</data></jointstate>
+
+</opencv_storage>

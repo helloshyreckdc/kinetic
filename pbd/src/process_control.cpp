@@ -18,7 +18,7 @@ int main(int argc, char** argv){
     ros::Rate rate(50.0);
 
     ros::param::set("/process_control",0);
-    ros::param::set("/bag_name","demo50hz.bag");
+    ros::param::set("/bag_name","demo_object.bag");
     ros::param::set("/use_object_frame", true);
     string bag_name,previous_bag_name;
     previous_bag_name = "bag";

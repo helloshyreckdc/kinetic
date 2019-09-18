@@ -1,0 +1,8 @@
+<!--
+Example launch file: launches the autocalibration
+-->
+
+<launch>
+  <node name="getjointstate" pkg="shadow_calibration" type="getjointstate" 
+       args="/home/mj/shadow/shadow.jpg"/>
+</launch>

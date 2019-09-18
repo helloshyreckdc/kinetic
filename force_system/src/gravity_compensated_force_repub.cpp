@@ -12,7 +12,6 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include <pbd/to_string.h>
 
 using namespace Eigen;
 using namespace std;
@@ -57,7 +56,7 @@ int main(int argc, char** argv){
     VectorXd compensated_wrench_vec(6);
     bool recompensate = false;
 
-    std::string fin = "/home/shyreckdc/catkin_ws/src/pbd/config/gravity_bias.yaml";
+    std::string fin = "/home/shyreckdc/catkin_ws/src/force_system/config/gravity_bias.yaml";
     YAML::Node yamlConfig = YAML::LoadFile(fin);
 
     vector<double> file_bias_array = yamlConfig["sensor_bias"].as<vector<double> >();

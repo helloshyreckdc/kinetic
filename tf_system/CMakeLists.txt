@@ -23,6 +23,11 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
+
+find_package(PCL REQUIRED)
+include_directories(  ${catkin_INCLUDE_DIRS}  ${PCL_INCLUDE_DIRS} /usr/include/pcl-1.7/ )  # to use pcl, include the path /usr... of pcl
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -212,10 +217,10 @@ add_executable(quaternion2angle_axis src/quaternion2angle_axis.cpp)
 target_link_libraries(quaternion2angle_axis ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(quaternion2angle_axis tf_system_generate_messages_cpp)
 
-add_executable(pub_ref_traj src/pub_ref_traj.cpp)
-target_link_libraries(pub_ref_traj ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(pub_ref_traj tf_system_generate_messages_cpp)
-
 add_executable(pub_tool0_target_frame src/pub_tool0_target_frame.cpp)
 target_link_libraries(pub_tool0_target_frame ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(pub_tool0_target_frame tf_system_generate_messages_cpp)
+
+add_executable(assembly_base_frame_pub src/assembly_base_frame_pub.cpp)
+target_link_libraries(assembly_base_frame_pub ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(assembly_base_frame_pub tf_system_generate_messages_cpp)

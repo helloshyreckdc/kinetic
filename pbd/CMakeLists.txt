@@ -214,37 +214,11 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-add_executable(pub_current_pose src/pub_current_pose.cpp)
-target_link_libraries(pub_current_pose ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(pub_current_pose tf_system_generate_messages_cpp)
 
-add_executable(pub_ati_current_pose src/pub_ati_current_pose.cpp)
-target_link_libraries(pub_ati_current_pose ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(pub_ati_current_pose tf_system_generate_messages_cpp)
-
-add_executable(assembly_base_frame_pub src/assembly_base_frame_pub.cpp)
-target_link_libraries(assembly_base_frame_pub ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(assembly_base_frame_pub tf_system_generate_messages_cpp)
 
 add_executable(record src/record.cpp)
 target_link_libraries(record ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(record tf_system_generate_messages_cpp)
-
-add_executable(point_cloud_preprocess src/point_cloud_preprocess.cpp)
-target_link_libraries(point_cloud_preprocess ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(point_cloud_preprocess tf_system_generate_messages_cpp)
-
-add_executable(scan_scene_to_pcd src/scan_scene_to_pcd.cpp)
-target_link_libraries(scan_scene_to_pcd ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(scan_scene_to_pcd tf_system_generate_messages_cpp)
-
-add_executable(averaged_calibrated_force_repub src/averaged_calibrated_force_repub.cpp)
-target_link_libraries(averaged_calibrated_force_repub ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(averaged_calibrated_force_repub tf_system_generate_messages_cpp)
-
-add_executable(gravity_compensated_force_repub src/gravity_compensated_force_repub.cpp)
-target_link_libraries(gravity_compensated_force_repub ${catkin_LIBRARIES} yaml-cpp)
-add_dependencies(gravity_compensated_force_repub tf_system_generate_messages_cpp)
 
 add_executable(replay_traj src/replay_traj.cpp)
 target_link_libraries(replay_traj ${PCL_LIBRARIES} ${catkin_LIBRARIES})

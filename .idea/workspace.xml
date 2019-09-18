@@ -2,126 +2,109 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Digital" />
       <config projectName="Project" targetName="pub_tool0_target_frame" />
+      <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Digital" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf_system_generate_messages_lisp" />
+      <config projectName="Project" targetName="bond_generate_messages_nodejs" />
       <config projectName="Project" targetName="roscpp_generate_messages_py" />
-      <config projectName="Project" targetName="_run_tests_ur3_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="run_tests_ur10_e_moveit_config" />
-      <config projectName="Project" targetName="run_tests_ur10_e_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <config projectName="Project" targetName="clean_test_results_ur_e_gazebo" />
-      <config projectName="Project" targetName="clean_test_results" />
-      <config projectName="Project" targetName="run_tests_ur3_moveit_config" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config" />
-      <config projectName="Project" targetName="_run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="_run_tests_ur_e_gazebo_roslaunch-check" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="_realsense2_camera_generate_messages_check_deps_Extrinsics" />
+      <config projectName="Project" targetName="realsense2_camera_generate_messages_lisp" />
       <config projectName="Project" targetName="netft_utils_generate_messages_lisp" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="_realsense2_camera_generate_messages_check_deps_IMUInfo" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="bond_generate_messages_py" />
       <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
-      <config projectName="Project" targetName="_run_tests_ur_gazebo" />
       <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="clean_test_results_ur3_e_moveit_config" />
       <config projectName="Project" targetName="ur_msgs_genlisp" />
-      <config projectName="Project" targetName="run_tests_ur_e_gazebo" />
       <config projectName="Project" targetName="netft_utils_gennodejs" />
       <config projectName="Project" targetName="_catkin_empty_exported_target" />
       <config projectName="Project" targetName="lpfilter" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="actionlib_generate_messages_py" />
+      <config projectName="Project" targetName="realsense2_camera_genpy" />
       <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="ur_driver_gencfg" />
-      <config projectName="Project" targetName="run_tests_ur5_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <config projectName="Project" targetName="control_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="realsense2_camera_generate_messages_eus" />
       <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="Project" targetName="bond_generate_messages_cpp" />
       <config projectName="Project" targetName="tf_system_geneus" />
       <config projectName="Project" targetName="ur_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetFilter" />
-      <config projectName="Project" targetName="clean_test_results_ur10_moveit_config" />
-      <config projectName="Project" targetName="run_tests_ur10_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
+      <config projectName="Project" targetName="manualcalibration" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_GetDouble" />
-      <config projectName="Project" targetName="gmock_main" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
       <config projectName="Project" targetName="ur5_kin" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="ur_driver" />
+      <config projectName="Project" targetName="realsense2_camera_generate_messages" />
       <config projectName="Project" targetName="replay_go_to_origin" />
       <config projectName="Project" targetName="control_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="realsense2_camera_generate_messages_cpp" />
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_ToolDataMsg" />
-      <config projectName="Project" targetName="run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <config projectName="Project" targetName="clean_test_results_ur_gazebo" />
+      <config projectName="Project" targetName="manual_eye_in_hand" />
+      <config projectName="Project" targetName="pubboardextImage" />
       <config projectName="Project" targetName="tf_system_generate_messages" />
       <config projectName="Project" targetName="netft_utils_generate_messages" />
       <config projectName="Project" targetName="tf_generate_messages_eus" />
-      <config projectName="Project" targetName="_run_tests_ur5_e_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="ur10_kin" />
       <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="diagnostic_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetPayload" />
       <config projectName="Project" targetName="ur_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="diagnostic_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="_run_tests_ur_e_gazebo" />
       <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="realsense2_camera" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="run_tests_ur_modern_driver" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetIO" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="_run_tests_ur5_moveit_config" />
       <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetMax" />
       <config projectName="Project" targetName="tf_generate_messages_cpp" />
+      <config projectName="Project" targetName="realsense2_camera_geneus" />
       <config projectName="Project" targetName="roscpp_generate_messages_eus" />
-      <config projectName="Project" targetName="gmock" />
       <config projectName="Project" targetName="tf_system_generate_messages_nodejs" />
-      <config projectName="Project" targetName="run_tests_ur3_e_moveit_config" />
+      <config projectName="Project" targetName="bond_generate_messages_eus" />
       <config projectName="Project" targetName="diagnostic_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="tests" />
       <config projectName="Project" targetName="tf_system_gencpp" />
+      <config projectName="Project" targetName="realsense2_camera_gennodejs" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_py" />
       <config projectName="Project" targetName="netft_utils_lean" />
       <config projectName="Project" targetName="control_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="bond_generate_messages_lisp" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="control_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="run_tests_ur_bringup_roslaunch-check" />
       <config projectName="Project" targetName="netft_node" />
-      <config projectName="Project" targetName="run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetBias" />
       <config projectName="Project" targetName="_tf_system_generate_messages_check_deps_Trans_angle_axis" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="_run_tests_ur3_moveit_config" />
+      <config projectName="Project" targetName="realsense2_camera_gencpp" />
       <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
       <config projectName="Project" targetName="netft_utils_gencpp" />
+      <config projectName="Project" targetName="nodelet_generate_messages_eus" />
       <config projectName="Project" targetName="topic_tools_generate_messages_cpp" />
       <config projectName="Project" targetName="pub_ref_traj" />
       <config projectName="Project" targetName="diagnostic_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="run_tests_ur_gazebo" />
+      <config projectName="Project" targetName="getjointstate" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="ur5_moveit_plugin" />
-      <config projectName="Project" targetName="_run_tests_ur10_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_py" />
       <config projectName="Project" targetName="record" />
       <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
@@ -129,42 +112,38 @@
       <config projectName="Project" targetName="tf_generate_messages_lisp" />
       <config projectName="Project" targetName="netft_rdt_driver" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="realsense2_camera_genlisp" />
       <config projectName="Project" targetName="netft_utils_geneus" />
       <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="netft_utils_sim" />
       <config projectName="Project" targetName="netft_utils_genlisp" />
-      <config projectName="Project" targetName="_run_tests_ur_modern_driver_gtest" />
-      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="tf_system_generate_messages_py" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_Analog" />
       <config projectName="Project" targetName="tf_generate_messages_py" />
-      <config projectName="Project" targetName="run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
       <config projectName="Project" targetName="ur3_moveit_plugin" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="diagnostic_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="clean_test_results_ur3_moveit_config" />
       <config projectName="Project" targetName="netft_utils_cpp_test" />
       <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="Project" targetName="_run_tests_ur_bringup_roslaunch-check" />
-      <config projectName="Project" targetName="_run_tests_ur10_moveit_config" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotStateRTMsg" />
+      <config projectName="Project" targetName="showImage" />
       <config projectName="Project" targetName="tf_system_generate_messages_cpp" />
-      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="_run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="_run_tests_ur_modern_driver" />
+      <config projectName="Project" targetName="nodelet_generate_messages_cpp" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="averaged_calibrated_force_repub" />
-      <config projectName="Project" targetName="run_tests_ur_gazebo_roslaunch-check" />
+      <config projectName="Project" targetName="realsense2_camera_generate_messages_nodejs" />
       <config projectName="Project" targetName="moveit_ros_planning_gencfg" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="netft_utils_generate_messages_py" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
@@ -174,13 +153,12 @@
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotModeDataMsg" />
       <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="clean_test_results_ur5_e_moveit_config" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
       <config projectName="Project" targetName="ur_msgs_generate_messages" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="moveit_ros_manipulation_gencfg" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
@@ -194,38 +172,25 @@
       <config projectName="Project" targetName="ur_msgs_gencpp" />
       <config projectName="Project" targetName="process_control" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="gtest_main" />
-      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest" />
       <config projectName="Project" targetName="tf_system_genpy" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="netft_utils_genpy" />
-      <config projectName="Project" targetName="run_tests_ur5_moveit_config" />
-      <config projectName="Project" targetName="clean_test_results_ur_modern_driver" />
       <config projectName="Project" targetName="control_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_run_tests_ur_bringup" />
-      <config projectName="Project" targetName="_run_tests_ur_gazebo_roslaunch-check" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_py" />
       <config projectName="Project" targetName="tf_generate_messages_nodejs" />
       <config projectName="Project" targetName="ur3_kin" />
       <config projectName="Project" targetName="pub_ati_current_pose" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
-      <config projectName="Project" targetName="run_tests_ur3_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="_run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
       <config projectName="Project" targetName="point_cloud_preprocess" />
-      <config projectName="Project" targetName="_run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="run_tests_ur3_e_moveit_config_roslaunch-check" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="gtest" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <config projectName="Project" targetName="replay_traj" />
       <config projectName="Project" targetName="ur_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="run_tests_ur_e_gazebo_roslaunch-check" />
       <config projectName="Project" targetName="std_msgs_generate_messages_py" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
       <config projectName="Project" targetName="netft_utils" />
@@ -233,8 +198,8 @@
       <config projectName="Project" targetName="doxygen" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_MasterboardDataMsg" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_StartSim" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_StopSim" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_StopSim" />
       <config projectName="Project" targetName="tf_system_gennodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="quaternion2angle_axis" />
@@ -243,41 +208,33 @@
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="netft_utils_generate_messages_cpp" />
       <config projectName="Project" targetName="std_srvs_generate_messages_py" />
-      <config projectName="Project" targetName="_run_tests_ur5_moveit_config_roslaunch-check" />
-      <config projectName="Project" targetName="ur_modern_driver_test" />
       <config projectName="Project" targetName="ur_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="ur10_moveit_plugin" />
       <config projectName="Project" targetName="pub_current_pose" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
-      <config projectName="Project" targetName="clean_test_results_ur5_moveit_config" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_Cancel" />
       <config projectName="Project" targetName="tf_system_generate_messages_eus" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_Cancel" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetToolData" />
-      <config projectName="Project" targetName="run_tests" />
-      <config projectName="Project" targetName="_run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
       <config projectName="Project" targetName="ur_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config" />
-      <config projectName="Project" targetName="clean_test_results_ur_bringup" />
-      <config projectName="Project" targetName="run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
+      <config projectName="Project" targetName="nodelet_generate_messages_py" />
+      <config projectName="Project" targetName="nodelet_generate_messages_lisp" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
       <config projectName="Project" targetName="tf_system_genlisp" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
-      <config projectName="Project" targetName="clean_test_results_ur10_e_moveit_config" />
-      <config projectName="Project" targetName="run_tests_ur_bringup" />
       <config projectName="Project" targetName="netft_utils_generate_messages_eus" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="ur_msgs_genpy" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="run_tests_ur10_moveit_config" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
-      <config projectName="Project" targetName="run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_IOStates" />
+      <config projectName="Project" targetName="realsense2_camera_generate_messages_py" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="scan_scene_to_pcd" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="_run_tests_ur10_e_moveit_config_roslaunch-check" />
+      <config projectName="Project" targetName="shadow_calibration" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -302,17 +259,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pbd/src/assembly_base_frame_pub.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_system/src/pub_ref_traj.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force_system/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force_system/config/gravity_bias.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force_system/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbd/launch/ur_system.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pose_system/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pose_system/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realsense-ros" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/calibration_parameters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/camera_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/camera_eye_in_hand.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/camera_eye_inhand_result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/camera_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/camera_info_primesense.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/camera_info_xtion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/extrinsic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/out_camera_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/pose.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/realsense_sr300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/demo/xtion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/include/shadow_calibration/calibrationbase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/include/shadow_calibration/setting.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/launch/shadow_boardext.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/launch/shadow_boardext_eye_in_hand.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/launch/shadow_getjointstate.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/camera_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/extrinsic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/handeyeimage1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/handeyeimage2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/handeyeimage3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/handeyeimage4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/handeyeimage5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/handeyeimage6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/handeyeimage7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/handeyeimage8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/handeyeimage9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/jointstate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/pose.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/test1/extrinsic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/test1/handeyeimage1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/test1/handeyeimage2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/test1/handeyeimage3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/test1/handeyeimage4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/test1/handeyeimage5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/test1/handeyeimage6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image/test1/ur_pose.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/image9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/jointstate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/out_camera_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/shadow/shadow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/src/calibrationbase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/src/getjointstate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/src/manual-eye-in-hand.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/src/manualcalibration.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/src/pubboardext.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/src/setting.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/src/shadowcalibration.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow_calibration/src/showImage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vision_system/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vision_system/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera_xtion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/camera_xtion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pbd/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/src/assembly_base_pose_pub.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/src/point_cloud_preprocess.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/src/point_cloud_preprocess.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/src/assembly_base_frame_pub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/src/averaged_calibrated_force_repub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/force_system/src/averaged_calibrated_force_repub.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/src/gravity_compensated_force_repub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/force_system/src/gravity_compensated_force_repub.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/src/point_cloud_preprocess.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pbd/src/process_control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/src/process_control.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/src/record.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/src/record.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/src/pub_ati_current_pose.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pose_system/src/pub_ati_current_pose.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/src/pub_current_pose.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pose_system/src/pub_current_pose.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/src/scan_scene_to_pcd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tf_system/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tf_system/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_system/src/pub_ref_traj.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pose_system/src/pub_ref_traj.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -331,11 +370,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pbd/src/process_control.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="307">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#72#92#0" expanded="true" />
               </folding>
@@ -343,84 +382,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pbd/launch/pbd_pre.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp">
+        <entry file="file://$PROJECT_DIR$/vision_system/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding>
-                <element signature="e#43#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pbd/src/point_cloud_preprocess.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pbd/src/record.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-              <folding>
-                <element signature="e#43#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pbd/src/assembly_base_frame_pub.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <element signature="e#122#166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tf_system/src/pub_ref_traj.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#43#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tf_system/src/quaternion2angle_axis.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="916">
+              <caret line="216" selection-start-line="216" selection-end-line="216" />
             </state>
           </provider>
         </entry>
@@ -456,17 +431,20 @@
         <option value="$PROJECT_DIR$/pbd/src/average_force_repub.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/averaged_calibrated_force_repub.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/gravity_compensated_force_repub.cpp" />
-        <option value="$PROJECT_DIR$/pbd/src/process_control.cpp" />
         <option value="$PROJECT_DIR$/tf_system/src/pub_assembly_base_frame.cpp" />
-        <option value="$PROJECT_DIR$/tf_system/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/pbd/src/assembly_base_pose_pub.cpp" />
-        <option value="$PROJECT_DIR$/pbd/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/pbd/src/point_cloud_preprocess.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/assembly_base_frame_pub.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/record.cpp" />
         <option value="$PROJECT_DIR$/tf_system/src/pub_ref_traj.cpp" />
-        <option value="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" />
         <option value="$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp" />
+        <option value="$PROJECT_DIR$/pose_system/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/force_system/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/force_system/src/gravity_compensated_force_repub.cpp" />
+        <option value="$PROJECT_DIR$/tf_system/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/pbd/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/pbd/src/process_control.cpp" />
+        <option value="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" />
       </list>
     </option>
   </component>
@@ -490,44 +468,6 @@
           <expand>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pbd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pbd" type="462c0819:PsiDirectoryNode" />
-              <item name="launch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pbd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tf_system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tf_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -543,9 +483,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tf_system/src" />
+      <recent name="$PROJECT_DIR$/pose_system/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tf_system/src" />
       <recent name="$PROJECT_DIR$/pbd/src" />
@@ -615,152 +559,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_run_tests_ur10_e_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur10_e_moveit_config" CONFIG_NAME="Release">
+    <configuration name="_realsense2_camera_generate_messages_check_deps_Extrinsics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_realsense2_camera_generate_messages_check_deps_Extrinsics" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_run_tests_ur10_e_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur10_e_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur10_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur10_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur10_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur10_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur3_e_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur3_e_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur3_e_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur3_e_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur3_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur3_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur3_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur3_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur5_e_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur5_e_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur5_e_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur5_e_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur5_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur5_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur5_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur5_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_bringup" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_bringup" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_bringup_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_bringup_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_e_gazebo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_e_gazebo" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_e_gazebo_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_e_gazebo_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_gazebo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_gazebo" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_gazebo_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_gazebo_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_modern_driver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_modern_driver" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_modern_driver_gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_modern_driver_gtest" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_run_tests_ur_modern_driver_gtest_ur_modern_driver_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_run_tests_ur_modern_driver_gtest_ur_modern_driver_test" CONFIG_NAME="Release">
+    <configuration name="_realsense2_camera_generate_messages_check_deps_IMUInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_realsense2_camera_generate_messages_check_deps_IMUInfo" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -875,57 +679,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results" CONFIG_NAME="Release">
+    <configuration name="bond_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="bond_generate_messages_cpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clean_test_results_ur10_e_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_ur10_e_moveit_config" CONFIG_NAME="Release">
+    <configuration name="bond_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="bond_generate_messages_eus" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clean_test_results_ur10_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_ur10_moveit_config" CONFIG_NAME="Release">
+    <configuration name="bond_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="bond_generate_messages_lisp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clean_test_results_ur3_e_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_ur3_e_moveit_config" CONFIG_NAME="Release">
+    <configuration name="bond_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="bond_generate_messages_nodejs" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clean_test_results_ur3_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_ur3_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="clean_test_results_ur5_e_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_ur5_e_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="clean_test_results_ur5_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_ur5_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="clean_test_results_ur_bringup" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_ur_bringup" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="clean_test_results_ur_e_gazebo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_ur_e_gazebo" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="clean_test_results_ur_gazebo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_ur_gazebo" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="clean_test_results_ur_modern_driver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results_ur_modern_driver" CONFIG_NAME="Release">
+    <configuration name="bond_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="bond_generate_messages_py" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1070,27 +844,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock_main" CONFIG_NAME="Release">
+    <configuration name="getjointstate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="getjointstate" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="getjointstate">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="gravity_compensated_force_repub" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gravity_compensated_force_repub" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="gravity_compensated_force_repub">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest_main" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1121,6 +880,16 @@
       </method>
     </configuration>
     <configuration name="lpfilter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="lpfilter" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="manual_eye_in_hand" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="manual_eye_in_hand" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="manual_eye_in_hand">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="manualcalibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="manualcalibration" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="manualcalibration">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1156,6 +925,31 @@
       </method>
     </configuration>
     <configuration name="moveit_ros_planning_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="moveit_ros_planning_gencfg" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nav_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="nav_msgs_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nav_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="nav_msgs_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nav_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="nav_msgs_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nav_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="nav_msgs_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nav_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="nav_msgs_generate_messages_py" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1245,6 +1039,31 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="nodelet_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="nodelet_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nodelet_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="nodelet_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nodelet_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="nodelet_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nodelet_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="nodelet_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nodelet_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="nodelet_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="object_recognition_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="object_recognition_msgs_generate_messages_cpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1325,7 +1144,72 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pubboardextImage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="pubboardextImage" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="pubboardextImage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="quaternion2angle_axis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="quaternion2angle_axis" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="quaternion2angle_axis">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_gencpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_generate_messages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_generate_messages" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_geneus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_geneus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_genlisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_genlisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_gennodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_gennodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="realsense2_camera_genpy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="realsense2_camera_genpy" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1395,161 +1279,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur10_e_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur10_e_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur10_e_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur10_e_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur10_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur10_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur10_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur10_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur3_e_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur3_e_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur3_e_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur3_e_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur3_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur3_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur3_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur3_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur5_e_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur5_e_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur5_e_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur5_e_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur5_moveit_config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur5_moveit_config" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur5_moveit_config_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur5_moveit_config_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_bringup" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_bringup" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_bringup_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_bringup_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_e_gazebo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_e_gazebo" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_e_gazebo_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_e_gazebo_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_gazebo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_gazebo" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_gazebo_roslaunch-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_gazebo_roslaunch-check" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_modern_driver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_modern_driver" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_modern_driver_gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_modern_driver_gtest" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run_tests_ur_modern_driver_gtest_ur_modern_driver_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests_ur_modern_driver_gtest_ur_modern_driver_test" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="scan_scene_to_pcd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="scan_scene_to_pcd" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="scan_scene_to_pcd">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1580,6 +1309,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="shadow_calibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="shadow_calibration" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="shadow_calibration">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="shape_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="shape_msgs_generate_messages_cpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1601,6 +1335,11 @@
       </method>
     </configuration>
     <configuration name="shape_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="shape_msgs_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="showImage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="showImage" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="showImage">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1651,11 +1390,6 @@
       </method>
     </configuration>
     <configuration name="std_srvs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_srvs_generate_messages_py" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tests" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1860,11 +1594,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ur_modern_driver_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="ur_modern_driver_test" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="ur_modern_driver_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ur_msgs_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="ur_msgs_gencpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1953,6 +1682,12 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application._catkin_empty_exported_target" />
+      <item itemvalue="CMake Application.getjointstate" />
+      <item itemvalue="CMake Application.manual_eye_in_hand" />
+      <item itemvalue="CMake Application.manualcalibration" />
+      <item itemvalue="CMake Application.pubboardextImage" />
+      <item itemvalue="CMake Application.shadow_calibration" />
+      <item itemvalue="CMake Application.showImage" />
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_Cancel" />
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_GetDouble" />
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_SetBias" />
@@ -1962,36 +1697,6 @@
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_SetToolData" />
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_StartSim" />
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_StopSim" />
-      <item itemvalue="CMake Application._run_tests_ur10_e_moveit_config" />
-      <item itemvalue="CMake Application._run_tests_ur10_e_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application._run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application._run_tests_ur10_moveit_config" />
-      <item itemvalue="CMake Application._run_tests_ur10_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application._run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application._run_tests_ur3_e_moveit_config" />
-      <item itemvalue="CMake Application._run_tests_ur3_e_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application._run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application._run_tests_ur3_moveit_config" />
-      <item itemvalue="CMake Application._run_tests_ur3_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application._run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application._run_tests_ur5_e_moveit_config" />
-      <item itemvalue="CMake Application._run_tests_ur5_e_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application._run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application._run_tests_ur5_moveit_config" />
-      <item itemvalue="CMake Application._run_tests_ur5_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application._run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application._run_tests_ur_bringup" />
-      <item itemvalue="CMake Application._run_tests_ur_bringup_roslaunch-check" />
-      <item itemvalue="CMake Application._run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application._run_tests_ur_e_gazebo" />
-      <item itemvalue="CMake Application._run_tests_ur_e_gazebo_roslaunch-check" />
-      <item itemvalue="CMake Application._run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application._run_tests_ur_gazebo" />
-      <item itemvalue="CMake Application._run_tests_ur_gazebo_roslaunch-check" />
-      <item itemvalue="CMake Application._run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application._run_tests_ur_modern_driver" />
-      <item itemvalue="CMake Application._run_tests_ur_modern_driver_gtest" />
-      <item itemvalue="CMake Application._run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
       <item itemvalue="CMake Application._tf_system_generate_messages_check_deps_Trans_angle_axis" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_Analog" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_Digital" />
@@ -2014,17 +1719,6 @@
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.assembly_base_frame_pub" />
       <item itemvalue="CMake Application.averaged_calibrated_force_repub" />
-      <item itemvalue="CMake Application.clean_test_results" />
-      <item itemvalue="CMake Application.clean_test_results_ur10_e_moveit_config" />
-      <item itemvalue="CMake Application.clean_test_results_ur10_moveit_config" />
-      <item itemvalue="CMake Application.clean_test_results_ur3_e_moveit_config" />
-      <item itemvalue="CMake Application.clean_test_results_ur3_moveit_config" />
-      <item itemvalue="CMake Application.clean_test_results_ur5_e_moveit_config" />
-      <item itemvalue="CMake Application.clean_test_results_ur5_moveit_config" />
-      <item itemvalue="CMake Application.clean_test_results_ur_bringup" />
-      <item itemvalue="CMake Application.clean_test_results_ur_e_gazebo" />
-      <item itemvalue="CMake Application.clean_test_results_ur_gazebo" />
-      <item itemvalue="CMake Application.clean_test_results_ur_modern_driver" />
       <item itemvalue="CMake Application.control_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.control_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.control_msgs_generate_messages_lisp" />
@@ -2048,16 +1742,34 @@
       <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_lisp" />
       <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_nodejs" />
       <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_py" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.nodelet_generate_messages_cpp" />
+      <item itemvalue="CMake Application.nodelet_generate_messages_eus" />
+      <item itemvalue="CMake Application.nodelet_generate_messages_lisp" />
+      <item itemvalue="CMake Application.nodelet_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.nodelet_generate_messages_py" />
+      <item itemvalue="CMake Application.realsense2_camera" />
+      <item itemvalue="CMake Application.realsense2_camera_gencpp" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages_cpp" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages_eus" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages_lisp" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages_py" />
+      <item itemvalue="CMake Application.realsense2_camera_geneus" />
+      <item itemvalue="CMake Application.realsense2_camera_genlisp" />
+      <item itemvalue="CMake Application.realsense2_camera_gennodejs" />
+      <item itemvalue="CMake Application.realsense2_camera_genpy" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.gmock" />
-      <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gravity_compensated_force_repub" />
-      <item itemvalue="CMake Application.gtest" />
-      <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_lisp" />
@@ -2103,6 +1815,13 @@
       <item itemvalue="CMake Application.pub_ati_current_pose" />
       <item itemvalue="CMake Application.pub_current_pose" />
       <item itemvalue="CMake Application.pub_ref_traj" />
+      <item itemvalue="CMake Application._realsense2_camera_generate_messages_check_deps_Extrinsics" />
+      <item itemvalue="CMake Application._realsense2_camera_generate_messages_check_deps_IMUInfo" />
+      <item itemvalue="CMake Application.bond_generate_messages_cpp" />
+      <item itemvalue="CMake Application.bond_generate_messages_eus" />
+      <item itemvalue="CMake Application.bond_generate_messages_lisp" />
+      <item itemvalue="CMake Application.bond_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.bond_generate_messages_py" />
       <item itemvalue="CMake Application.pub_tool0_target_frame" />
       <item itemvalue="CMake Application.quaternion2angle_axis" />
       <item itemvalue="CMake Application.record" />
@@ -2118,37 +1837,6 @@
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.run_tests" />
-      <item itemvalue="CMake Application.run_tests_ur10_e_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur10_e_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.run_tests_ur10_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur10_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur10_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.run_tests_ur3_e_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur3_e_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur3_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.run_tests_ur3_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur3_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur3_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.run_tests_ur5_e_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur5_e_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur5_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.run_tests_ur5_moveit_config" />
-      <item itemvalue="CMake Application.run_tests_ur5_moveit_config_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur5_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml" />
-      <item itemvalue="CMake Application.run_tests_ur_bringup" />
-      <item itemvalue="CMake Application.run_tests_ur_bringup_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur_bringup_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application.run_tests_ur_e_gazebo" />
-      <item itemvalue="CMake Application.run_tests_ur_e_gazebo_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur_e_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application.run_tests_ur_gazebo" />
-      <item itemvalue="CMake Application.run_tests_ur_gazebo_roslaunch-check" />
-      <item itemvalue="CMake Application.run_tests_ur_gazebo_roslaunch-check_tests_roslaunch_test.xml" />
-      <item itemvalue="CMake Application.run_tests_ur_modern_driver" />
-      <item itemvalue="CMake Application.run_tests_ur_modern_driver_gtest" />
-      <item itemvalue="CMake Application.run_tests_ur_modern_driver_gtest_ur_modern_driver_test" />
       <item itemvalue="CMake Application.scan_scene_to_pcd" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_eus" />
@@ -2170,7 +1858,6 @@
       <item itemvalue="CMake Application.std_srvs_generate_messages_lisp" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_py" />
-      <item itemvalue="CMake Application.tests" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_lisp" />
@@ -2211,7 +1898,6 @@
       <item itemvalue="CMake Application.ur_driver" />
       <item itemvalue="CMake Application.ur_driver_gencfg" />
       <item itemvalue="CMake Application.ur_hardware_interface" />
-      <item itemvalue="CMake Application.ur_modern_driver_test" />
       <item itemvalue="CMake Application.ur_msgs_gencpp" />
       <item itemvalue="CMake Application.ur_msgs_generate_messages" />
       <item itemvalue="CMake Application.ur_msgs_generate_messages_cpp" />
@@ -2280,6 +1966,10 @@
       <workItem from="1567579800874" duration="2293000" />
       <workItem from="1567587295034" duration="14720000" />
       <workItem from="1567652687763" duration="7751000" />
+      <workItem from="1567689761196" duration="632000" />
+      <workItem from="1567748561965" duration="6108000" />
+      <workItem from="1568129825135" duration="12000" />
+      <workItem from="1568814152834" duration="1772000" />
     </task>
     <task id="LOCAL-00001" summary="test clion git">
       <created>1564562420341</created>
@@ -2355,12 +2045,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226517000" />
+    <option name="totallyTimeSpent" value="235041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="1984" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36594805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38363737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2432,6 +2122,8 @@
       <path value="$PROJECT_DIR$/ur_modern_driver" />
       <path value="$PROJECT_DIR$/ati_force_torque" />
       <path value="$PROJECT_DIR$/netft_utils" />
+      <path value="$PROJECT_DIR$/easy_handeye" />
+      <path value="$PROJECT_DIR$/realsense-ros" />
     </ignored-roots>
     <MESSAGE value="test clion git" />
     <MESSAGE value="1test clion git" />
@@ -2511,13 +2203,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/pub_ati_current_pose.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/src/pub_ati_current_pose.cpp" />
     <entry file="file://$PROJECT_DIR$/tf_system/msg/Trans_angle_axis.msg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -2535,50 +2221,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/averaged_calibrated_force_repub.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-857">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <element signature="e#235#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/gravity_compensated_force_repub.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding>
-            <element signature="e#235#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/scan_scene_to_pcd.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_system/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4237">
-          <caret line="223" selection-start-line="223" selection-end-line="223" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/src/averaged_calibrated_force_repub.cpp" />
+    <entry file="file://$PROJECT_DIR$/pbd/src/gravity_compensated_force_repub.cpp" />
+    <entry file="file://$PROJECT_DIR$/pbd/src/scan_scene_to_pcd.cpp" />
     <entry file="file://$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
@@ -2589,29 +2234,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/pub_current_pose.cpp">
+    <entry file="file://$PROJECT_DIR$/pbd/src/pub_current_pose.cpp" />
+    <entry file="file://$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="532">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tf_system/src/quaternion2angle_axis.cpp">
+    <entry file="file://$PROJECT_DIR$/pbd/src/point_cloud_preprocess.cpp" />
+    <entry file="file://$PROJECT_DIR$/pbd/src/record.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="779">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#43#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/assembly_base_frame_pub.cpp">
+    <entry file="file://$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
+        <state relative-caret-position="1121">
           <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
@@ -2620,60 +2267,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/record.cpp">
+    <entry file="file://$PROJECT_DIR$/tf_system/src/quaternion2angle_axis.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="e#43#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/launch/pbd_pre.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#43#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/point_cloud_preprocess.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+        <state relative-caret-position="1026">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tf_system/src/pub_ref_traj.cpp">
+    <entry file="file://$PROJECT_DIR$/pose_system/package.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="247">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pose_system/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="224" column="28" selection-start-line="224" selection-start-column="28" selection-end-line="224" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pose_system/src/pub_ati_current_pose.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pose_system/src/pub_current_pose.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pose_system/src/pub_ref_traj.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/force_system/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/force_system/src/averaged_calibrated_force_repub.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1095">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/force_system/src/gravity_compensated_force_repub.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_system/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision_system/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="916">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pbd/src/process_control.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="307">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#72#92#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/launch/pbd_pre.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

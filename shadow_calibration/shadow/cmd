@@ -1,0 +1,34 @@
+=====利用GUI控制Shadow========
+sudo -s
+tongji
+roslaunch sr_edc_controller_configuration sr_edc_position_controllers.launch 
+
+sudo -s
+tongji
+roslaunch sr_edc_launch sr_edc2.launch
+
+rosrun rqt_gui rqt_gui
+
+
+Plugins-->Shadow Hands --->Joint Solider
+
+
+=====与UR同时控制=============
+sudo -s
+tongji
+roslaunch sr_edc_controller_configuration sr_edc_position_controllers.launch 
+
+sudo -s
+tongji
+roslaunch sr_edc_launch sr_edc.launch
+
+roslaunch ur_bringup ur10_bringup.launch robot_ip:=192.168.2.2
+
+rosrun joint_states_transform joint_states_transform
+
+roslaunch ur_shadow_moveit_config2 demo_actual.launch
+
+
+
+
+

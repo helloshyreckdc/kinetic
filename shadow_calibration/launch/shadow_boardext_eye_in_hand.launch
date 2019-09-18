@@ -1,0 +1,12 @@
+<!--
+Example launch file: launches the autocalibration
+-->
+
+<launch>
+   <arg name="camera_data" default="/home/shyreckdc/demo/camera_eye_in_hand.xml" />
+  <node name="pubboardextImage" pkg="shadow_calibration" type="pubboardextImage" 
+       args="7 5 30  $(arg camera_data)"/>
+  <node name="showImage" pkg="shadow_calibration" type="showImage" 
+       args="7 5 30  $(arg camera_data)"/>
+  
+</launch>
