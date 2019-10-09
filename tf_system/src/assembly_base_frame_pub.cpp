@@ -197,7 +197,7 @@ int main(int argc, char** argv)
         transm_r.getRotation(q);
         transform.setOrigin(tf::Vector3(trans_inverse(0, 3), trans_inverse(1, 3), trans_inverse(2, 3)));
         transform.setRotation(q);
-        br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "camera_depth_optical_frame", "assembly_base"));
+        br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "xtion_depth_optical_frame", "assembly_base"));
 
         loop_rate.sleep();
     }

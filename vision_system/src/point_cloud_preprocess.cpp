@@ -42,7 +42,7 @@ void cloudCB(const pcl::PCLPointCloud2ConstPtr& input)
 
 
     pcl::toROSMsg(*passed_cloud, ros_passed_cloud);
-    ros_passed_cloud.header.frame_id = "camera_depth_optical_frame";
+    ros_passed_cloud.header.frame_id = "xtion_depth_optical_frame";
     passed_cloud_pub.publish(ros_passed_cloud);
 
 }
@@ -50,7 +50,7 @@ int main (int argc, char **argv)
 {
     ros::init (argc, argv, "point_cloud_preprocess");
     ros::NodeHandle node;
-    ros::Subscriber cloud_sub = node.subscribe("/camera/depth/points", 10, cloudCB);//接收点云
+    ros::Subscriber cloud_sub = node.subscribe("/xtion/depth/points", 10, cloudCB);//接收点云
     passed_cloud_pub = node.advertise<sensor_msgs::PointCloud2>("/passed_cloud",1);
     ros::Duration(4).sleep(); // wait for camera msg
     ros::spin();

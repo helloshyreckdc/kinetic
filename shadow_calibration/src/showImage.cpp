@@ -33,6 +33,7 @@ using namespace cv;
 int width ,height, squaresize;
 CAMERA_INTRINSIC_PARAMETERS camera;
 string  camera_dataPath;
+string  image_topic;
 SpacialPoint spoint1,spoint2,spoint3;
 ImagePoint point1,point2,point3;
 class ImageConverter
@@ -45,7 +46,7 @@ public:
   ImageConverter()
     : it_(nh_)
   {
-    image_sub_ = it_.subscribe("/camera/rgb/image_raw", 1,
+    image_sub_ = it_.subscribe(image_topic, 1,
       &ImageConverter::imageCb, this);
 
     cv::namedWindow("Autocalibration");
@@ -90,9 +91,9 @@ int main(int argc, char** argv)
 
   ros::init(argc, argv, "showImage");
   ros::start();
-    if(argc != 5)
+    if(argc != 6)
          {
-             cerr << endl << "Usage: rosrun autocalibration  showImage   width  height  squaresize cameradata" << endl;
+             cerr << endl << "Usage: rosrun autocalibration  showImage   width  height  squaresize cameradata image_topic" << endl;
              ros::shutdown();
              return 1;
          }
@@ -100,6 +101,7 @@ int main(int argc, char** argv)
        height=atoi(argv[2]);
        squaresize=atoi(argv[3]);
       camera_dataPath=argv[4];
+	  image_topic=argv[5];
       Mat cameraMatrix;
       FileStorage fs(camera_dataPath,FileStorage::READ);
                fs["camera_matrix"]>>cameraMatrix;

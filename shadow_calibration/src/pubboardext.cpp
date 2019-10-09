@@ -38,6 +38,7 @@ Mat object_point;
 Mat cameraMatrix;
 Mat distCoeffs;
 string  camera_dataPath;
+string  image_topic;
 Size imageSize;
 /*******************************************************************/
 
@@ -58,7 +59,7 @@ public:
   ImageConverter()
     : it_(nh_)
   {
-    image_sub_ = it_.subscribe("/camera/rgb/image_raw", 1,
+    image_sub_ = it_.subscribe(image_topic, 1,
       &ImageConverter::imageCb, this);
 
     cv::namedWindow("Autocalibration");
@@ -189,9 +190,9 @@ int main(int argc, char** argv)
 
     ros::init(argc, argv, "pubboardext");
     ros::start();
-    if(argc != 5)
+    if(argc != 6)
          {
-             cerr << endl << "Usage: rosrun autocalibration  pubboardext     width  height  squaresize cameradata" << endl;
+             cerr << endl << "Usage: rosrun autocalibration  pubboardext     width  height  squaresize cameradata image_topic" << endl;
 	     cerr<<argc<<endl;
              ros::shutdown();
              return 1;
@@ -200,6 +201,7 @@ int main(int argc, char** argv)
     height=atoi(argv[2]);
     squaresize=atoi(argv[3]);
    camera_dataPath=argv[4];
+   image_topic = argv[5];
 
    initSettings();
    

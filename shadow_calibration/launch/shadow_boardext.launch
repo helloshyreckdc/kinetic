@@ -3,10 +3,11 @@ Example launch file: launches the autocalibration
 -->
 
 <launch>
-   <arg name="camera_data" default="/home/shyreckdc/catkin_ws/src/shadow_calibration/demo/camera_info.xml" />
+   <arg name="camera_data" default="/home/shyreckdc/catkin_ws/src/shadow_calibration/demo/realsense_sr300.xml" />
+   <arg name="image_topic" default="/camera/rgb/image_raw" />
   <node name="pubboardextImage" pkg="shadow_calibration" type="pubboardextImage" 
-       args="7 5 24  $(arg camera_data)"/>
+       args="4 3 24  $(arg camera_data) $(arg image_topic)"/>
   <node name="showImage" pkg="shadow_calibration" type="showImage" 
-       args="7 5 24  $(arg camera_data)"/>
+       args="4 3 24  $(arg camera_data) $(arg image_topic)"/>
   
 </launch>
