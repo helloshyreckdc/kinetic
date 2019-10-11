@@ -46,7 +46,15 @@ int main(int argc, char** argv){
             tf::Transform transform;
             transform.setOrigin(translation);
             transform.setRotation(rotation);
-            br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "assembly_base", "tool0_target"));
+
+            bool use_object_frame;
+            ros::param::get("/use_object_frame", use_object_frame);
+            if(use_object_frame) {
+                br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "assembly_base", "tool0_target"));
+            }
+            else{
+                br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "base", "tool0_target"));
+            }
         }
 
         rate.sleep();

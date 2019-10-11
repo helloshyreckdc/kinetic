@@ -9,6 +9,8 @@ bool boardSuccess;
 CAMERA_INTRINSIC_PARAMETERS camera;
 Extrinsic_Parameter E[9],Y[9],C[36],D[36];
 
+string camera_optical_frame;
+
 
 double calculate_value(Mat qx ,Mat tx,int NumOFCD);
 void initPoint();

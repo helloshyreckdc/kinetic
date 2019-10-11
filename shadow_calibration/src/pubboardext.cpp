@@ -39,6 +39,7 @@ Mat cameraMatrix;
 Mat distCoeffs;
 string  camera_dataPath;
 string  image_topic;
+string camera_optical_frame;
 Size imageSize;
 /*******************************************************************/
 
@@ -168,7 +169,7 @@ public:
                     tf::Quaternion q(x,y,z,w);
                     //setRotation
                     transform.setRotation(q);
-                    br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "/camera_rgb_optical_frame","/calibration_board"));
+                    br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), camera_optical_frame,"/calibration_board"));
                    
                      ros::spinOnce();
 
@@ -190,9 +191,9 @@ int main(int argc, char** argv)
 
     ros::init(argc, argv, "pubboardext");
     ros::start();
-    if(argc != 6)
+    if(argc != 7)
          {
-             cerr << endl << "Usage: rosrun autocalibration  pubboardext     width  height  squaresize cameradata image_topic" << endl;
+             cerr << endl << "Usage: rosrun autocalibration  pubboardext     width  height  squaresize cameradata image_topic camera_optical_frame" << endl;
 	     cerr<<argc<<endl;
              ros::shutdown();
              return 1;
@@ -202,6 +203,7 @@ int main(int argc, char** argv)
     squaresize=atoi(argv[3]);
    camera_dataPath=argv[4];
    image_topic = argv[5];
+   camera_optical_frame = argv[6];
 
    initSettings();
    

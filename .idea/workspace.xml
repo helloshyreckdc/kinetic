@@ -9,25 +9,31 @@
       <config projectName="Project" targetName="bond_generate_messages_nodejs" />
       <config projectName="Project" targetName="roscpp_generate_messages_py" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="aruco_msgs_geneus" />
       <config projectName="Project" targetName="visp_camera_calibration_common" />
       <config projectName="Project" targetName="visp_camera_calibration_generate_messages_eus" />
       <config projectName="Project" targetName="visp_camera_calibration_camera" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="aruco_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="visp_bridge_convert_camera_parameters" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="visp_camera_calibration_gencpp" />
       <config projectName="Project" targetName="visp_hand2eye_calibration_generate_messages_nodejs" />
-      <config projectName="Project" targetName="_realsense2_camera_generate_messages_check_deps_Extrinsics" />
+      <config projectName="Project" targetName="_aruco_msgs_generate_messages_check_deps_Marker" />
       <config projectName="Project" targetName="realsense2_camera_generate_messages_lisp" />
+      <config projectName="Project" targetName="_realsense2_camera_generate_messages_check_deps_Extrinsics" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="_realsense2_camera_generate_messages_check_deps_IMUInfo" />
       <config projectName="Project" targetName="netft_utils_generate_messages_lisp" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="Project" targetName="bond_generate_messages_py" />
       <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
+      <config projectName="Project" targetName="aruco" />
+      <config projectName="Project" targetName="aruco_msgs_gencpp" />
+      <config projectName="Project" targetName="aruco_ros_gencfg" />
       <config projectName="Project" targetName="_visp_tracker_generate_messages_check_deps_KltPoint" />
       <config projectName="Project" targetName="visp_hand2eye_calibration_genlisp" />
       <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
@@ -37,6 +43,7 @@
       <config projectName="Project" targetName="visp_tracker_gencfg" />
       <config projectName="Project" targetName="netft_utils_gennodejs" />
       <config projectName="Project" targetName="_catkin_empty_exported_target" />
+      <config projectName="Project" targetName="easy_handeye_generate_messages" />
       <config projectName="Project" targetName="lpfilter" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_cpp" />
@@ -57,29 +64,35 @@
       <config projectName="Project" targetName="ur_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetFilter" />
       <config projectName="Project" targetName="manualcalibration" />
+      <config projectName="Project" targetName="easy_handeye_generate_messages_py" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_GetDouble" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="ur5_kin" />
-      <config projectName="Project" targetName="realsense2_camera_generate_messages" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="visp_hand2eye_calibration_generate_messages_eus" />
+      <config projectName="Project" targetName="realsense2_camera_generate_messages" />
       <config projectName="Project" targetName="ur_driver" />
       <config projectName="Project" targetName="replay_go_to_origin" />
       <config projectName="Project" targetName="control_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="realsense2_camera_generate_messages_cpp" />
+      <config projectName="Project" targetName="easy_handeye_genpy" />
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
       <config projectName="Project" targetName="manual_eye_in_hand" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_ToolDataMsg" />
       <config projectName="Project" targetName="visp_camera_calibration_genpy" />
       <config projectName="Project" targetName="_visp_tracker_generate_messages_check_deps_MovingEdgeSite" />
       <config projectName="Project" targetName="pubboardextImage" />
+      <config projectName="Project" targetName="aruco_msgs_generate_messages_py" />
       <config projectName="Project" targetName="tf_system_generate_messages" />
       <config projectName="Project" targetName="netft_utils_generate_messages" />
       <config projectName="Project" targetName="visp_hand2eye_calibration_generate_messages_cpp" />
+      <config projectName="Project" targetName="easy_handeye_generate_messages_cpp" />
       <config projectName="Project" targetName="tf_generate_messages_eus" />
       <config projectName="Project" targetName="ur10_kin" />
       <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="optimalmarkers" />
+      <config projectName="Project" targetName="_easy_handeye_generate_messages_check_deps_HandeyeCalibration" />
       <config projectName="Project" targetName="diagnostic_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetPayload" />
       <config projectName="Project" targetName="ur_msgs_generate_messages_nodejs" />
@@ -94,6 +107,7 @@
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_SetIO" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
       <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="easy_handeye_generate_messages_eus" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetMax" />
       <config projectName="Project" targetName="tf_generate_messages_cpp" />
       <config projectName="Project" targetName="realsense2_camera_geneus" />
@@ -107,6 +121,7 @@
       <config projectName="Project" targetName="realsense2_camera_gennodejs" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_py" />
       <config projectName="Project" targetName="netft_utils_lean" />
+      <config projectName="Project" targetName="double" />
       <config projectName="Project" targetName="control_msgs_generate_messages_py" />
       <config projectName="Project" targetName="visp_camera_calibration_generate_messages_py" />
       <config projectName="Project" targetName="bond_generate_messages_lisp" />
@@ -115,6 +130,7 @@
       <config projectName="Project" targetName="netft_node" />
       <config projectName="Project" targetName="visp_hand2eye_calibration_generate_messages_lisp" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="easy_handeye_genlisp" />
       <config projectName="Project" targetName="_tf_system_generate_messages_check_deps_Trans_angle_axis" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetBias" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_lisp" />
@@ -129,6 +145,7 @@
       <config projectName="Project" targetName="diagnostic_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="getjointstate" />
+      <config projectName="Project" targetName="aruco_msgs_genpy" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="ur5_moveit_plugin" />
       <config projectName="Project" targetName="visp_hand2eye_calibration_calibrator" />
@@ -136,6 +153,7 @@
       <config projectName="Project" targetName="record" />
       <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="single" />
       <config projectName="Project" targetName="tf_generate_messages_lisp" />
       <config projectName="Project" targetName="visp_tracker_gennodejs" />
       <config projectName="Project" targetName="netft_rdt_driver" />
@@ -143,6 +161,7 @@
       <config projectName="Project" targetName="realsense2_camera_genlisp" />
       <config projectName="Project" targetName="netft_utils_geneus" />
       <config projectName="Project" targetName="_visp_tracker_generate_messages_check_deps_Init" />
+      <config projectName="Project" targetName="aruco_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="image_proc_gencfg" />
       <config projectName="Project" targetName="netft_utils_sim" />
@@ -158,7 +177,9 @@
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="diagnostic_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="aruco_ros_utils" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="_easy_handeye_generate_messages_check_deps_RemoveSample" />
       <config projectName="Project" targetName="visp_camera_calibration_generate_messages_lisp" />
       <config projectName="Project" targetName="visp_auto_tracker_cmd_line" />
       <config projectName="Project" targetName="netft_utils_cpp_test" />
@@ -169,6 +190,7 @@
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotStateRTMsg" />
       <config projectName="Project" targetName="showImage" />
       <config projectName="Project" targetName="tf_system_generate_messages_cpp" />
+      <config projectName="Project" targetName="_easy_handeye_generate_messages_check_deps_ComputeCalibration" />
       <config projectName="Project" targetName="_visp_tracker_generate_messages_check_deps_TrackerSettings" />
       <config projectName="Project" targetName="visp_tracker_generate_messages_eus" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
@@ -182,12 +204,13 @@
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="netft_utils_generate_messages_py" />
+      <config projectName="Project" targetName="aruco_msgs_gennodejs" />
       <config projectName="Project" targetName="visp_auto_tracker" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="actionlib_generate_messages_eus" />
       <config projectName="Project" targetName="visp_tracker_genlisp" />
       <config projectName="Project" targetName="ur_msgs_geneus" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="actionlib_generate_messages_eus" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_RobotModeDataMsg" />
       <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
@@ -224,6 +247,7 @@
       <config projectName="Project" targetName="visp_camera_calibration_image_processing" />
       <config projectName="Project" targetName="control_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="_easy_handeye_generate_messages_check_deps_TakeSample" />
       <config projectName="Project" targetName="_visp_hand2eye_calibration_generate_messages_check_deps_TransformArray" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_py" />
       <config projectName="Project" targetName="visp_tracker_viewer" />
@@ -239,6 +263,7 @@
       <config projectName="Project" targetName="trackerNodelet" />
       <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="visp_camera_calibration_generate_messages" />
+      <config projectName="Project" targetName="easy_handeye_generate_messages_nodejs" />
       <config projectName="Project" targetName="visp_tracker" />
       <config projectName="Project" targetName="industrial_msgs_generate_messages_py" />
       <config projectName="Project" targetName="controller_manager_msgs_generate_messages_eus" />
@@ -251,18 +276,22 @@
       <config projectName="Project" targetName="visp_tracker_generate_messages_py" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="visp_hand2eye_calibration_generate_messages_py" />
+      <config projectName="Project" targetName="_aruco_msgs_generate_messages_check_deps_MarkerArray" />
+      <config projectName="Project" targetName="easy_handeye_gennodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_py" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
       <config projectName="Project" targetName="_visp_camera_calibration_generate_messages_check_deps_ImageAndPoints" />
       <config projectName="Project" targetName="netft_utils" />
       <config projectName="Project" targetName="netft_utils_generate_messages_nodejs" />
+      <config projectName="Project" targetName="easy_handeye_generate_messages_lisp" />
       <config projectName="Project" targetName="doxygen" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_MasterboardDataMsg" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_StartSim" />
-      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_StopSim" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_StopSim" />
       <config projectName="Project" targetName="tf_system_gennodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="aruco_msgs_generate_messages" />
       <config projectName="Project" targetName="quaternion2angle_axis" />
       <config projectName="Project" targetName="gravity_compensated_force_repub" />
       <config projectName="Project" targetName="ur_hardware_interface" />
@@ -278,19 +307,23 @@
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_Cancel" />
       <config projectName="Project" targetName="_netft_utils_generate_messages_check_deps_SetToolData" />
       <config projectName="Project" targetName="ur_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="_easy_handeye_generate_messages_check_deps_SampleList" />
       <config projectName="Project" targetName="visp_tracker_generate_messages_cpp" />
       <config projectName="Project" targetName="nodelet_generate_messages_py" />
       <config projectName="Project" targetName="nodelet_generate_messages_lisp" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="marker_publisher" />
       <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
       <config projectName="Project" targetName="tf_system_genlisp" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="visp_camera_calibration_gennodejs" />
+      <config projectName="Project" targetName="aruco_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="netft_utils_generate_messages_eus" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="visp_tracker_generate_messages" />
       <config projectName="Project" targetName="ur_msgs_genpy" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="easy_handeye_gencpp" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
       <config projectName="Project" targetName="_ur_msgs_generate_messages_check_deps_IOStates" />
       <config projectName="Project" targetName="realsense2_camera_generate_messages_py" />
@@ -299,10 +332,13 @@
       <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_visp_camera_calibration_generate_messages_check_deps_CalibPoint" />
+      <config projectName="Project" targetName="aruco_msgs_genlisp" />
       <config projectName="Project" targetName="scan_scene_to_pcd" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="visp_hand2eye_calibration_genpy" />
+      <config projectName="Project" targetName="aruco_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="visp_tracker_client" />
+      <config projectName="Project" targetName="easy_handeye_geneus" />
       <config projectName="Project" targetName="shadow_calibration" />
     </generated>
   </component>
@@ -328,212 +364,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pbd_system.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/.travis.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/vision_visp/CHANGELOG.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/vision_visp/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/vision_visp/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/CHANGELOG.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/cmd_line/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/cmd_line/cmd_line.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/cmd_line/cmd_line.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/data/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/data/pattern.wrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/data/pattern.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/datamatrix/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/datamatrix/detector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/datamatrix/detector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/detector_base.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/detector_base.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/qrcode/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/qrcode/detector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/qrcode/detector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/examples/complex.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/examples/simple.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/events.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/logfilewriter.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/states.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/threading.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/threading.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/tracking.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/tracking.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/script.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tracklive_firewire.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tracklive_usb.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tutorial.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/models/calibration.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/models/pattern.cao" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/models/pattern.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/models/pattern.wrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/models/pattern.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/rosdoc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/names.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/names.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/node.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/node.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/visp_auto_tracker.bag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/CHANGELOG.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/include/visp_bridge/3dpose.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/include/visp_bridge/camera.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/include/visp_bridge/image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/include/visp_bridge/vpQuaternionVector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/src/compat/vpQuaternionVector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/src/conversions/3dpose.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/src/conversions/camera.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/src/conversions/convert_cam_param_file.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_bridge/src/conversions/image.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/CHANGELOG.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/launch/images/grid2d.fig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/launch/images/grid2d.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/launch/images/grid36-01.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/launch/images/grid36-02.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/launch/images/grid36-03.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/launch/images/grid36-04.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/launch/lagadic_grid.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/msg/CalibPoint.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/msg/CalibPointArray.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/msg/ImageAndPoints.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/msg/ImagePoint.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/calibrator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/calibrator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/calibrator_main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/camera.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/camera.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/camera_main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/image_processing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/image_processing.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/image_processing_main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/names.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/src/names.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_camera_calibration/srv/calibrate.srv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/CHANGELOG.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/msg/TransformArray.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/src/calibrator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/src/calibrator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/src/calibrator_main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/src/client.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/src/client.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/src/client_main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/src/names.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/src/names.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/srv/compute_effector_camera.srv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/srv/compute_effector_camera_quick.srv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_hand2eye_calibration/srv/reset.srv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/CHANGELOG.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/cfg/ModelBasedSettings.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/cfg/ModelBasedSettingsEdge.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/cfg/ModelBasedSettingsKlt.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/flea2/calibration/flea2.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/flea2/camera-nodelet.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/flea2/config.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/flea2/flea2.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/calibration/narrow_left.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/calibration/narrow_right.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/calibration/wide_left.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/calibration/wide_right.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/camera-nodelet.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/camera.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/config.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/image_pipeline.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/narrow_left.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/narrow_right.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/wide_left.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/hrp2014/wide_right.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/start.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/tutorial-multi.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/tutorial-nodelet.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/tutorial.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/uvc/calibration/uvc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/uvc/camera-nodelet.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/uvc/config.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/launch/uvc/uvc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/mainpage.dox" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/floppy-box/floppy-box.ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/floppy-box/floppy-box.init" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/floppy-box/floppy-box.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/floppy-box/floppy-box.wrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/floppy-box/tracker.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/laas-box/laas-box.ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/laas-box/laas-box.init" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/laas-box/laas-box.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/laas-box/laas-box.wrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/laas-box/tracker.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/shelf/shelf.ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/shelf/shelf.init" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/shelf/shelf.wrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/models/shelf/tracker.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/msg/KltPoint.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/msg/KltPoints.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/msg/KltSettings.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/msg/MovingEdgeSettings.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/msg/MovingEdgeSite.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/msg/MovingEdgeSites.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/msg/TrackerSettings.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/nodelet_plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/rosdoc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/scripts/tf_localization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/callbacks.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/callbacks.hh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/conversion.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/conversion.hh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/file.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/file.hh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/names.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/names.hh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/tracker-client.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/tracker-client.hh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/tracker-viewer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/tracker-viewer.hh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/tracker.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/tracker.hh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/nodelets/client.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/nodelets/tracker.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/nodelets/viewer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/nodes/client.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/nodes/tracker.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/src/nodes/viewer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/srv/Init.srv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vision_visp/visp_tracker/visp_tracker.bag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/config/gravity_bias.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/config/gravity_bias.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shadow_calibration/demo/realsense_sr300.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shadow_calibration/demo/realsense_sr300.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera_xtion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/launch/ur_system.launch" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/launch/ur_system.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd_system.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/pbd_system.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_calibration/demo/realsense_sr300.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shadow_calibration/launch/shadow_boardext.launch" beforeDir="false" afterPath="$PROJECT_DIR$/shadow_calibration/launch/shadow_boardext.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_calibration/launch/shadow_boardext_eye_in_hand.launch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shadow_calibration/src/manual-eye-in-hand.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/shadow_calibration/src/manual-eye-in-hand.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_calibration/src/manualcalibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/shadow_calibration/src/manualcalibration.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shadow_calibration/src/pubboardext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/shadow_calibration/src/pubboardext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow_calibration/src/shadowcalibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/shadow_calibration/src/shadowcalibration.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shadow_calibration/src/showImage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/shadow_calibration/src/showImage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tracklive_usb.launch" beforeDir="false" afterPath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tracklive_usb.launch" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -552,19 +397,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pbd/src/replay_traj.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tracklive_usb.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#90#110#0" expanded="true" />
-              </folding>
+            <state>
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pbd/launch/ur_system.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aruco_ros/aruco_ros/src/simple_single.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="230" column="29" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>use_object_frame</find>
+      <find>sendTransform</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -600,7 +469,6 @@
         <option value="$PROJECT_DIR$/pbd/src/point_cloud_preprocess.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/assembly_base_frame_pub.cpp" />
         <option value="$PROJECT_DIR$/tf_system/src/pub_ref_traj.cpp" />
-        <option value="$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp" />
         <option value="$PROJECT_DIR$/pose_system/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/force_system/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/force_system/src/gravity_compensated_force_repub.cpp" />
@@ -613,6 +481,11 @@
         <option value="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" />
         <option value="$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp" />
         <option value="$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp" />
+        <option value="$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp" />
+        <option value="$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tracklive_usb.launch" />
+        <option value="$PROJECT_DIR$/aruco_ros/aruco_ros/src/simple_single.cpp" />
+        <option value="$PROJECT_DIR$/pbd/launch/ur_system.launch" />
+        <option value="$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp" />
       </list>
     </option>
   </component>
@@ -630,22 +503,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="force_system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="force_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -662,12 +525,6 @@
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pbd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pose_system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -686,12 +543,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tf_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vision_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vision_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vision_visp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vision_visp" type="462c0819:PsiDirectoryNode" />
+              <item name="visp_auto_tracker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vision_visp" type="462c0819:PsiDirectoryNode" />
+              <item name="visp_auto_tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -727,7 +612,42 @@
     </option>
   </component>
   <component name="RunManager" selected="ROS Launch.record_trajectory (1)">
+    <configuration name="_aruco_msgs_generate_messages_check_deps_Marker" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_aruco_msgs_generate_messages_check_deps_Marker" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_aruco_msgs_generate_messages_check_deps_MarkerArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_aruco_msgs_generate_messages_check_deps_MarkerArray" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_catkin_empty_exported_target" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_catkin_empty_exported_target" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_easy_handeye_generate_messages_check_deps_ComputeCalibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_easy_handeye_generate_messages_check_deps_ComputeCalibration" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_easy_handeye_generate_messages_check_deps_HandeyeCalibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_easy_handeye_generate_messages_check_deps_HandeyeCalibration" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_easy_handeye_generate_messages_check_deps_RemoveSample" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_easy_handeye_generate_messages_check_deps_RemoveSample" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_easy_handeye_generate_messages_check_deps_SampleList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_easy_handeye_generate_messages_check_deps_SampleList" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_easy_handeye_generate_messages_check_deps_TakeSample" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_easy_handeye_generate_messages_check_deps_TakeSample" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -972,6 +892,76 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="aruco" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_gencpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_generate_messages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_generate_messages" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_geneus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_geneus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_genlisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_genlisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_gennodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_gennodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_msgs_genpy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_msgs_genpy" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_ros_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_ros_gencfg" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aruco_ros_utils" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="aruco_ros_utils" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="assembly_base_frame_pub" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="assembly_base_frame_pub" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="assembly_base_frame_pub">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1087,6 +1077,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="double" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="double" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="double">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="download_extra_data" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1123,6 +1118,61 @@
       </method>
     </configuration>
     <configuration name="dynamic_reconfigure_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="dynamic_reconfigure_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_gencpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_generate_messages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_generate_messages" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_geneus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_geneus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_genlisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_genlisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_gennodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_gennodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy_handeye_genpy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="easy_handeye_genpy" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1203,6 +1253,11 @@
       </method>
     </configuration>
     <configuration name="manualcalibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="manualcalibration" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="manualcalibration">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="marker_publisher" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="marker_publisher" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="marker_publisher">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1423,6 +1478,11 @@
       </method>
     </configuration>
     <configuration name="octomap_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="octomap_msgs_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="optimalmarkers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="optimalmarkers" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="optimalmarkers">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1653,6 +1713,11 @@
       </method>
     </configuration>
     <configuration name="showImage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="showImage" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="showImage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="single" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="single" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="single">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -2244,13 +2309,14 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="CMake Application._aruco_msgs_generate_messages_check_deps_MarkerArray" />
+      <item itemvalue="CMake Application._aruco_msgs_generate_messages_check_deps_Marker" />
       <item itemvalue="CMake Application._catkin_empty_exported_target" />
-      <item itemvalue="CMake Application.getjointstate" />
-      <item itemvalue="CMake Application.manual_eye_in_hand" />
-      <item itemvalue="CMake Application.manualcalibration" />
-      <item itemvalue="CMake Application.pubboardextImage" />
-      <item itemvalue="CMake Application.shadow_calibration" />
-      <item itemvalue="CMake Application.showImage" />
+      <item itemvalue="CMake Application._easy_handeye_generate_messages_check_deps_ComputeCalibration" />
+      <item itemvalue="CMake Application._easy_handeye_generate_messages_check_deps_HandeyeCalibration" />
+      <item itemvalue="CMake Application._easy_handeye_generate_messages_check_deps_RemoveSample" />
+      <item itemvalue="CMake Application._easy_handeye_generate_messages_check_deps_SampleList" />
+      <item itemvalue="CMake Application._easy_handeye_generate_messages_check_deps_TakeSample" />
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_Cancel" />
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_GetDouble" />
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_SetBias" />
@@ -2260,6 +2326,8 @@
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_SetToolData" />
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_StartSim" />
       <item itemvalue="CMake Application._netft_utils_generate_messages_check_deps_StopSim" />
+      <item itemvalue="CMake Application._realsense2_camera_generate_messages_check_deps_Extrinsics" />
+      <item itemvalue="CMake Application._realsense2_camera_generate_messages_check_deps_IMUInfo" />
       <item itemvalue="CMake Application._tf_system_generate_messages_check_deps_Trans_angle_axis" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_Analog" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_Digital" />
@@ -2270,6 +2338,23 @@
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_SetIO" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_SetPayload" />
       <item itemvalue="CMake Application._ur_msgs_generate_messages_check_deps_ToolDataMsg" />
+      <item itemvalue="CMake Application._visp_camera_calibration_generate_messages_check_deps_CalibPointArray" />
+      <item itemvalue="CMake Application._visp_camera_calibration_generate_messages_check_deps_CalibPoint" />
+      <item itemvalue="CMake Application._visp_camera_calibration_generate_messages_check_deps_ImageAndPoints" />
+      <item itemvalue="CMake Application._visp_camera_calibration_generate_messages_check_deps_ImagePoint" />
+      <item itemvalue="CMake Application._visp_camera_calibration_generate_messages_check_deps_calibrate" />
+      <item itemvalue="CMake Application._visp_hand2eye_calibration_generate_messages_check_deps_TransformArray" />
+      <item itemvalue="CMake Application._visp_hand2eye_calibration_generate_messages_check_deps_compute_effector_camera" />
+      <item itemvalue="CMake Application._visp_hand2eye_calibration_generate_messages_check_deps_compute_effector_camera_quick" />
+      <item itemvalue="CMake Application._visp_hand2eye_calibration_generate_messages_check_deps_reset" />
+      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_Init" />
+      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_KltPoint" />
+      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_KltPoints" />
+      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_KltSettings" />
+      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_MovingEdgeSettings" />
+      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_MovingEdgeSite" />
+      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_MovingEdgeSites" />
+      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_TrackerSettings" />
       <item itemvalue="CMake Application.actionlib_generate_messages_cpp" />
       <item itemvalue="CMake Application.actionlib_generate_messages_eus" />
       <item itemvalue="CMake Application.actionlib_generate_messages_lisp" />
@@ -2280,8 +2365,28 @@
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.aruco" />
+      <item itemvalue="CMake Application.aruco_msgs_gencpp" />
+      <item itemvalue="CMake Application.aruco_msgs_generate_messages" />
+      <item itemvalue="CMake Application.aruco_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.aruco_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.aruco_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.aruco_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.aruco_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.aruco_msgs_geneus" />
+      <item itemvalue="CMake Application.aruco_msgs_genlisp" />
+      <item itemvalue="CMake Application.aruco_msgs_gennodejs" />
+      <item itemvalue="CMake Application.aruco_msgs_genpy" />
+      <item itemvalue="CMake Application.aruco_ros_gencfg" />
+      <item itemvalue="CMake Application.aruco_ros_utils" />
       <item itemvalue="CMake Application.assembly_base_frame_pub" />
+      <item itemvalue="CMake Application.auto_tracker" />
       <item itemvalue="CMake Application.averaged_calibrated_force_repub" />
+      <item itemvalue="CMake Application.bond_generate_messages_cpp" />
+      <item itemvalue="CMake Application.bond_generate_messages_eus" />
+      <item itemvalue="CMake Application.bond_generate_messages_lisp" />
+      <item itemvalue="CMake Application.bond_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.bond_generate_messages_py" />
       <item itemvalue="CMake Application.control_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.control_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.control_msgs_generate_messages_lisp" />
@@ -2297,6 +2402,7 @@
       <item itemvalue="CMake Application.diagnostic_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.diagnostic_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.diagnostic_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.double" />
       <item itemvalue="CMake Application.download_extra_data" />
       <item itemvalue="CMake Application.doxygen" />
       <item itemvalue="CMake Application.dynamic_reconfigure_gencfg" />
@@ -2305,40 +2411,34 @@
       <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_lisp" />
       <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_nodejs" />
       <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_py" />
-      <item itemvalue="CMake Application.nav_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.nav_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.nav_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.nav_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.nav_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.nodelet_generate_messages_cpp" />
-      <item itemvalue="CMake Application.nodelet_generate_messages_eus" />
-      <item itemvalue="CMake Application.nodelet_generate_messages_lisp" />
-      <item itemvalue="CMake Application.nodelet_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.nodelet_generate_messages_py" />
-      <item itemvalue="CMake Application.realsense2_camera" />
-      <item itemvalue="CMake Application.realsense2_camera_gencpp" />
-      <item itemvalue="CMake Application.realsense2_camera_generate_messages" />
-      <item itemvalue="CMake Application.realsense2_camera_generate_messages_cpp" />
-      <item itemvalue="CMake Application.realsense2_camera_generate_messages_eus" />
-      <item itemvalue="CMake Application.realsense2_camera_generate_messages_lisp" />
-      <item itemvalue="CMake Application.realsense2_camera_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.realsense2_camera_generate_messages_py" />
-      <item itemvalue="CMake Application.realsense2_camera_geneus" />
-      <item itemvalue="CMake Application.realsense2_camera_genlisp" />
-      <item itemvalue="CMake Application.realsense2_camera_gennodejs" />
-      <item itemvalue="CMake Application.realsense2_camera_genpy" />
+      <item itemvalue="CMake Application.easy_handeye_gencpp" />
+      <item itemvalue="CMake Application.easy_handeye_generate_messages" />
+      <item itemvalue="CMake Application.easy_handeye_generate_messages_cpp" />
+      <item itemvalue="CMake Application.easy_handeye_generate_messages_eus" />
+      <item itemvalue="CMake Application.easy_handeye_generate_messages_lisp" />
+      <item itemvalue="CMake Application.easy_handeye_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.easy_handeye_generate_messages_py" />
+      <item itemvalue="CMake Application.easy_handeye_geneus" />
+      <item itemvalue="CMake Application.easy_handeye_genlisp" />
+      <item itemvalue="CMake Application.easy_handeye_gennodejs" />
+      <item itemvalue="CMake Application.easy_handeye_genpy" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.getjointstate" />
       <item itemvalue="CMake Application.gravity_compensated_force_repub" />
+      <item itemvalue="CMake Application.image_proc_gencfg" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.industrial_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.lpfilter" />
+      <item itemvalue="CMake Application.manual_eye_in_hand" />
+      <item itemvalue="CMake Application.manualcalibration" />
+      <item itemvalue="CMake Application.marker_publisher" />
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_lisp" />
@@ -2346,6 +2446,11 @@
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.moveit_ros_manipulation_gencfg" />
       <item itemvalue="CMake Application.moveit_ros_planning_gencfg" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.netft_node" />
       <item itemvalue="CMake Application.netft_rdt_driver" />
       <item itemvalue="CMake Application.netft_utils" />
@@ -2363,6 +2468,11 @@
       <item itemvalue="CMake Application.netft_utils_genpy" />
       <item itemvalue="CMake Application.netft_utils_lean" />
       <item itemvalue="CMake Application.netft_utils_sim" />
+      <item itemvalue="CMake Application.nodelet_generate_messages_cpp" />
+      <item itemvalue="CMake Application.nodelet_generate_messages_eus" />
+      <item itemvalue="CMake Application.nodelet_generate_messages_lisp" />
+      <item itemvalue="CMake Application.nodelet_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.nodelet_generate_messages_py" />
       <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_lisp" />
@@ -2373,20 +2483,27 @@
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.optimalmarkers" />
       <item itemvalue="CMake Application.point_cloud_preprocess" />
       <item itemvalue="CMake Application.process_control" />
       <item itemvalue="CMake Application.pub_ati_current_pose" />
       <item itemvalue="CMake Application.pub_current_pose" />
       <item itemvalue="CMake Application.pub_ref_traj" />
-      <item itemvalue="CMake Application._realsense2_camera_generate_messages_check_deps_Extrinsics" />
-      <item itemvalue="CMake Application._realsense2_camera_generate_messages_check_deps_IMUInfo" />
-      <item itemvalue="CMake Application.bond_generate_messages_cpp" />
-      <item itemvalue="CMake Application.bond_generate_messages_eus" />
-      <item itemvalue="CMake Application.bond_generate_messages_lisp" />
-      <item itemvalue="CMake Application.bond_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.bond_generate_messages_py" />
       <item itemvalue="CMake Application.pub_tool0_target_frame" />
+      <item itemvalue="CMake Application.pubboardextImage" />
       <item itemvalue="CMake Application.quaternion2angle_axis" />
+      <item itemvalue="CMake Application.realsense2_camera" />
+      <item itemvalue="CMake Application.realsense2_camera_gencpp" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages_cpp" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages_eus" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages_lisp" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.realsense2_camera_generate_messages_py" />
+      <item itemvalue="CMake Application.realsense2_camera_geneus" />
+      <item itemvalue="CMake Application.realsense2_camera_genlisp" />
+      <item itemvalue="CMake Application.realsense2_camera_gennodejs" />
+      <item itemvalue="CMake Application.realsense2_camera_genpy" />
       <item itemvalue="CMake Application.record" />
       <item itemvalue="CMake Application.replay_go_to_origin" />
       <item itemvalue="CMake Application.replay_traj" />
@@ -2401,85 +2518,19 @@
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.scan_scene_to_pcd" />
-      <item itemvalue="CMake Application.auto_tracker" />
-      <item itemvalue="CMake Application.visp_auto_tracker" />
-      <item itemvalue="CMake Application.visp_auto_tracker_cmd_line" />
-      <item itemvalue="CMake Application.visp_bridge" />
-      <item itemvalue="CMake Application.visp_bridge_convert_camera_parameters" />
-      <item itemvalue="CMake Application._visp_camera_calibration_generate_messages_check_deps_CalibPoint" />
-      <item itemvalue="CMake Application._visp_camera_calibration_generate_messages_check_deps_CalibPointArray" />
-      <item itemvalue="CMake Application._visp_camera_calibration_generate_messages_check_deps_calibrate" />
-      <item itemvalue="CMake Application._visp_camera_calibration_generate_messages_check_deps_ImageAndPoints" />
-      <item itemvalue="CMake Application._visp_camera_calibration_generate_messages_check_deps_ImagePoint" />
-      <item itemvalue="CMake Application.visp_camera_calibration_calibrator" />
-      <item itemvalue="CMake Application.visp_camera_calibration_camera" />
-      <item itemvalue="CMake Application.visp_camera_calibration_common" />
-      <item itemvalue="CMake Application.visp_camera_calibration_gencpp" />
-      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages" />
-      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages_cpp" />
-      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages_eus" />
-      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages_lisp" />
-      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages_py" />
-      <item itemvalue="CMake Application.visp_camera_calibration_geneus" />
-      <item itemvalue="CMake Application.visp_camera_calibration_genlisp" />
-      <item itemvalue="CMake Application.visp_camera_calibration_gennodejs" />
-      <item itemvalue="CMake Application.visp_camera_calibration_genpy" />
-      <item itemvalue="CMake Application.visp_camera_calibration_image_processing" />
-      <item itemvalue="CMake Application._visp_hand2eye_calibration_generate_messages_check_deps_compute_effector_camera" />
-      <item itemvalue="CMake Application._visp_hand2eye_calibration_generate_messages_check_deps_compute_effector_camera_quick" />
-      <item itemvalue="CMake Application._visp_hand2eye_calibration_generate_messages_check_deps_reset" />
-      <item itemvalue="CMake Application._visp_hand2eye_calibration_generate_messages_check_deps_TransformArray" />
-      <item itemvalue="CMake Application.image_proc_gencfg" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_calibrator" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_client" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_common" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_gencpp" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages_cpp" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages_eus" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages_lisp" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages_py" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_geneus" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_genlisp" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_gennodejs" />
-      <item itemvalue="CMake Application.visp_hand2eye_calibration_genpy" />
-      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_Init" />
-      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_KltPoint" />
-      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_KltPoints" />
-      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_KltSettings" />
-      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_MovingEdgeSettings" />
-      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_MovingEdgeSite" />
-      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_MovingEdgeSites" />
-      <item itemvalue="CMake Application._visp_tracker_generate_messages_check_deps_TrackerSettings" />
-      <item itemvalue="CMake Application.tracker" />
-      <item itemvalue="CMake Application.trackerNodelet" />
-      <item itemvalue="CMake Application.visp_tracker" />
-      <item itemvalue="CMake Application.visp_tracker_client" />
-      <item itemvalue="CMake Application.visp_tracker_gencfg" />
-      <item itemvalue="CMake Application.visp_tracker_gencpp" />
-      <item itemvalue="CMake Application.visp_tracker_generate_messages" />
-      <item itemvalue="CMake Application.visp_tracker_generate_messages_cpp" />
-      <item itemvalue="CMake Application.visp_tracker_generate_messages_eus" />
-      <item itemvalue="CMake Application.visp_tracker_generate_messages_lisp" />
-      <item itemvalue="CMake Application.visp_tracker_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.visp_tracker_generate_messages_py" />
-      <item itemvalue="CMake Application.visp_tracker_geneus" />
-      <item itemvalue="CMake Application.visp_tracker_genlisp" />
-      <item itemvalue="CMake Application.visp_tracker_gennodejs" />
-      <item itemvalue="CMake Application.visp_tracker_genpy" />
-      <item itemvalue="CMake Application.visp_tracker_viewer" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.shadow_calibration" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.showImage" />
+      <item itemvalue="CMake Application.single" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_lisp" />
@@ -2516,6 +2567,8 @@
       <item itemvalue="CMake Application.topic_tools_generate_messages_lisp" />
       <item itemvalue="CMake Application.topic_tools_generate_messages_nodejs" />
       <item itemvalue="CMake Application.topic_tools_generate_messages_py" />
+      <item itemvalue="CMake Application.trackerNodelet" />
+      <item itemvalue="CMake Application.tracker" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_lisp" />
@@ -2541,6 +2594,54 @@
       <item itemvalue="CMake Application.ur_msgs_genlisp" />
       <item itemvalue="CMake Application.ur_msgs_gennodejs" />
       <item itemvalue="CMake Application.ur_msgs_genpy" />
+      <item itemvalue="CMake Application.visp_auto_tracker" />
+      <item itemvalue="CMake Application.visp_auto_tracker_cmd_line" />
+      <item itemvalue="CMake Application.visp_bridge" />
+      <item itemvalue="CMake Application.visp_bridge_convert_camera_parameters" />
+      <item itemvalue="CMake Application.visp_camera_calibration_calibrator" />
+      <item itemvalue="CMake Application.visp_camera_calibration_camera" />
+      <item itemvalue="CMake Application.visp_camera_calibration_common" />
+      <item itemvalue="CMake Application.visp_camera_calibration_gencpp" />
+      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages" />
+      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages_cpp" />
+      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages_eus" />
+      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages_lisp" />
+      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.visp_camera_calibration_generate_messages_py" />
+      <item itemvalue="CMake Application.visp_camera_calibration_geneus" />
+      <item itemvalue="CMake Application.visp_camera_calibration_genlisp" />
+      <item itemvalue="CMake Application.visp_camera_calibration_gennodejs" />
+      <item itemvalue="CMake Application.visp_camera_calibration_genpy" />
+      <item itemvalue="CMake Application.visp_camera_calibration_image_processing" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_calibrator" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_client" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_common" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_gencpp" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages_cpp" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages_eus" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages_lisp" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_generate_messages_py" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_geneus" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_genlisp" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_gennodejs" />
+      <item itemvalue="CMake Application.visp_hand2eye_calibration_genpy" />
+      <item itemvalue="CMake Application.visp_tracker" />
+      <item itemvalue="CMake Application.visp_tracker_client" />
+      <item itemvalue="CMake Application.visp_tracker_gencfg" />
+      <item itemvalue="CMake Application.visp_tracker_gencpp" />
+      <item itemvalue="CMake Application.visp_tracker_generate_messages" />
+      <item itemvalue="CMake Application.visp_tracker_generate_messages_cpp" />
+      <item itemvalue="CMake Application.visp_tracker_generate_messages_eus" />
+      <item itemvalue="CMake Application.visp_tracker_generate_messages_lisp" />
+      <item itemvalue="CMake Application.visp_tracker_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.visp_tracker_generate_messages_py" />
+      <item itemvalue="CMake Application.visp_tracker_geneus" />
+      <item itemvalue="CMake Application.visp_tracker_genlisp" />
+      <item itemvalue="CMake Application.visp_tracker_gennodejs" />
+      <item itemvalue="CMake Application.visp_tracker_genpy" />
+      <item itemvalue="CMake Application.visp_tracker_viewer" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_lisp" />
@@ -2604,7 +2705,9 @@
       <workItem from="1568814152834" duration="1772000" />
       <workItem from="1569211410396" duration="9428000" />
       <workItem from="1570540075861" duration="1143000" />
-      <workItem from="1570589163660" duration="10205000" />
+      <workItem from="1570589163660" duration="12563000" />
+      <workItem from="1570693524037" duration="5668000" />
+      <workItem from="1570772688068" duration="1907000" />
     </task>
     <task id="LOCAL-00001" summary="test clion git">
       <created>1564562420341</created>
@@ -2680,13 +2783,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255817000" />
+    <option name="totallyTimeSpent" value="265750000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1984" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39745715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4074074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2909,16 +3012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pbd/src/process_control.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
@@ -2970,47 +3063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="48" column="87" selection-start-line="48" selection-start-column="87" selection-end-line="48" selection-end-column="87" />
-          <folding>
-            <element signature="e#43#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/src/record.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding>
-            <element signature="e#43#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pose_system/src/pub_ref_traj.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding>
-            <element signature="e#43#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2927">
-          <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#122#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -3020,9 +3072,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/launch/ur_system.launch">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/force_system/src/averaged_calibrated_force_repub.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -3040,11 +3089,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pbd/src/replay_traj.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="798">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#90#110#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pose_system/src/pub_ref_traj.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="e#43#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/src/record.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#43#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#122#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_system/src/pub_tool0_target_frame.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#43#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tracklive_usb.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aruco_ros/aruco_ros/src/simple_single.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="230" column="29" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/launch/ur_system.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

@@ -90,8 +90,9 @@ int main(int argc, char** argv)
 		ros::spinOnce();
 		//get board poseture
 		tf::StampedTransform markerPoseture;
+
 		markerSuccess=findBoardPoseture("/calibration_board" ,
-				"/camera_rgb_optical_frame",&markerPoseture);
+				"/camera_color_optical_frame",&markerPoseture);
 		moveitSuccess=true;
 		cout<<"moveitsuccess= "<<moveitSuccess<<endl;
 		cout<<"boardsuccess= "<<markerSuccess<<endl;

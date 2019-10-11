@@ -11,7 +11,7 @@ void cloudCB(const pcl::PCLPointCloud2ConstPtr& input)
   pcl::PointCloud<pcl::PointXYZ> cloud;  
 //  pcl::fromROSMsg(input, cloud);//从ROS类型消息转为PCL类型消息  
   pcl::fromPCLPointCloud2(*input, cloud);//从ROS类型消息转为PCL类型消息  
-  pcl::io::savePCDFileASCII ("assembly_base.pcd", cloud);//保存pcd  
+  pcl::io::savePCDFileASCII ("scene.pcd", cloud);//保存pcd
 }  
 main (int argc, char **argv)  
 {  

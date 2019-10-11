@@ -34,6 +34,7 @@ int width ,height, squaresize;
 CAMERA_INTRINSIC_PARAMETERS camera;
 string  camera_dataPath;
 string  image_topic;
+string camera_optical_frame;
 SpacialPoint spoint1,spoint2,spoint3;
 ImagePoint point1,point2,point3;
 class ImageConverter
@@ -69,7 +70,7 @@ public:
       return;
     }
     Mat image=cv_ptr->image;
-    tf::StampedTransform boardPoseture=getCurrentPose("/camera_rgb_optical_frame","/calibration_board" );
+    tf::StampedTransform boardPoseture=getCurrentPose(camera_optical_frame,"/calibration_board" );
 
      Mat transform=stampedTransform2Mat(boardPoseture);
      point1=projectPoint(camera,spoint1,transform);
@@ -91,9 +92,9 @@ int main(int argc, char** argv)
 
   ros::init(argc, argv, "showImage");
   ros::start();
-    if(argc != 6)
+    if(argc != 7)
          {
-             cerr << endl << "Usage: rosrun autocalibration  showImage   width  height  squaresize cameradata image_topic" << endl;
+             cerr << endl << "Usage: rosrun autocalibration  showImage   width  height  squaresize cameradata image_topic camera_optical_frame" << endl;
              ros::shutdown();
              return 1;
          }
@@ -102,6 +103,7 @@ int main(int argc, char** argv)
        squaresize=atoi(argv[3]);
       camera_dataPath=argv[4];
 	  image_topic=argv[5];
+	  camera_optical_frame = argv[6];
       Mat cameraMatrix;
       FileStorage fs(camera_dataPath,FileStorage::READ);
                fs["camera_matrix"]>>cameraMatrix;
