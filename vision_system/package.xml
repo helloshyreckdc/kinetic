@@ -56,6 +56,7 @@
   <build_depend>tf2</build_depend>
   <build_depend>tf2_ros</build_depend>
   <build_depend>tf</build_depend>
+  <build_depend>visp_bridge</build_depend>
   <build_depend>tf_system</build_depend>
   <build_export_depend>moveit_ros_planning_interface</build_export_depend>
   <build_export_depend>roscpp</build_export_depend>
@@ -63,6 +64,7 @@
   <build_export_depend>std_msgs</build_export_depend>
   <build_export_depend>tf2</build_export_depend>
   <build_export_depend>tf</build_export_depend>
+  <build_export_depend>visp_bridge</build_export_depend>
   <build_export_depend>tf_system</build_export_depend>
   <build_export_depend>tf2_ros</build_export_depend>
   <exec_depend>moveit_ros_planning_interface</exec_depend>
@@ -70,6 +72,7 @@
   <exec_depend>rospy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>tf</exec_depend>
+  <exec_depend>visp_bridge</exec_depend>
   <exec_depend>tf_system</exec_depend>
   <exec_depend>tf2</exec_depend>
   <exec_depend>tf2_ros</exec_depend>

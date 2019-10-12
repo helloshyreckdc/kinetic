@@ -23,6 +23,7 @@ find_package(catkin REQUIRED COMPONENTS
         tf2_ros
         tf
         tf_system
+        visp_bridge
         )
 
 ## System dependencies are found with CMake's conventions
@@ -34,6 +35,7 @@ link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
 
+set(CMAKE_CXX_STANDARD 11)
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
 ## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html
@@ -122,7 +124,7 @@ add_definitions(${PCL_DEFINITIONS})
 catkin_package(
            INCLUDE_DIRS include
         #  LIBRARIES vision_system
-          CATKIN_DEPENDS moveit_ros_planning_interface roscpp rospy std_msgs tf tf2 tf2_ros tf_system
+          CATKIN_DEPENDS moveit_ros_planning_interface roscpp rospy std_msgs tf tf2 tf2_ros tf_system visp_bridge
         #  DEPENDS system_lib
 )
 
@@ -223,4 +225,8 @@ add_dependencies(point_cloud_preprocess tf_system_generate_messages_cpp)
 add_executable(scan_scene_to_pcd src/scan_scene_to_pcd.cpp)
 target_link_libraries(scan_scene_to_pcd ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(scan_scene_to_pcd tf_system_generate_messages_cpp)
+
+add_executable(image_viewer src/image_viewer.cpp)
+target_link_libraries(image_viewer ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(image_viewer tf_system_generate_messages_cpp)
 

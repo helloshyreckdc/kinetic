@@ -1,0 +1,22 @@
+<!-- -*- xml -*- -->
+<launch>
+<param name="/camera_prefix" type="string" value="/vrep" />
+		
+  <!-- Launch the tracking node -->
+  <node pkg="visp_auto_tracker" type="visp_auto_tracker" name="visp_auto_tracker">
+    <param name="model_path" type="string" value="$(find visp_auto_tracker)/models" />
+    <param name="model_name" type="string" value="pattern" />
+    <param name="debug_display" value="True" />
+	      
+    <remap from="/visp_auto_tracker/camera_info" to="vrep/camera_info"/>
+    <remap from="/visp_auto_tracker/image_raw" to="vrep/image_rect"/>	
+  </node>
+
+  <!-- % rosrun demo_pioneer demo_pioneer_visual_servo_pioneer_node --> 
+  <node respawn="true" pkg="demo_pioneer" type="demo_pioneer_visual_servo_pioneer_node" name="demo_pioneer_visual_servo_pioneer_node" output="screen">
+     <remap from="/object_position" to="/visp_auto_tracker/object_position" />
+     <remap from="/vs/pioneer/cmd_vel" to="/cmd_vel" />
+    <remap from="/camera_info" to="/vrep/camera_info"/>
+  </node>
+ 
+</launch>
