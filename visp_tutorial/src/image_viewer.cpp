@@ -25,14 +25,20 @@ int main(int argc, char **argv)
     try {
 #if defined(VISP_HAVE_X11)
         vpDisplayX d(I, vpDisplay::SCALE_AUTO);
+        std::cout << "test0" << std::endl;
 #elif defined(VISP_HAVE_GDI)
         vpDisplayGDI d(I, vpDisplay::SCALE_AUTO);
+    std::cout << "test1" << std::endl;
 #elif defined(VISP_HAVE_OPENCV)
         vpDisplayOpenCV d(I, vpDisplay::SCALE_AUTO);
+    std::cout << "test2" << std::endl;
 #elif defined(VISP_HAVE_GTK)
         vpDisplayGTK d(I, vpDisplay::SCALE_AUTO);
+    std::cout << "test3" << std::endl;
 #elif defined(VISP_HAVE_D3D9)
         vpDisplayD3d d(I, vpDisplay::SCALE_AUTO);
+    std::cout << "test4" << std::endl;
+
 #else
         std::cout << "No image viewer is available..." << std::endl;
 #endif

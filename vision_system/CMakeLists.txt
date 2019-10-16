@@ -226,7 +226,4 @@ add_executable(scan_scene_to_pcd src/scan_scene_to_pcd.cpp)
 target_link_libraries(scan_scene_to_pcd ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(scan_scene_to_pcd tf_system_generate_messages_cpp)
 
-add_executable(image_viewer src/image_viewer.cpp)
-target_link_libraries(image_viewer ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-add_dependencies(image_viewer tf_system_generate_messages_cpp)
 

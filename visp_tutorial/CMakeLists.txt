@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(demo_pioneer)
+project(visp_tutorial)
+add_compile_options(-std=c++11)
+#set(CMAKE_CXX_STANDARD 11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -10,8 +12,10 @@ find_package(catkin REQUIRED COMPONENTS
   visp_bridge
 )
 
+find_package(Boost REQUIRED
+        COMPONENTS filesystem system signals regex date_time program_options thread)
+
 # Since visp_bridge doesn't propagate CMAKE_CXX_STANDARD we add the following line
-set(CMAKE_CXX_STANDARD 11)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -99,6 +103,7 @@ catkin_package(
 ## Your package locations should be listed before other locations
 include_directories(
   ${catkin_INCLUDE_DIRS}
+        ${Boost_INCLUDE_DIRS}
   )
 
 ## Declare a cpp library
@@ -111,7 +116,17 @@ add_executable(demo_pioneer_joy2twist_pioneer_node src/joy2twist_pioneer.cpp)
 add_executable(demo_pioneer_joy2twist_pioneer_pan_node src/joy2twist_pioneer_pan.cpp)
 add_executable(demo_pioneer_visual_servo_pioneer_node src/visual_servo_pioneer.cpp)
 add_executable(demo_pioneer_visual_servo_pioneer_pan_node src/visual_servo_pioneer_pan.cpp)
-add_executable(tutorial_viewer src/tutorial_viewer.cpp)
+
+add_executable(image_viewer src/image_viewer.cpp)
+add_executable(tutorial_ibvs_4pts src/ibvs/tutorial_ibvs_4pts.cpp)
+add_executable(tutorial_ibvs_4pts_display src/ibvs/tutorial_ibvs_4pts_display.cpp)
+add_executable(tutorial_ibvs_4pts_wireframe_camera src/ibvs/tutorial_ibvs_4pts_wireframe_camera.cpp)
+add_executable(tutorial_ibvs_4pts_wireframe_robot_viper src/ibvs/tutorial_ibvs_4pts_wireframe_robot_viper.cpp)
+add_executable(tutorial_blob_tracker_live_camera src/ibvs/tutorial_blob_tracker_live_camera.cpp)
+add_executable(tutorial_blob_auto_detection_and_tracking src/ibvs/tutorial_blob_auto_detection_and_tracking.cpp)
+add_executable(tutorial_ibvs_4pts_image_tracking src/ibvs/tutorial_ibvs_4pts_image_tracking.cpp)
+add_executable(servo_pbvs src/ibvs/servo_pbvs.cpp)
+
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
@@ -122,7 +137,19 @@ target_link_libraries(demo_pioneer_joy2twist_pioneer_node ${catkin_LIBRARIES})
 target_link_libraries(demo_pioneer_joy2twist_pioneer_pan_node ${catkin_LIBRARIES})
 target_link_libraries(demo_pioneer_visual_servo_pioneer_node ${catkin_LIBRARIES})
 target_link_libraries(demo_pioneer_visual_servo_pioneer_pan_node ${catkin_LIBRARIES})
-target_link_libraries(tutorial_viewer ${catkin_LIBRARIES})
+
+target_link_libraries(image_viewer ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(tutorial_ibvs_4pts ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(tutorial_ibvs_4pts_display ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(tutorial_ibvs_4pts_wireframe_camera ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(tutorial_ibvs_4pts_wireframe_robot_viper ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(tutorial_ibvs_4pts_image_tracking ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(tutorial_blob_tracker_live_camera ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(tutorial_blob_auto_detection_and_tracking ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(servo_pbvs ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+
+
+
 
 #############
 ## Install ##
@@ -176,4 +203,4 @@ install(FILES
 # endif()
 
 ## Add folders to be run by python nosetests
-# catkin_add_nosetests(test)
+# catkin_add_nosetest(test)

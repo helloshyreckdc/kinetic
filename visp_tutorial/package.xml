@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>demo_pioneer</name>
+  <name>visp_tutorial</name>
   <version>1.0.0</version>
   <description>
     Shows how to implement visual servoing schemes in order 
