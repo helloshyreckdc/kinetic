@@ -226,4 +226,6 @@ add_executable(pub_ref_traj src/pub_ref_traj.cpp)
 target_link_libraries(pub_ref_traj ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(pub_ref_traj tf_system_generate_messages_cpp)
 
-
+add_executable(pub_sr300_pose src/pub_sr300_pose.cpp)
+target_link_libraries(pub_sr300_pose ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(pub_sr300_pose tf_system_generate_messages_cpp)

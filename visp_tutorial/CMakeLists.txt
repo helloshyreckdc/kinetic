@@ -10,6 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
   rosconsole
   roscpp
   visp_bridge
+        pbd
 )
 
 find_package(Boost REQUIRED
@@ -92,6 +93,7 @@ catkin_package(
     rosconsole
     roscpp
     visp_bridge
+        pbd
 #  DEPENDS system_lib
 )
 

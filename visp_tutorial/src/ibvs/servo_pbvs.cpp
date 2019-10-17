@@ -1,38 +1,3 @@
-/****************************************************************************
- *
- * ViSP, open source Visual Servoing Platform software.
- * Copyright (C) 2005 - 2019 by Inria. All rights reserved.
- *
- * This software is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
- * See the file LICENSE.txt at the root directory of this source
- * distribution for additional information about the GNU GPL.
- *
- * For using ViSP with software that can not be combined with the GNU
- * GPL, please contact Inria about acquiring a ViSP Professional
- * Edition License.
- *
- * See http://visp.inria.fr for more information.
- *
- * This software was developed at:
- * Inria Rennes - Bretagne Atlantique
- * Campus Universitaire de Beaulieu
- * 35042 Rennes Cedex
- * France
- *
- * If you have questions regarding the use of this file, please contact
- * Inria at visp@inria.fr
- *
- * This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
- * WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
- *
- * Description:
- * Data acquisition with RealSense RGB-D sensor and Franka robot.
- *
- *****************************************************************************/
-
 #include <ros/ros.h>
 
 #include <std_msgs/String.h>
@@ -57,15 +22,32 @@
 #include <sensor_msgs/Image.h>
 #include <sensor_msgs/CameraInfo.h>
 
-#include <boost/thread.hpp>
+
+#include <geometry_msgs/Twist.h>
+#include <pbd/to_string.h>
+
 
 vpImage<vpRGBa> Irgb;
 vpImage<unsigned char> I;
 vpCameraParameters cam;
+geometry_msgs::Twist tool0_vel;
+std_msgs::String ur_string;
 
 void frameCallback(const sensor_msgs::ImageConstPtr& image){
     Irgb = visp_bridge::toVispImageRGBa(*image);
     vpImageConvert::convert(Irgb,I);
+}
+
+void tool0velCallback(const geometry_msgs::Twist& msg){
+    std::string s = "speedl(["
+                    +to_string(msg.linear.x)+","
+                    +to_string(msg.linear.y)+","
+                    +to_string(msg.linear.z)+","
+                    +to_string(msg.angular.x)+","
+                    +to_string(msg.angular.y)+","
+                    +to_string(msg.angular.z)
+                    +"],0.5,1)";
+    ur_string.data = s;
 }
 
 void camInfoCallback(const sensor_msgs::CameraInfoConstPtr& cam_info) {
@@ -98,11 +80,21 @@ int main(int argc, char **argv)
     ros::init (argc, argv, "servo_pbvs");
     ros::NodeHandle nh;
 
-    ros::Subscriber image_sub = nh.subscribe("/camera/color/image_raw",1,frameCallback);
-    ros::Subscriber cam_sub = nh.subscribe("/camera/color/camera_info",1,camInfoCallback);
+    ros::Subscriber image_sub = nh.subscribe("/sr300/color/image_raw",1,frameCallback);
+    ros::Subscriber cam_sub = nh.subscribe("/sr300/color/camera_info",1,camInfoCallback);
+    ros::Subscriber visual_serbo_vel_sub = nh.subscribe("/visual_servo/ur/velocity",1,tool0velCallback);
     ros::Publisher vel_pub = nh.advertise<std_msgs::String>("/ur_driver/URScript",10);
+    ros::Publisher sr300_vel_pub = nh.advertise<geometry_msgs::Twist>("/sr300_vel",10);
 
-    std_msgs::String ur_string;
+    geometry_msgs::Twist sr300_vel;
+
+    //initialization
+    tool0_vel.linear.x = 0;
+    tool0_vel.linear.y = 0;
+    tool0_vel.linear.z = 0;
+    tool0_vel.angular.x = 0;
+    tool0_vel.angular.y = 0;
+    tool0_vel.angular.z = 0;
 
     ros::Duration(2).sleep();
 
@@ -309,6 +301,7 @@ int main(int argc, char **argv)
 					v_c = task.computeControlLaw();
 				}
 
+
 				// Display desired and current pose features
 				vpDisplay::displayFrame(I, cdMo * oMo, cam, opt_tagSize / 1.5, vpColor::yellow, 2);
 				vpDisplay::displayFrame(I, cMo,  cam, opt_tagSize / 2,   vpColor::none,   3);
@@ -365,7 +358,17 @@ int main(int argc, char **argv)
 				v_c = 0;
 			}
 
+            sr300_vel.linear.x = v_c[0];
+            sr300_vel.linear.y = v_c[1];
+            sr300_vel.linear.z = v_c[2];
+            sr300_vel.angular.x = v_c[3];
+            sr300_vel.angular.y = v_c[4];
+            sr300_vel.angular.z = v_c[5];
+            sr300_vel_pub.publish(sr300_vel);
+
 			// Send to the robot, here send velocity to ur
+			ros::spinOnce();
+			vel_pub.publish(ur_string);
 //			robot.setVelocity(vpRobot::CAMERA_FRAME, v_c);
 
 			ss.str("");
