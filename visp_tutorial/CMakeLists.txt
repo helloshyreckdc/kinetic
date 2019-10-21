@@ -128,6 +128,7 @@ add_executable(tutorial_blob_tracker_live_camera src/ibvs/tutorial_blob_tracker_
 add_executable(tutorial_blob_auto_detection_and_tracking src/ibvs/tutorial_blob_auto_detection_and_tracking.cpp)
 add_executable(tutorial_ibvs_4pts_image_tracking src/ibvs/tutorial_ibvs_4pts_image_tracking.cpp)
 add_executable(servo_pbvs src/ibvs/servo_pbvs.cpp)
+add_executable(servo_ibvs src/ibvs/servo_ibvs.cpp)
 
 
 ## Add cmake target dependencies of the executable/library
@@ -149,6 +150,7 @@ target_link_libraries(tutorial_ibvs_4pts_image_tracking ${PCL_LIBRARIES} ${catki
 target_link_libraries(tutorial_blob_tracker_live_camera ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 target_link_libraries(tutorial_blob_auto_detection_and_tracking ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 target_link_libraries(servo_pbvs ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(servo_ibvs ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 
 
 
