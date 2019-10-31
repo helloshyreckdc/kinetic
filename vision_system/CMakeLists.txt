@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(vision_system)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-# add_compile_options(-std=c++11)
+add_compile_options(-std=c++14)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -13,7 +13,13 @@ project(vision_system)
 #include_directories(${EIGEN3_INCLUDE_DIR})
 #add_definitions(${EIGEN_DEFINITIONS})
 
+#set(CMAKE_CXX_STANDARD 14 CACHE STRING "The target C++ standard. PCL require    s C++14 or higher.")
+#set(CMAKE_CXX_STANDARD_REQUIRED ON)
+#set(CMAKE_CXX_EXTENSIONS OFF)
+set(PCL_DIR "/home/shyreckdc/dependency/pcl/share/pcl-1.9")
+
 find_package(catkin REQUIRED COMPONENTS
+        PCL
         rosbag
         moveit_ros_planning_interface
         roscpp
@@ -29,13 +35,21 @@ find_package(catkin REQUIRED COMPONENTS
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
-find_package(PCL REQUIRED)
-include_directories(  ${catkin_INCLUDE_DIRS}  ${PCL_INCLUDE_DIRS} /usr/include/pcl-1.7/ )  # to use pcl, include the path /usr... of pcl
-link_directories(${PCL_LIBRARY_DIRS})
-add_definitions(${PCL_DEFINITIONS})
+#if(COMMAND cmake_policy)
+#    cmake_policy(SET CMP0003 NEW)
+#endif(COMMAND cmake_policy)
+#
+#find_package(PCL 1.9 REQUIRED)
+#
+#include_directories(${PCL_INCLUDE_DIRS})
+#find_package(PCL REQUIRED)
+##include_directories(  ${catkin_INCLUDE_DIRS}  ${PCL_INCLUDE_DIRS} /usr/include/pcl-1.7/ )  # to use pcl, include the path /usr... of pcl
+#include_directories(  ${catkin_INCLUDE_DIRS}  ${PCL_INCLUDE_DIRS} )
+#link_directories(${PCL_LIBRARY_DIRS})
+#add_definitions(${PCL_DEFINITIONS})
 
 
-set(CMAKE_CXX_STANDARD 11)
+#set(CMAKE_CXX_STANDARD 11)
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
 ## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html
@@ -219,11 +233,13 @@ include_directories(
 
 
 add_executable(point_cloud_preprocess src/point_cloud_preprocess.cpp)
-target_link_libraries(point_cloud_preprocess ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(point_cloud_preprocess  ${catkin_LIBRARIES})#${PCL_LIBRARIES}
 add_dependencies(point_cloud_preprocess tf_system_generate_messages_cpp)
 
 add_executable(scan_scene_to_pcd src/scan_scene_to_pcd.cpp)
-target_link_libraries(scan_scene_to_pcd ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+target_link_libraries(scan_scene_to_pcd  ${catkin_LIBRARIES})
 add_dependencies(scan_scene_to_pcd tf_system_generate_messages_cpp)
 
-
+add_executable(sr300_preprocess src/sr300_preprocess.cpp)
+target_link_libraries(sr300_preprocess ${catkin_LIBRARIES})
+add_dependencies(sr300_preprocess tf_system_generate_messages_cpp)

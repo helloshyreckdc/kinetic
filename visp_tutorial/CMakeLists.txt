@@ -1,17 +1,32 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(visp_tutorial)
-add_compile_options(-std=c++11)
-#set(CMAKE_CXX_STANDARD 11)
+add_compile_options(-std=c++14)
+#set(CMAKE_CXX_STANDARD 14)
+#set(CMAKE_CXX_STANDARD_REQUIRED ON)
+#set(PCL_DIR "/home/shyreckdc/temp/pcl/build/PCLConfig.cmake")
+set(PCL_DIR "/home/shyreckdc/dependency/pcl/share/pcl-1.9")
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+        PCL
   rosconsole
   roscpp
   visp_bridge
         pbd
 )
+
+
+#find_package(PCL 1.9 REQUIRED)
+#include_directories(  ${catkin_INCLUDE_DIRS}  ${PCL_INCLUDE_DIRS})
+#link_directories(${PCL_LIBRARY_DIRS})
+#add_definitions(${PCL_DEFINITIONS})
+
+find_package(OpenCV REQUIRED)
+
+find_package(VISP REQUIRED)
+include(${VISP_USE_FILE})
 
 find_package(Boost REQUIRED
         COMPONENTS filesystem system signals regex date_time program_options thread)
@@ -106,6 +121,8 @@ catkin_package(
 include_directories(
   ${catkin_INCLUDE_DIRS}
         ${Boost_INCLUDE_DIRS}
+        ${OpenCV_INCLUDE_DIRS}
+#        ${PCL_INCLUDE_DIRS}
   )
 
 ## Declare a cpp library
@@ -153,6 +170,12 @@ target_link_libraries(servo_pbvs ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 target_link_libraries(servo_ibvs ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 
 
+add_executable(matching_keypoint src/detection/matching_keypoint.cpp)
+target_link_libraries(matching_keypoint ${PCL_LIBRARIES} ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+
+add_executable(model_based_tracking src/detection/model_based_tracking.cpp)
+target_link_libraries(model_based_tracking ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+        #${OpenCV_LIBRARIES} ${VISP_LIBRARIES})
 
 
 #############
