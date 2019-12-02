@@ -173,9 +173,11 @@ target_link_libraries(servo_ibvs ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_executable(matching_keypoint src/detection/matching_keypoint.cpp)
 target_link_libraries(matching_keypoint ${PCL_LIBRARIES} ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 
-add_executable(model_based_tracking src/detection/model_based_tracking.cpp)
+add_executable(model_based_tracking src/tracking/model_based_tracking.cpp)
 target_link_libraries(model_based_tracking ${PCL_LIBRARIES} ${catkin_LIBRARIES})
-        #${OpenCV_LIBRARIES} ${VISP_LIBRARIES})
+
+add_executable(line_tracking src/tracking/line_tracking.cpp)
+target_link_libraries(line_tracking ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 
 
 #############

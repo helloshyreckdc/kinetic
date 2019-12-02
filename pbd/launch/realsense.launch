@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find realsense2_camera)/launch/rs_rgbd.launch">
+        <arg name="camera" value="eye_in_hand"/>
+    </include>
+    <node pkg="tf" type="static_transform_publisher" name="eye_in_hand"
+          args="0.1521501994 0.102386358569 0.0150548553837 -0.723339172753 0.0943854650819 -0.0985084946839 0.67688100994 /ee_link /eye_in_hand_link 40"/>
+</launch>

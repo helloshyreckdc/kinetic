@@ -2,113 +2,121 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="PROJECT" targetName="moveit_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="moveit_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="gmock" />
-      <config projectName="PROJECT" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="PROJECT" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="tutorial_ibvs_4pts" />
-      <config projectName="PROJECT" targetName="tf2_msgs_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="run_tests" />
-      <config projectName="PROJECT" targetName="demo_pioneer_visual_servo_pioneer_node" />
-      <config projectName="PROJECT" targetName="actionlib_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="tf_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="tf_system_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="visualization_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="tf2_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="sensor_msgs_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="demo_pioneer_joy2twist_pioneer_node" />
-      <config projectName="PROJECT" targetName="geometry_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="actionlib_msgs_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="gtest_main" />
-      <config projectName="PROJECT" targetName="moveit_msgs_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="image_viewer" />
-      <config projectName="PROJECT" targetName="visualization_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="moveit_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="trajectory_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="rosgraph_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="visualization_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="roscpp_generate_messages_py" />
-      <config projectName="PROJECT" targetName="tf_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="tf_generate_messages_py" />
-      <config projectName="PROJECT" targetName="tutorial_ibvs_4pts_display" />
-      <config projectName="PROJECT" targetName="tf_system_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="tutorial_ibvs_4pts_image_tracking" />
-      <config projectName="PROJECT" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="octomap_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="tutorial_blob_tracker_live_camera" />
-      <config projectName="PROJECT" targetName="tf_system_generate_messages_py" />
-      <config projectName="PROJECT" targetName="servo_pbvs" />
-      <config projectName="PROJECT" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="tf_system_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="actionlib_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="object_recognition_msgs_generate_messages_eus" />
       <config projectName="PROJECT" targetName="actionlib_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="download_extra_data" />
-      <config projectName="PROJECT" targetName="visualization_msgs_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="moveit_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="demo_pioneer_visual_servo_pioneer_pan_node" />
-      <config projectName="PROJECT" targetName="gtest" />
-      <config projectName="PROJECT" targetName="sensor_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="roscpp_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="demo_pioneer_joy2twist_pioneer_pan_node" />
-      <config projectName="PROJECT" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="object_recognition_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="tutorial_ibvs_4pts_wireframe_camera" />
-      <config projectName="PROJECT" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="tf2_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="octomap_msgs_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="tf2_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="shape_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="model_based_tracking" />
-      <config projectName="PROJECT" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="roscpp_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="std_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="tf_system_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="actionlib_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="shape_msgs_generate_messages_eus" />
-      <config projectName="PROJECT" targetName="octomap_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="clean_test_results" />
-      <config projectName="PROJECT" targetName="trajectory_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="trajectory_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="moveit_ros_manipulation_gencfg" />
-      <config projectName="PROJECT" targetName="trajectory_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="matching_keypoint" />
-      <config projectName="PROJECT" targetName="object_recognition_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="visualization_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="shape_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="tf_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="object_recognition_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="gmock_main" />
-      <config projectName="PROJECT" targetName="doxygen" />
-      <config projectName="PROJECT" targetName="shape_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="tutorial_ibvs_4pts_wireframe_robot_viper" />
-      <config projectName="PROJECT" targetName="servo_ibvs" />
-      <config projectName="PROJECT" targetName="octomap_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="moveit_ros_planning_gencfg" />
-      <config projectName="PROJECT" targetName="actionlib_generate_messages_py" />
-      <config projectName="PROJECT" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="tf_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="tests" />
-      <config projectName="PROJECT" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="PROJECT" targetName="object_recognition_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="octomap_msgs_generate_messages_nodejs" />
-      <config projectName="PROJECT" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="topic_tools_generate_messages_lisp" />
       <config projectName="PROJECT" targetName="actionlib_msgs_generate_messages_cpp" />
-      <config projectName="PROJECT" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="PROJECT" targetName="tutorial_blob_auto_detection_and_tracking" />
+      <config projectName="PROJECT" targetName="tf_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="octomap_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="download_extra_data" />
+      <config projectName="PROJECT" targetName="moveit_ros_manipulation_gencfg" />
+      <config projectName="PROJECT" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="moveit_ros_planning_gencfg" />
+      <config projectName="PROJECT" targetName="run_tests" />
+      <config projectName="PROJECT" targetName="quaternion2angle_axis" />
+      <config projectName="PROJECT" targetName="moveit_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="gtest" />
+      <config projectName="PROJECT" targetName="moveit_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="tf_system_gennodejs" />
+      <config projectName="PROJECT" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="topic_tools_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="tf_system_geneus" />
+      <config projectName="PROJECT" targetName="clean_test_results" />
+      <config projectName="PROJECT" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="tf_system_generate_messages" />
+      <config projectName="PROJECT" targetName="moveit_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="shape_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="point_cloud_preprocess" />
+      <config projectName="PROJECT" targetName="moveit_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="octomap_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="octomap_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="shape_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="moveit_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="trajectory_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="octomap_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="object_recognition_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="visualization_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="trajectory_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="sr300_preprocess" />
+      <config projectName="PROJECT" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="PROJECT" targetName="shape_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="topic_tools_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="trajectory_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="tf_system_gencpp" />
+      <config projectName="PROJECT" targetName="shape_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="tf_generate_messages_py" />
+      <config projectName="PROJECT" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="tf_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="_tf_system_generate_messages_check_deps_Trans_angle_axis" />
+      <config projectName="PROJECT" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="visualization_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="tf_system_generate_messages_py" />
+      <config projectName="PROJECT" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="std_srvs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="tf_system_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="tf_system_genpy" />
+      <config projectName="PROJECT" targetName="tf_system_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="doxygen" />
+      <config projectName="PROJECT" targetName="gmock" />
+      <config projectName="PROJECT" targetName="actionlib_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="topic_tools_generate_messages_py" />
+      <config projectName="PROJECT" targetName="object_recognition_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="std_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="visualization_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="object_recognition_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="gtest_main" />
+      <config projectName="PROJECT" targetName="tf_system_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="pub_assembly_base_frame" />
+      <config projectName="PROJECT" targetName="visualization_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="scan_scene_to_pcd" />
+      <config projectName="PROJECT" targetName="roscpp_generate_messages_py" />
+      <config projectName="PROJECT" targetName="pub_tool0_target_frame" />
+      <config projectName="PROJECT" targetName="visualization_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="trajectory_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="tf_system_genlisp" />
+      <config projectName="PROJECT" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="object_recognition_msgs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="show_pointcloud_diff" />
+      <config projectName="PROJECT" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="octomap_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="actionlib_generate_messages_py" />
+      <config projectName="PROJECT" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="gmock_main" />
+      <config projectName="PROJECT" targetName="object_recognition_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="shape_msgs_generate_messages_py" />
+      <config projectName="PROJECT" targetName="tf_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="tf_system_generate_messages_lisp" />
+      <config projectName="PROJECT" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="PROJECT" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="topic_tools_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="tf_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="PROJECT" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="PROJECT" targetName="tests" />
+      <config projectName="PROJECT" targetName="roscpp_generate_messages_eus" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -133,12 +141,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbd/launch/realsense.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbd/launch/xtion.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbd/resources/yellow_cube.pcd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vision_system/src/show_pointcloud_diff.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visp_tutorial/src/tracking/line_tracking.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_recognition_linemod/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/object_recognition_linemod/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realsense-ros" beforeDir="false" afterPath="$PROJECT_DIR$/realsense-ros" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_system/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tf_system/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tf_system/src/pub_assembly_base_frame.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vision_system/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vision_system/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visp_tutorial/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/visp_tutorial/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visp_tutorial/src/detection/model_based_tracking.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/visp_tutorial/src/tracking/model_based_tracking.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visp_tutorial/src/ibvs/tutorial_blob_auto_detection_and_tracking.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/visp_tutorial/src/ibvs/tutorial_blob_auto_detection_and_tracking.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -157,13 +175,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/visp_tutorial/src/detection/model_based_tracking.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="266">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pbd/launch/pbd_pre.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pbd/launch/xtion.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vision_system/src/show_pointcloud_diff.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tf_system/src/pub_assembly_base_frame.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding>
+                <element signature="e#122#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,21 +263,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pbd/src/pub_current_pose.cpp" />
-        <option value="$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp" />
-        <option value="$PROJECT_DIR$/pbd/src/replay_traj.cpp" />
-        <option value="$PROJECT_DIR$/pbd/src/pub_ati_current_pose.cpp" />
-        <option value="$PROJECT_DIR$/pbd/src/average_force_repub.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/averaged_calibrated_force_repub.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/gravity_compensated_force_repub.cpp" />
-        <option value="$PROJECT_DIR$/tf_system/src/pub_assembly_base_frame.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/assembly_base_pose_pub.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/point_cloud_preprocess.cpp" />
         <option value="$PROJECT_DIR$/pbd/src/assembly_base_frame_pub.cpp" />
         <option value="$PROJECT_DIR$/tf_system/src/pub_ref_traj.cpp" />
         <option value="$PROJECT_DIR$/force_system/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/force_system/src/gravity_compensated_force_repub.cpp" />
-        <option value="$PROJECT_DIR$/tf_system/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/pbd/src/process_control.cpp" />
         <option value="$PROJECT_DIR$/vision_visp/visp_auto_tracker/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/vision_visp/visp_tracker/CMakeLists.txt" />
@@ -227,21 +292,28 @@
         <option value="$PROJECT_DIR$/demo_pioneer/src/ibvs/servo_pbvs.cpp" />
         <option value="$PROJECT_DIR$/pose_system/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/visp_tutorial/package.xml" />
-        <option value="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" />
         <option value="$PROJECT_DIR$/visp_tutorial/src/ibvs/servo_pbvs.cpp" />
         <option value="$PROJECT_DIR$/pose_system/src/pub_sr300_pose.cpp" />
         <option value="$PROJECT_DIR$/visp_tutorial/src/ibvs/servo_ibvs.cpp" />
         <option value="$PROJECT_DIR$/pbd/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/vision_system/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/vision_system/src/sr300_preprocess.cpp" />
-        <option value="$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp" />
         <option value="$PROJECT_DIR$/visp_tutorial/src/image_viewer.cpp" />
-        <option value="$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp" />
         <option value="$PROJECT_DIR$/visp_tutorial/src/detection/matching_keypoint.cpp" />
-        <option value="$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp" />
-        <option value="$PROJECT_DIR$/visp_tutorial/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/object_recognition_linemod/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/visp_tutorial/src/detection/model_based_tracking.cpp" />
+        <option value="$PROJECT_DIR$/visp_tutorial/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/visp_tutorial/src/tracking/line_tracking.cpp" />
+        <option value="$PROJECT_DIR$/visp_tutorial/src/ibvs/tutorial_blob_auto_detection_and_tracking.cpp" />
+        <option value="$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp" />
+        <option value="$PROJECT_DIR$/tf_system/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/pbd/launch/xtion.launch" />
+        <option value="$PROJECT_DIR$/pbd/launch/realsense.launch" />
+        <option value="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" />
+        <option value="$PROJECT_DIR$/vision_system/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp" />
+        <option value="$PROJECT_DIR$/tf_system/src/pub_assembly_base_frame.cpp" />
+        <option value="$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp" />
+        <option value="$PROJECT_DIR$/vision_system/src/show_pointcloud_diff.cpp" />
       </list>
     </option>
   </component>
@@ -275,13 +347,39 @@
               <item name="PROJECT" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vision_system" type="462c0819:PsiDirectoryNode" />
+              <item name="pbd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pbd" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PROJECT" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="vision_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vision_system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -303,7 +401,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="visp_tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="detection" type="462c0819:PsiDirectoryNode" />
+              <item name="ibvs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +413,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/test_catkin/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -347,6 +445,11 @@
     </option>
   </component>
   <component name="RunManager" selected="ROS Launch.record_trajectory (1)">
+    <configuration name="_tf_system_generate_messages_check_deps_Trans_angle_axis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="_tf_system_generate_messages_check_deps_Trans_angle_axis" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="actionlib_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="actionlib_generate_messages_cpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -402,26 +505,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo_pioneer_joy2twist_pioneer_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="demo_pioneer_joy2twist_pioneer_node" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="demo_pioneer_joy2twist_pioneer_node">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo_pioneer_joy2twist_pioneer_pan_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="demo_pioneer_joy2twist_pioneer_pan_node" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="demo_pioneer_joy2twist_pioneer_pan_node">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo_pioneer_visual_servo_pioneer_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="demo_pioneer_visual_servo_pioneer_node" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="demo_pioneer_visual_servo_pioneer_node">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo_pioneer_visual_servo_pioneer_pan_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="demo_pioneer_visual_servo_pioneer_pan_node" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="demo_pioneer_visual_servo_pioneer_pan_node">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="download_extra_data" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -473,21 +556,6 @@
       </method>
     </configuration>
     <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="gtest_main" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="image_viewer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="image_viewer" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="image_viewer">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="matching_keypoint" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="matching_keypoint" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="matching_keypoint">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="model_based_tracking" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="model_based_tracking" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="model_based_tracking">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -577,6 +645,26 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="point_cloud_preprocess" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="point_cloud_preprocess" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="point_cloud_preprocess">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pub_assembly_base_frame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="pub_assembly_base_frame" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="pub_assembly_base_frame">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pub_tool0_target_frame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="pub_tool0_target_frame" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="pub_tool0_target_frame">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quaternion2angle_axis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="quaternion2angle_axis" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="quaternion2angle_axis">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -632,6 +720,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="scan_scene_to_pcd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="scan_scene_to_pcd" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="scan_scene_to_pcd">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sensor_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="sensor_msgs_generate_messages_cpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -653,16 +746,6 @@
       </method>
     </configuration>
     <configuration name="sensor_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="sensor_msgs_generate_messages_py" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="servo_ibvs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="servo_ibvs" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="servo_ibvs">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="servo_pbvs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="servo_pbvs" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="servo_pbvs">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -692,6 +775,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="show_pointcloud_diff" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="show_pointcloud_diff" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="show_pointcloud_diff">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sr300_preprocess" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="sr300_preprocess" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="sr300_preprocess">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -713,6 +806,31 @@
       </method>
     </configuration>
     <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_srvs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="std_srvs_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_srvs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="std_srvs_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_srvs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="std_srvs_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_srvs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="std_srvs_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_srvs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="std_srvs_generate_messages_py" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -772,6 +890,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tf_system_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tf_system_gencpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_system_generate_messages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tf_system_generate_messages" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tf_system_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tf_system_generate_messages_cpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -797,6 +925,51 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tf_system_geneus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tf_system_geneus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_system_genlisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tf_system_genlisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_system_gennodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tf_system_gennodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_system_genpy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tf_system_genpy" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic_tools_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="topic_tools_generate_messages_cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic_tools_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="topic_tools_generate_messages_eus" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic_tools_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="topic_tools_generate_messages_lisp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic_tools_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="topic_tools_generate_messages_nodejs" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="topic_tools_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="topic_tools_generate_messages_py" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="trajectory_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="trajectory_msgs_generate_messages_cpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -818,41 +991,6 @@
       </method>
     </configuration>
     <configuration name="trajectory_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="trajectory_msgs_generate_messages_py" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tutorial_blob_auto_detection_and_tracking" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tutorial_blob_auto_detection_and_tracking" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="tutorial_blob_auto_detection_and_tracking">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tutorial_blob_tracker_live_camera" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tutorial_blob_tracker_live_camera" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="tutorial_blob_tracker_live_camera">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tutorial_ibvs_4pts" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tutorial_ibvs_4pts" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="tutorial_ibvs_4pts">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tutorial_ibvs_4pts_display" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tutorial_ibvs_4pts_display" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="tutorial_ibvs_4pts_display">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tutorial_ibvs_4pts_image_tracking" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tutorial_ibvs_4pts_image_tracking" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="tutorial_ibvs_4pts_image_tracking">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tutorial_ibvs_4pts_wireframe_camera" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tutorial_ibvs_4pts_wireframe_camera" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="tutorial_ibvs_4pts_wireframe_camera">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tutorial_ibvs_4pts_wireframe_robot_viper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PROJECT" TARGET_NAME="tutorial_ibvs_4pts_wireframe_robot_viper" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="PROJECT" RUN_TARGET_NAME="tutorial_ibvs_4pts_wireframe_robot_viper">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -900,10 +1038,6 @@
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.clean_test_results" />
-      <item itemvalue="CMake Application.demo_pioneer_joy2twist_pioneer_node" />
-      <item itemvalue="CMake Application.demo_pioneer_joy2twist_pioneer_pan_node" />
-      <item itemvalue="CMake Application.demo_pioneer_visual_servo_pioneer_node" />
-      <item itemvalue="CMake Application.demo_pioneer_visual_servo_pioneer_pan_node" />
       <item itemvalue="CMake Application.download_extra_data" />
       <item itemvalue="CMake Application.doxygen" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_cpp" />
@@ -915,9 +1049,6 @@
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
-      <item itemvalue="CMake Application.image_viewer" />
-      <item itemvalue="CMake Application.matching_keypoint" />
-      <item itemvalue="CMake Application.model_based_tracking" />
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_lisp" />
@@ -935,6 +1066,7 @@
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.point_cloud_preprocess" />
       <item itemvalue="CMake Application.roscpp_generate_messages_cpp" />
       <item itemvalue="CMake Application.roscpp_generate_messages_eus" />
       <item itemvalue="CMake Application.roscpp_generate_messages_lisp" />
@@ -945,24 +1077,36 @@
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application._tf_system_generate_messages_check_deps_Trans_angle_axis" />
+      <item itemvalue="CMake Application.pub_assembly_base_frame" />
+      <item itemvalue="CMake Application.pub_tool0_target_frame" />
+      <item itemvalue="CMake Application.quaternion2angle_axis" />
+      <item itemvalue="CMake Application.tf_system_gencpp" />
+      <item itemvalue="CMake Application.tf_system_generate_messages" />
       <item itemvalue="CMake Application.run_tests" />
+      <item itemvalue="CMake Application.scan_scene_to_pcd" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.servo_ibvs" />
-      <item itemvalue="CMake Application.servo_pbvs" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.show_pointcloud_diff" />
+      <item itemvalue="CMake Application.sr300_preprocess" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.std_srvs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.std_srvs_generate_messages_eus" />
+      <item itemvalue="CMake Application.std_srvs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.std_srvs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.std_srvs_generate_messages_py" />
       <item itemvalue="CMake Application.tests" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_eus" />
@@ -979,18 +1123,20 @@
       <item itemvalue="CMake Application.tf_system_generate_messages_lisp" />
       <item itemvalue="CMake Application.tf_system_generate_messages_nodejs" />
       <item itemvalue="CMake Application.tf_system_generate_messages_py" />
+      <item itemvalue="CMake Application.tf_system_geneus" />
+      <item itemvalue="CMake Application.tf_system_genlisp" />
+      <item itemvalue="CMake Application.tf_system_gennodejs" />
+      <item itemvalue="CMake Application.tf_system_genpy" />
+      <item itemvalue="CMake Application.topic_tools_generate_messages_cpp" />
+      <item itemvalue="CMake Application.topic_tools_generate_messages_eus" />
+      <item itemvalue="CMake Application.topic_tools_generate_messages_lisp" />
+      <item itemvalue="CMake Application.topic_tools_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.topic_tools_generate_messages_py" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.tutorial_blob_auto_detection_and_tracking" />
-      <item itemvalue="CMake Application.tutorial_blob_tracker_live_camera" />
-      <item itemvalue="CMake Application.tutorial_ibvs_4pts" />
-      <item itemvalue="CMake Application.tutorial_ibvs_4pts_display" />
-      <item itemvalue="CMake Application.tutorial_ibvs_4pts_image_tracking" />
-      <item itemvalue="CMake Application.tutorial_ibvs_4pts_wireframe_camera" />
-      <item itemvalue="CMake Application.tutorial_ibvs_4pts_wireframe_robot_viper" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_lisp" />
@@ -1081,6 +1227,11 @@
       <workItem from="1572262601628" duration="1552000" />
       <workItem from="1572410879889" duration="21000" />
       <workItem from="1572413170413" duration="656000" />
+      <workItem from="1573611709022" duration="823000" />
+      <workItem from="1574145339105" duration="20000" />
+      <workItem from="1574313356631" duration="7867000" />
+      <workItem from="1574747383467" duration="13594000" />
+      <workItem from="1575264638810" duration="21337000" />
     </task>
     <task id="LOCAL-00001" summary="test clion git">
       <created>1564562420341</created>
@@ -1156,12 +1307,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406367000" />
+    <option name="totallyTimeSpent" value="450008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1984" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2819237" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29850745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1172,11 +1324,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.55058044" weight="0.32619774" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.55058044" visible="true" weight="0.32619774" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2895005" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50359315" side_tool="true" visible="true" weight="0.2895005" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5041459" side_tool="true" weight="0.2889115" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.31294596" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49640685" visible="true" weight="0.2895005" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49585405" weight="0.2680938" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32925585" />
       <window_info anchor="bottom" id="SVN Repositories" order="14" weight="0.32925585" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1277,72 +1429,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vision_visp/visp_tracker/src/nodelets/viewer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vision_visp/visp_tracker/src/nodelets/tracker.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vision_visp/visp_tracker/src/nodelets/client.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vision_visp/visp_tracker/srv/Init.srv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/tracker.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10932">
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/tracker-client.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1596">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vision_visp/visp_tracker/src/libvisp_tracker/tracker-viewer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/threading.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/threading.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/names.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1414,23 +1500,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_pioneer/src/ibvs/tutorial_ibvs_4pts_image_tracking.cpp" />
-    <entry file="file:///opt/ros/kinetic/include/visp3/core/vpRotationMatrix.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/ros/kinetic/include/visp3/core/vpImage.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="351" column="36" selection-start-line="351" selection-start-column="36" selection-end-line="351" selection-end-column="36" />
-          <folding>
-            <element signature="e#11450#11462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///opt/ros/kinetic/include/visp3/core/vpRotationMatrix.h" />
+    <entry file="file:///opt/ros/kinetic/include/visp3/core/vpImage.h" />
     <entry file="file://$PROJECT_DIR$/pbd/src/replay_go_to_origin.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1509,20 +1580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visp_tutorial/src/ibvs/servo_ibvs.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3857">
-          <caret line="203" column="41" selection-start-line="203" selection-start-column="41" selection-end-line="203" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_system/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visp_tutorial/src/ibvs/servo_pbvs.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
@@ -1530,13 +1587,6 @@
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pbd/launch/pbd_pre.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1554,20 +1604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vision_system/src/sr300_preprocess.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_system/src/assembly_base_frame_pub.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visp_tutorial/src/image_viewer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1575,27 +1611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visp_tutorial/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="176" column="79" selection-start-line="176" selection-start-column="79" selection-end-line="176" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -1613,13 +1632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visp_tutorial/src/detection/matching_keypoint.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1627,19 +1639,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vision_system/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/visp_tutorial/src/detection/model_based_tracking.cpp" />
+    <entry file="file://$PROJECT_DIR$/visp_tutorial/src/ibvs/tutorial_ibvs_4pts.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="240" column="43" selection-start-line="240" selection-start-column="43" selection-end-line="240" selection-end-column="43" />
+        <state relative-caret-position="266">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visp_tutorial/src/detection/model_based_tracking.cpp">
+    <entry file="file://$PROJECT_DIR$/visp_tutorial/src/tracking/line_tracking.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="1387">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visp_tutorial/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3496">
+          <caret line="184" column="12" selection-start-line="184" selection-start-column="12" selection-end-line="184" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visp_tutorial/src/ibvs/tutorial_ibvs_4pts_wireframe_camera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visp_tutorial/src/ibvs/tutorial_blob_tracker_live_camera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visp_tutorial/src/ibvs/servo_ibvs.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visp_tutorial/src/ibvs/tutorial_blob_auto_detection_and_tracking.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_system/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="225" column="20" selection-start-line="225" selection-start-column="20" selection-end-line="225" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/launch/realsense.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision_system/src/show_pointcloud_difference.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision_system/src/sr300_preprocess.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision_system/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="238" column="24" selection-start-line="238" selection-start-column="24" selection-end-line="238" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision_system/src/scan_scene_to_pcd.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_system/src/pub_assembly_base_frame.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#122#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/launch/xtion.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pbd/launch/pbd_pre.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision_system/src/point_cloud_preprocess.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vision_system/src/show_pointcloud_diff.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

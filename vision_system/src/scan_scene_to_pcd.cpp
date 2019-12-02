@@ -9,12 +9,12 @@
 //void cloudCB(const sensor_msgs::PointCloud2 &input)  
 void cloudCB(const pcl::PCLPointCloud2ConstPtr& input)  
 {  
-  pcl::PointCloud<pcl::PointXYZ> cloud;  
+  pcl::PointCloud<pcl::PointXYZRGB> cloud;
 //  pcl::fromROSMsg(input, cloud);//从ROS类型消息转为PCL类型消息  
   pcl::fromPCLPointCloud2(*input, cloud);//从ROS类型消息转为PCL类型消息  
   pcl::io::savePCDFileASCII ("scene.pcd", cloud);//保存pcd
 }  
-main (int argc, char **argv)  
+int main (int argc, char **argv)
 {  
   ros::init (argc, argv, "pcd_write");  
   ros::NodeHandle nh;  

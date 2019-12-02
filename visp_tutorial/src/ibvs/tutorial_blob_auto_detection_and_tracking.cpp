@@ -31,6 +31,7 @@ void frameCallback(const sensor_msgs::ImageConstPtr& image){
 
 void camInfoCallback(const sensor_msgs::CameraInfoConstPtr& cam_info) {
     cam = visp_bridge::toVispCameraParameters(*cam_info);
+    std::cout << cam << std::endl;
 }
 
 int main(int argc, char **argv)
@@ -38,8 +39,8 @@ int main(int argc, char **argv)
     ros::init (argc, argv, "blob_tracking");
     ros::NodeHandle nh;
 
-    ros::Subscriber image_sub = nh.subscribe("/camera/color/image_raw",1,frameCallback);
-    ros::Subscriber cam_sub = nh.subscribe("/camera/color/camera_info",1,camInfoCallback);
+    ros::Subscriber image_sub = nh.subscribe("/camera/rgb/image_raw",1,frameCallback);
+    ros::Subscriber cam_sub = nh.subscribe("/camera/rgb/camera_info",1,camInfoCallback);
 
     ros::Duration(2).sleep();
 

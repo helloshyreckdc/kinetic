@@ -243,3 +243,7 @@ add_dependencies(scan_scene_to_pcd tf_system_generate_messages_cpp)
 add_executable(sr300_preprocess src/sr300_preprocess.cpp)
 target_link_libraries(sr300_preprocess ${catkin_LIBRARIES})
 add_dependencies(sr300_preprocess tf_system_generate_messages_cpp)
+
+add_executable(show_pointcloud_diff src/show_pointcloud_diff.cpp)
+target_link_libraries(show_pointcloud_diff ${catkin_LIBRARIES})
+add_dependencies(show_pointcloud_diff tf_system_generate_messages_cpp)
