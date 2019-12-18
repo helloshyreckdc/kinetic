@@ -1,5 +1,0 @@
-- builder: doxygen
-  name: C++ API
-  output_dir: .
-  file_patterns: '*.c *.cpp *.h *.cc *.hh *.dox'
-  homepage: 'https://github.com/intel/ros_opencl_caffe'

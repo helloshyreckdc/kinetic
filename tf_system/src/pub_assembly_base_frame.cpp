@@ -23,6 +23,21 @@
 typedef pcl::PointXYZRGB PointT;
 typedef pcl::PointCloud<PointT> PointCloudT;
 
+template <typename PointSource, typename PointTarget, typename Scalar = float>
+class IterativeClosestPoint_Exposed : public pcl::IterativeClosestPoint<PointSource, PointTarget, Scalar> {
+public:
+    pcl::CorrespondencesPtr getCorrespondencesPtr() {
+        for (uint32_t i = 0; i < this->correspondences_->size(); i++) {
+            pcl::Correspondence currentCorrespondence = (*this->correspondences_)[i];
+            std::cout << "Index of the source point: " << currentCorrespondence.index_query << std::endl;
+            std::cout << "Index of the matching target point: " << currentCorrespondence.index_match << std::endl;
+            std::cout << "Distance between the corresponding points: " << currentCorrespondence.distance << std::endl;
+            std::cout << "Weight of the confidence in the correspondence: " << currentCorrespondence.weight << std::endl;
+        }
+        return this->correspondences_;
+    }
+};
+
 void print4x4Matrix(const Eigen::Matrix4d & matrix)
 {
     printf("Rotation matrix :\n");

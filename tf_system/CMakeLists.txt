@@ -3,7 +3,7 @@ project(tf_system)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
-
+set(CMAKE_CXX_STANDARD 14)
 find_package(cmake_modules REQUIRED)
 find_package(Eigen3 REQUIRED)
 include_directories(${EIGEN3_INCLUDE_DIR})
@@ -25,7 +25,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 
 find_package(PCL REQUIRED)
-include_directories(  ${catkin_INCLUDE_DIRS}  ${PCL_INCLUDE_DIRS} /usr/include/pcl-1.7/ )  # to use pcl, include the path /usr... of pcl
+include_directories(  ${catkin_INCLUDE_DIRS}  ${PCL_INCLUDE_DIRS})# /usr/include/pcl-1.7/ )  # to use pcl, include the path /usr... of pcl
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 ## System dependencies are found with CMake's conventions
@@ -134,6 +134,7 @@ catkin_package(
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
+  ${PCL_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library

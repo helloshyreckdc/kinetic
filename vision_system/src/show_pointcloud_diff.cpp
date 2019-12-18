@@ -47,22 +47,22 @@ int main (int argc, char **argv)
     pcl::toPCLPointCloud2(*full_scene, *full_scene2);
     pcl::toPCLPointCloud2(*partial_scene, *partial_scene2);
 
-//    // Create the filtering object
-//    pcl::VoxelGrid<pcl::PCLPointCloud2> sor;
-//    sor.setInputCloud (full_scene2);
-//    sor.setLeafSize (0.01f, 0.01f, 0.01f);
-//    sor.filter (*full_scene2_downsampled);
-//    pcl::fromPCLPointCloud2(*full_scene2_downsampled, *full_scene_downsampled);
-//
-//    sor.setInputCloud (partial_scene2);
-//    sor.setLeafSize (0.01f, 0.01f, 0.01f);
-//    sor.filter (*partial_scene2_downsampled);
-//    pcl::fromPCLPointCloud2(*partial_scene2_downsampled, *partial_scene_downsampled);
+    // Create the filtering object
+    pcl::VoxelGrid<pcl::PCLPointCloud2> sor;
+    sor.setInputCloud (full_scene2);
+    sor.setLeafSize (0.01f, 0.01f, 0.01f);
+    sor.filter (*full_scene2_downsampled);
+    pcl::fromPCLPointCloud2(*full_scene2_downsampled, *full_scene_downsampled);
 
-//    seg.setInputCloud(full_scene_downsampled);
-//    seg.setTargetCloud(partial_scene_downsampled);
-    seg.setInputCloud(full_scene);
-    seg.setTargetCloud(partial_scene);
+    sor.setInputCloud (partial_scene2);
+    sor.setLeafSize (0.01f, 0.01f, 0.01f);
+    sor.filter (*partial_scene2_downsampled);
+    pcl::fromPCLPointCloud2(*partial_scene2_downsampled, *partial_scene_downsampled);
+
+    seg.setInputCloud(full_scene_downsampled);
+    seg.setTargetCloud(partial_scene_downsampled);
+//    seg.setInputCloud(full_scene);
+//    seg.setTargetCloud(partial_scene);
 //    seg.setSearchMethod(tree);
     seg.setDistanceThreshold(0.001);
     seg.segment(*cloud_diff);
