@@ -11,6 +11,7 @@
 #include <pcl/sample_consensus/model_types.h>
 #include <pcl/segmentation/sac_segmentation.h>
 #include <pcl/io/pcd_io.h>
+#include <pcl/io/png_io.h>
 
 using namespace std;
 
@@ -70,10 +71,28 @@ void cloudCB(const pcl::PCLPointCloud2ConstPtr& input)
         raw_cloud->points[(*removed_indices)[i]].z = 0;
     }
 
+    for (std::size_t i = 0; i < raw_cloud->points.size (); ++i)
+    {
+        if (!std::isfinite (raw_cloud->points[i].x) ||
+            !std::isfinite (raw_cloud->points[i].y) ||
+            !std::isfinite (raw_cloud->points[i].z))
+        {
+            raw_cloud->points[i].x = 0.0;
+            raw_cloud->points[i].y = 0.0;
+            raw_cloud->points[i].z = 0.0;
+        }
+    }
+//    for (int j = 0; j < output_indices->size(); ++j) {
+//        raw_cloud->points[(*output_indices)[j]].r = 255;
+//        raw_cloud->points[(*output_indices)[j]].g = 0;
+//        raw_cloud->points[(*output_indices)[j]].b = 0;
+//    }
+
 
 //    pcl::copyPointCloud(*raw_cloud,*output_indices,*passed_cloud);
 
 //    pcl::io::savePCDFileASCII ("desk_scene.pcd", *raw_cloud);//保存pcd
+//    pcl::io::savePNGFile("test.png",*raw_cloud, "rgb");
     pcl::toROSMsg(*raw_cloud, ros_passed_cloud);
     ros_passed_cloud.header.frame_id = "eye_to_hand_depth_optical_frame";
     passed_cloud_pub.publish(ros_passed_cloud);

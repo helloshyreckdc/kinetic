@@ -8,7 +8,7 @@
     <node pkg="pose_system" type="pub_ref_traj" name="pub_ref_traj"/>
     <node pkg="pose_system" type="pub_sr300_pose" name="pub_sr300_pose"/>
 
-    <node pkg="netft_utils" type="netft_node" name="netft_node" args="192.168.0.168"/>
+    <node pkg="netft_utils" type="netft_node" name="netft_node" args="192.168.50.168"/>
     <node pkg="force_system" type="averaged_calibrated_force_repub" name="averaged_calibrated_force_repub"/>
     <node pkg="force_system" type="gravity_compensated_force_repub" name="gravity_compensated_force_repub"/>
 

@@ -8,7 +8,6 @@
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
 #include <pcl/io/pcd_io.h>
-#include <pcl/io/png_io.h>
 #include <pcl/registration/icp.h>
 #include <pcl/console/time.h>  //TicToc
 #include <pcl/ModelCoefficients.h>
@@ -21,7 +20,6 @@
 #include <pcl/filters/statistical_outlier_removal.h>
 #include <pcl/console/parse.h>
 
-using namespace std;
 typedef pcl::PointXYZRGB PointT;
 typedef pcl::PointCloud<PointT> PointCloudT;
 
@@ -56,8 +54,6 @@ PointCloudT::Ptr cloud_pass_through_x(new PointCloudT);
 PointCloudT::Ptr cloud_pass_through_y(new PointCloudT);
 PointCloudT::Ptr cloud_segmented(new PointCloudT);
 PointCloudT::Ptr cloud_outlier_removed (new PointCloudT);
-PointCloudT::Ptr cloud_model_aligned(new PointCloudT);
-PointCloudT::Ptr final_cloud(new PointCloudT);
 
 pcl::PCLPointCloud2::Ptr cloud2_scene(new pcl::PCLPointCloud2);  //scene imported
 pcl::PCLPointCloud2::Ptr cloud2_down_sampled(new pcl::PCLPointCloud2);
@@ -114,34 +110,16 @@ int main(int argc, char** argv)
             pcl::console::TicToc time;
             time.tic();
             pcl::fromPCLPointCloud2(*cloud2_scene, *cloud_down_sampled);
+            pcl::io::savePCDFileASCII ("downsampled.pcd", *cloud_down_sampled);//保存pcd
+            /******  Downsampling using a leaf size of 2mm  ******/
+            pcl::VoxelGrid<pcl::PCLPointCloud2> sor_downsample;
+            sor_downsample.setInputCloud(cloud2_scene);
+            sor_downsample.setLeafSize(0.002f, 0.002f, 0.002f);
+            sor_downsample.filter(*cloud2_down_sampled);
 
-//            pcl::io::savePCDFileASCII ("downsampled.pcd", *cloud_down_sampled);//保存pcd
-//            /******  Downsampling using a leaf size of 2mm  ******/
-//            pcl::VoxelGrid<pcl::PCLPointCloud2> sor_downsample;
-//            sor_downsample.setInputCloud(cloud2_scene);
-//            sor_downsample.setLeafSize(0.002f, 0.002f, 0.002f);
-//            sor_downsample.filter(*cloud2_down_sampled);
-//
-//            pcl::fromPCLPointCloud2(*cloud2_down_sampled, *cloud_down_sampled);
-//            ROS_INFO("PointCloud after downsampling: %d data points. ",
-//                     cloud_down_sampled->width * cloud_down_sampled->height);
-
-            pcl::IndicesPtr passed_inliers (new pcl::Indices);
-            pcl::IndicesPtr inliers_without_plane (new pcl::Indices);
-            pcl::IndicesPtr inliers_outlier_removed (new pcl::Indices);
-
-            pcl::PassThrough<PointT> pass(true);
-            pass.setInputCloud (cloud_down_sampled);
-//            pass.setIndices(inliers_without_plane);
-            pass.setFilterFieldName ("z");
-            pass.setFilterLimits (-0.001, 0.001);
-            pass.setNegative(true);
-            pass.filter(*passed_inliers);
-            PointCloudT::Ptr cloud_passed(new PointCloudT);  //template imported
-            pcl::copyPointCloud(*cloud_down_sampled,*passed_inliers,*cloud_passed);
-            pcl::io::savePCDFileASCII ("cloud_passed.pcd", *cloud_passed);//保存pcd
-
-
+            pcl::fromPCLPointCloud2(*cloud2_down_sampled, *cloud_down_sampled);
+            ROS_INFO("PointCloud after downsampling: %d data points. ",
+                     cloud_down_sampled->width * cloud_down_sampled->height);
 
             /******  Plane segmentation, extract the cube  ******/
             pcl::ModelCoefficients::Ptr coefficients(new pcl::ModelCoefficients());
@@ -154,48 +132,28 @@ int main(int argc, char** argv)
             seg.setMaxIterations(1000);
             seg.setDistanceThreshold(0.01);
             seg.setInputCloud(cloud_down_sampled);
-            seg.setIndices(passed_inliers);
             seg.segment(*inliers, *coefficients);
             //Create the filtering object
             pcl::ExtractIndices<pcl::PointXYZRGB> extract;
             extract.setInputCloud(cloud_down_sampled);
             extract.setIndices(inliers);
             extract.setNegative(true);  //true corresponds to the target, false corresponds to the plane
-//            extract.filter(*cloud_segmented);
-//            ROS_INFO("PointCloud representing the cube segmentation: %d data points. ",
-//                     cloud_segmented->width * cloud_segmented->height);
-            extract.filter(*inliers_without_plane);
-            PointCloudT::Ptr cloud_without_plane(new PointCloudT);  //template imported
-            pcl::copyPointCloud(*cloud_down_sampled,*inliers_without_plane,*cloud_without_plane);
-            pcl::io::savePCDFileASCII ("cloud_without_plane.pcd", *cloud_without_plane);//保存pcd
+            extract.filter(*cloud_segmented);
+            ROS_INFO("PointCloud representing the cube segmentation: %d data points. ",
+                     cloud_segmented->width * cloud_segmented->height);
 
-            pass.setInputCloud (cloud_down_sampled);
-            pass.setIndices(inliers_without_plane);
-            pass.setFilterFieldName ("z");
-            pass.setFilterLimits (-0.001, 0.001);
-            pass.setNegative(true);
-            pass.filter(*passed_inliers);
-            pcl::copyPointCloud(*cloud_down_sampled,*passed_inliers,*cloud_passed);
-            pcl::io::savePCDFileASCII ("2cloud_passed.pcd", *cloud_passed);//保存pcd
-
-//            /******  Statistical Removal  ******/
+            /******  Statistical Removal  ******/
             pcl::StatisticalOutlierRemoval<PointT> sor_rm_outlier;
-            sor_rm_outlier.setInputCloud(cloud_down_sampled);
-            sor_rm_outlier.setIndices(passed_inliers);
+            sor_rm_outlier.setInputCloud(cloud_segmented);
             sor_rm_outlier.setMeanK(30);
             sor_rm_outlier.setStddevMulThresh(1);
-            sor_rm_outlier.filter(*inliers_outlier_removed);
-            pcl::copyPointCloud(*cloud_down_sampled,*inliers_outlier_removed,*cloud_outlier_removed);
+            sor_rm_outlier.filter(*cloud_outlier_removed);
+            ROS_INFO("PointCloud after removing outliers: %d data points. ",
+                     cloud_outlier_removed->width * cloud_outlier_removed->height);
+//            pcl::PCDWriter writer;
+//            writer.write<PointT>("final_cube.pcd", *cloud_outlier_removed, false);
             pcl::io::savePCDFileASCII ("final_cube.pcd", *cloud_outlier_removed);//保存pcd
 
-            for (std::size_t i = 0; i < passed_inliers->size (); ++i)
-            {
-                cloud_down_sampled->points[(*passed_inliers)[i]].r = 255;
-                cloud_down_sampled->points[(*passed_inliers)[i]].g = 0;
-                cloud_down_sampled->points[(*passed_inliers)[i]].b = 0;
-            }
-            pcl::io::savePNGFile("mask.png",*cloud_down_sampled, "rgb");
-//
             /******  ICP registration  ******/
             float sum_x = 0;
             float sum_y = 0;
@@ -205,9 +163,9 @@ int main(int argc, char** argv)
             float trans_z = 0;
 
             for (size_t i = 0; i < cloud_outlier_removed->points.size(); ++i) {
-                sum_x += cloud_outlier_removed->points[i].x;
-                sum_y += cloud_outlier_removed->points[i].y;
-                sum_z += cloud_outlier_removed->points[i].z;
+                sum_x = cloud_outlier_removed->points[i].x + sum_x;
+                sum_y = cloud_outlier_removed->points[i].y + sum_y;
+                sum_z = cloud_outlier_removed->points[i].z + sum_z;
             }
             trans_x = sum_x / cloud_outlier_removed->points.size();
             trans_y = sum_y / cloud_outlier_removed->points.size();
@@ -223,9 +181,8 @@ int main(int argc, char** argv)
             icp.setMaxCorrespondenceDistance(0.01);
             icp.setMaximumIterations(200);
             icp.setInputSource(cloud_outlier_removed);
-//            icp.setIndices(inliers_without_plane);
             icp.setInputTarget(cloud_model);
-            icp.align(*final_cloud, init_guess);
+            icp.align(*cloud_outlier_removed, init_guess);
 
 
 
@@ -277,7 +234,7 @@ int main(int argc, char** argv)
         transm_r.getRotation(q);
         transform.setOrigin(tf::Vector3(trans_inverse(0, 3), trans_inverse(1, 3), trans_inverse(2, 3)));
         transform.setRotation(q);
-        br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "eye_to_hand_depth_optical_frame", "assembly_base"));
+        br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "xtion_depth_optical_frame", "assembly_base"));
 
         loop_rate.sleep();
     }
