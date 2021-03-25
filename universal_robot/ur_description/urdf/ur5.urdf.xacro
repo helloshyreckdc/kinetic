@@ -385,5 +385,12 @@
       <child link="${prefix}ati_sensor"/>
     </joint>
 
+    <link name="${prefix}gripper_center"/>
+    <joint name="${prefix}gripper_fixed_joint" type="fixed">
+      <origin xyz="0 0 0.2800" rpy="0 0 0"/>
+      <parent link="${prefix}tool0"/>
+      <child link="${prefix}gripper_center"/>
+    </joint>
+
   </xacro:macro>
 </robot>

@@ -231,3 +231,7 @@ add_dependencies(replay_go_to_origin tf_system_generate_messages_cpp)
 add_executable(process_control src/process_control.cpp)
 target_link_libraries(process_control ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(process_control tf_system_generate_messages_cpp)
+
+add_executable(exe_matlab_ur_velocity src/exe_matlab_ur_velocity.cpp)
+target_link_libraries(exe_matlab_ur_velocity ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(exe_matlab_ur_velocity tf_system_generate_messages_cpp)

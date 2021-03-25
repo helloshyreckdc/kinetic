@@ -115,7 +115,7 @@ int main(int argc, char** argv){
 
             ros::param::set("/recompensate_gravity_and_sensor_bias",false);
 
-            ofstream fout("/home/shyreckdc/catkin_ws/src/pbd/config/gravity_bias.yaml");
+            ofstream fout("/home/shyreckdc/catkin_ws/src/force_system/config/gravity_bias.yaml");
             YAML::Emitter out(fout);
             out << YAML::BeginMap;
             out << YAML::Key << "sensor_bias";
@@ -129,6 +129,13 @@ int main(int argc, char** argv){
         }
 
         compensated_wrench_vec = wrench_vec - sensor_bias - mass_matrix*(Rworld2base*rotation_mat).transpose()*g_world;
+//		cout << "wrench_vec: " << wrench_vec << endl;
+//		cout << "sensor_bias: " << sensor_bias << endl;
+//		cout << "mass_matrix: " << mass_matrix << endl;
+//		cout << "Rworld2base: " << Rworld2base << endl;
+//		cout << "rotation_mat" << rotation_mat << endl;
+//
+//		cout << "compensated_wrench" << compensated_wrench_vec << endl;
 
         gravity_compensated_wrench.wrench.force.x = compensated_wrench_vec(0);
         gravity_compensated_wrench.wrench.force.y = compensated_wrench_vec(1);

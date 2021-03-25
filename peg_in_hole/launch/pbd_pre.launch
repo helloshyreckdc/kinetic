@@ -1,0 +1,16 @@
+<launch>
+    <node pkg="tf_system" type="quaternion2angle_axis" name="quaternion2angle_axis"/>
+
+    <node pkg="pose_system" type="pub_current_pose" name="current_pose"/>
+    <node pkg="pose_system" type="pub_ati_current_pose" name="ati_current_pose"/>
+
+    <include file="$(find peg_in_hole)/launch/ur_system.launch"/>
+
+    <node pkg="netft_utils" type="netft_node" name="netft_node" args="192.168.50.168"/>
+
+    <node pkg="force_system" type="averaged_calibrated_force_repub" name="averaged_calibrated_force_repub"/>
+    <node pkg="force_system" type="gravity_compensated_force_repub" name="gravity_compensated_force_repub"/>
+
+
+
+</launch>

@@ -21,6 +21,7 @@
 #include <pcl/filters/statistical_outlier_removal.h>
 #include <pcl/console/parse.h>
 
+
 using namespace std;
 typedef pcl::PointXYZRGB PointT;
 typedef pcl::PointCloud<PointT> PointCloudT;
@@ -85,7 +86,8 @@ int main(int argc, char** argv)
     ros::param::set("/recompute_assembly_base_frame", true);
     bool recompute_assembly_base_frame;
 
-    Eigen::Matrix4d trans_inverse;
+//    Eigen::Matrix4d trans_inverse;
+    Eigen::Matrix4d transformation_matrix;
 
 
 
@@ -215,16 +217,16 @@ int main(int argc, char** argv)
 
             // Set initial alignment estimate found using robot odometry.
             Eigen::AngleAxisf init_rotation(0, Eigen::Vector3f::UnitZ());
-            Eigen::Translation3f init_translation(-trans_x, -trans_y, -trans_z);
+            Eigen::Translation3f init_translation(trans_x, trans_y, trans_z);
             Eigen::Matrix4f init_guess = (init_translation * init_rotation).matrix();
 
             Eigen::Matrix4d transformation_matrix = Eigen::Matrix4d::Identity();
             pcl::IterativeClosestPoint<PointT, PointT> icp;
             icp.setMaxCorrespondenceDistance(0.01);
             icp.setMaximumIterations(200);
-            icp.setInputSource(cloud_outlier_removed);
+            icp.setInputSource(cloud_model);
 //            icp.setIndices(inliers_without_plane);
-            icp.setInputTarget(cloud_model);
+            icp.setInputTarget(cloud_outlier_removed);
             icp.align(*final_cloud, init_guess);
 
 
@@ -255,13 +257,13 @@ int main(int argc, char** argv)
                 //                   transformation_matrix(1, 0), transformation_matrix(1, 1), transformation_matrix(1, 2),
                 //                   transformation_matrix(2, 0), transformation_matrix(2, 1), transformation_matrix(2, 2);
                 //    rot_inverse = trans_inter.inverse();
-                trans_inverse = transformation_matrix.inverse();
+//                trans_inverse = transformation_matrix.inverse();
                 //    trans_inverse << rot_inverse(0, 0), rot_inverse(0, 1), rot_inverse(0, 2), -transformation_matrix(0, 3),
                 //                     rot_inverse(1, 0), rot_inverse(1, 1), rot_inverse(1, 2), -transformation_matrix(1, 3),
                 //                     rot_inverse(2, 0), rot_inverse(2, 1), rot_inverse(2, 2), -transformation_matrix(2, 3),
                 //                     0                , 0                , 0                , 1                           ;
 
-                print4x4Matrix(trans_inverse);
+//                print4x4Matrix(trans_inverse);
             } else {
                 ROS_INFO("\nICP has not converged!\n");
             }
@@ -270,12 +272,12 @@ int main(int argc, char** argv)
         static tf::TransformBroadcaster br;
         tf::Transform transform;
         tf::Matrix3x3 transm_r;
-        transm_r.setValue(trans_inverse(0, 0), trans_inverse(0, 1), trans_inverse(0, 2),
-                          trans_inverse(1, 0), trans_inverse(1, 1), trans_inverse(1, 2),
-                          trans_inverse(2, 0), trans_inverse(2, 1), trans_inverse(2, 2));
+        transm_r.setValue(transformation_matrix(0, 0), transformation_matrix(0, 1), transformation_matrix(0, 2),
+                          transformation_matrix(1, 0), transformation_matrix(1, 1), transformation_matrix(1, 2),
+                          transformation_matrix(2, 0), transformation_matrix(2, 1), transformation_matrix(2, 2));
         tf::Quaternion q;
         transm_r.getRotation(q);
-        transform.setOrigin(tf::Vector3(trans_inverse(0, 3), trans_inverse(1, 3), trans_inverse(2, 3)));
+        transform.setOrigin(tf::Vector3(transformation_matrix(0, 3), transformation_matrix(1, 3), transformation_matrix(2, 3)));
         transform.setRotation(q);
         br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "eye_to_hand_depth_optical_frame", "assembly_base"));
 

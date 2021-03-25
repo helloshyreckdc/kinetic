@@ -1,7 +1,7 @@
 <launch>
     <arg name="namespace_prefix" default="ur5_kinect_handeyecalibration" />
 
-    <arg name="robot_ip" value="192.168.0.106" />
+    <arg name="robot_ip" value="192.168.50.130" />
 
     <arg name="marker_size" value="0.1" />
     <arg name="marker_id" value="582" />

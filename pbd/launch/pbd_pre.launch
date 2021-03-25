@@ -1,24 +1,15 @@
 <launch>
     <node pkg="tf_system" type="quaternion2angle_axis" name="quaternion2angle_axis"/>
-    <node pkg="tf_system" type="pub_tool0_target_frame" name="pub_tool0_target_frame"/>
-    <node pkg="tf_system" type="pub_assembly_base_frame" name="pub_assembly_base_frame"/>
 
     <node pkg="pose_system" type="pub_current_pose" name="current_pose"/>
     <node pkg="pose_system" type="pub_ati_current_pose" name="ati_current_pose"/>
-    <node pkg="pose_system" type="pub_ref_traj" name="pub_ref_traj"/>
-    <node pkg="pose_system" type="pub_sr300_pose" name="pub_sr300_pose"/>
+
+    <include file="$(find pbd)/launch/ur_system.launch"/>
 
     <node pkg="netft_utils" type="netft_node" name="netft_node" args="192.168.50.168"/>
+
     <node pkg="force_system" type="averaged_calibrated_force_repub" name="averaged_calibrated_force_repub"/>
     <node pkg="force_system" type="gravity_compensated_force_repub" name="gravity_compensated_force_repub"/>
-
-    <include file="$(find pbd)/launch/xtion.launch"/>
-<!--
-    <include file="$(find pbd)/launch/realsense.launch">
--->
-
-    <node pkg="vision_system" type="point_cloud_preprocess" name="point_cloud_preprocess"/>
-
 
 
 

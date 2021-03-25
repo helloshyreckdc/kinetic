@@ -20,6 +20,7 @@
 #include <pcl/filters/statistical_outlier_removal.h>
 #include <pcl/console/parse.h>
 
+
 typedef pcl::PointXYZRGB PointT;
 typedef pcl::PointCloud<PointT> PointCloudT;
 
