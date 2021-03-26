@@ -1,127 +1,197 @@
 #include <ros/ros.h>
-#include <pcl/point_types.h>
-#include <pcl/point_cloud.h>
+#include <iostream>
+#include <string>
+#include <tf/transform_broadcaster.h>
+
+//PCL specific includes
 #include <pcl_conversions/pcl_conversions.h>
-#include <sensor_msgs/PointCloud2.h>
+#include <pcl/point_cloud.h>
+#include <pcl/point_types.h>
 #include <pcl/io/pcd_io.h>
-#include <pcl/filters/crop_box.h>
-#include <pcl/filters/statistical_outlier_removal.h>
+#include <pcl/io/png_io.h>
+#include <pcl/registration/icp.h>
+#include <pcl/console/time.h>  //TicToc
 #include <pcl/ModelCoefficients.h>
 #include <pcl/sample_consensus/method_types.h>
 #include <pcl/sample_consensus/model_types.h>
 #include <pcl/segmentation/sac_segmentation.h>
-#include <pcl/io/pcd_io.h>
-#include <pcl/io/png_io.h>
-#include <tf/transform_listener.h>
+#include <pcl/filters/voxel_grid.h>
+#include <pcl/filters/extract_indices.h>
+#include <pcl/filters/passthrough.h>
+#include <pcl/filters/statistical_outlier_removal.h>
+#include <pcl/console/parse.h>
+
+#include <tf_conversions/tf_eigen.h>
 
 
 using namespace std;
+typedef pcl::PointXYZRGB PointT;
+typedef pcl::PointCloud<PointT> PointCloudT;
 
-//void cloudCB(const sensor_msgs::PointCloud2 &input)
-pcl::StatisticalOutlierRemoval<pcl::PointXYZRGB> sor;
-sensor_msgs::PointCloud2 ros_passed_cloud;
-ros::Publisher passed_cloud_pub;
+template <typename PointSource, typename PointTarget, typename Scalar = float>
+class IterativeClosestPoint_Exposed : public pcl::IterativeClosestPoint<PointSource, PointTarget, Scalar> {
+public:
+    pcl::CorrespondencesPtr getCorrespondencesPtr() {
+        for (uint32_t i = 0; i < this->correspondences_->size(); i++) {
+            pcl::Correspondence currentCorrespondence = (*this->correspondences_)[i];
+            std::cout << "Index of the source point: " << currentCorrespondence.index_query << std::endl;
+            std::cout << "Index of the matching target point: " << currentCorrespondence.index_match << std::endl;
+            std::cout << "Distance between the corresponding points: " << currentCorrespondence.distance << std::endl;
+            std::cout << "Weight of the confidence in the correspondence: " << currentCorrespondence.weight << std::endl;
+        }
+        return this->correspondences_;
+    }
+};
 
-void pass_function(pcl::PointCloud<pcl::PointXYZRGB>::Ptr input_cloud, double start_x, double end_x,
-        double start_y, double end_y, double start_z, double end_z,
-        pcl::PointCloud<pcl::PointXYZRGB>::Ptr output_cloud,bool set_negative)
+void print4x4Matrix(const Eigen::Matrix4d & matrix)
 {
-    pcl::CropBox<pcl::PointXYZRGB> boxFilter;
-    boxFilter.setMin(Eigen::Vector4f(start_x, start_y, start_z, 1.0));
-    boxFilter.setMax(Eigen::Vector4f(end_x, end_y, end_z, 1.0));
-    boxFilter.setInputCloud(input_cloud);
-    boxFilter.setNegative(set_negative);
-    boxFilter.filter(*output_cloud);
+    printf("Rotation matrix :\n");
+    printf("    | %6.3f %6.3f %6.3f | \n", matrix(0, 0), matrix(0, 1), matrix(0, 2));
+    printf("R = | %6.3f %6.3f %6.3f | \n", matrix (1, 0), matrix (1, 1), matrix (1, 2));
+    printf("    | %6.3f %6.3f %6.3f | \n", matrix (2, 0), matrix (2, 1), matrix (2, 2));
+    printf("Translation vector :\n");
+    printf("t = < %6.3f, %6.3f, %6.3f >\n\n", matrix (0, 3), matrix (1, 3), matrix (2, 3));
 }
 
-void pass_function(pcl::PointCloud<pcl::PointXYZRGB>::Ptr input_cloud, double start_x, double end_x,
-                   double start_y, double end_y, double start_z, double end_z,
-                   pcl::IndicesPtr output_indices,pcl::IndicesPtr removed_indices, bool set_negative)
-{
-    pcl::CropBox<pcl::PointXYZRGB> boxFilter(true);   // set to true to get removed indices
-    boxFilter.setMin(Eigen::Vector4f(start_x, start_y, start_z, 1.0));
-    boxFilter.setMax(Eigen::Vector4f(end_x, end_y, end_z, 1.0));
-    boxFilter.setInputCloud(input_cloud);
-    boxFilter.setNegative(set_negative);
-    boxFilter.filter(*output_indices);
-    pcl::IndicesConstPtr removed_temp = boxFilter.getRemovedIndices(); // to solve const pointer and non const
-    *removed_indices = *removed_temp;
-}
+PointCloudT::Ptr cloud_model(new PointCloudT);  //template imported
+PointCloudT::Ptr cloud_down_sampled(new PointCloudT);
+PointCloudT::Ptr cloud_outlier_removed (new PointCloudT);
+PointCloudT::Ptr cloud_passed(new PointCloudT);
+PointCloudT::Ptr cloud_model_aligned(new PointCloudT);
+PointCloudT::Ptr final_cloud(new PointCloudT);
 
+pcl::PCLPointCloud2::Ptr cloud2_scene(new pcl::PCLPointCloud2);  //scene imported
+pcl::PCLPointCloud2::Ptr cloud2_down_sampled(new pcl::PCLPointCloud2);
 
 void cloudCB(const pcl::PCLPointCloud2ConstPtr& input)
 {
-    pcl::PointCloud<pcl::PointXYZRGB>::Ptr raw_cloud(new pcl::PointCloud<pcl::PointXYZRGB>);
-    pcl::PointCloud<pcl::PointXYZRGB>::Ptr passed_cloud(new pcl::PointCloud<pcl::PointXYZRGB>);
-    pcl::PointCloud<pcl::PointXYZRGB>::Ptr filtered_cloud(new pcl::PointCloud<pcl::PointXYZRGB>);
-    pcl::fromPCLPointCloud2(*input, *raw_cloud);
-
-
-    pcl::IndicesPtr output_indices(new pcl::Indices);
-    pcl::IndicesPtr removed_indices(new pcl::Indices);
-
-    tf::TransformListener listener;
-    tf::StampedTransform transform;
-    ros::Duration(1.0).sleep();
-    try{
-        listener.lookupTransform("eye_to_hand_depth_optical_frame", "gripper_center", ros::Time(0), transform);
-    }
-    catch (tf::TransformException &ex) {
-        ROS_ERROR("%s",ex.what());
-    }
-
-    tf::Vector3 translation = transform.getOrigin();
-    cout << "x: " << translation.getX() << endl;
-    cout << "y: " << translation.getY() << endl;
-    cout << "z: " << translation.getZ() << endl;
-
-    //crophull will be used later to segment a better scene
-//    pass_function(raw_cloud,-0.15,0.5,-1,1,-1,1,passed_cloud, false);  // pass through scene
-
-    pass_function(raw_cloud,-0.15,0.5,-1,1,-1,1,output_indices, removed_indices, false);  // pass through scene
-//    cout << "output size" << output_indices->size() << endl;
-//    cout << "removed size" << removed_indices->size() << endl;
-
-    for(std::size_t i=0; i<removed_indices->size(); i++){
-        raw_cloud->points[(*removed_indices)[i]].x = 0;
-        raw_cloud->points[(*removed_indices)[i]].y = 0;
-        raw_cloud->points[(*removed_indices)[i]].z = 0;
-    }
-
-    for (std::size_t i = 0; i < raw_cloud->points.size (); ++i)
-    {
-        if (!std::isfinite (raw_cloud->points[i].x) ||
-            !std::isfinite (raw_cloud->points[i].y) ||
-            !std::isfinite (raw_cloud->points[i].z))
-        {
-            raw_cloud->points[i].x = 0.0;
-            raw_cloud->points[i].y = 0.0;
-            raw_cloud->points[i].z = 0.0;
-        }
-    }
-//    for (int j = 0; j < output_indices->size(); ++j) {
-//        raw_cloud->points[(*output_indices)[j]].r = 255;
-//        raw_cloud->points[(*output_indices)[j]].g = 0;
-//        raw_cloud->points[(*output_indices)[j]].b = 0;
-//    }
-
-
-//    pcl::copyPointCloud(*raw_cloud,*output_indices,*passed_cloud);
-
-//    pcl::io::savePCDFileASCII ("desk_scene.pcd", *raw_cloud);//保存pcd
-//    pcl::io::savePNGFile("test.png",*raw_cloud, "rgb");
-    pcl::toROSMsg(*raw_cloud, ros_passed_cloud);
-    ros_passed_cloud.header.frame_id = "eye_to_hand_depth_optical_frame";
-    passed_cloud_pub.publish(ros_passed_cloud);
-
+    *cloud2_scene = *input;
+//    pcl::PointCloud<pcl::PointXYZRGB> cloud;
+//    pcl::fromPCLPointCloud2(*input, cloud);
+//    pcl::io::savePCDFileASCII ("passed.pcd", cloud);//保存pcd
 }
-int main (int argc, char **argv)
+
+
+int main(int argc, char** argv)
 {
-    ros::init(argc, argv, "eye_to_hand_point_cloud_segment");
+    ros::init(argc, argv, "pub_cylinder_frame");
     ros::NodeHandle node;
-    ros::Subscriber cloud_sub = node.subscribe("/eye_to_hand/depth_registered/points", 1, cloudCB);//接收点云
-    passed_cloud_pub = node.advertise<sensor_msgs::PointCloud2>("/passed_cloud",1);
-    ros::Duration(1).sleep(); // wait for camera msg
-    ros::spin();
-    return 0;
-}  
+
+    ros::Subscriber scene_sub = node.subscribe("/passed_cloud",10,cloudCB);
+
+    ros::Rate loop_rate(50);
+
+    ros::Duration(3).sleep(); // wait for camera msg
+
+    ros::param::set("/recompute_cylinder_frame", true);
+    bool recompute_cylinder_frame;
+
+//    Eigen::Matrix4d trans_inverse;
+    Eigen::Matrix4d eigen_transform;
+
+
+
+
+    while(ros::ok())
+    {
+        ros::param::get("/recompute_cylinder_frame", recompute_cylinder_frame);
+        if(recompute_cylinder_frame) {
+            ros::param::set("/recompute_cylinder_frame", false);
+            ros::spinOnce();
+
+            //Load the template
+            if (pcl::io::loadPCDFile("/home/shyreckdc/catkin_ws/src/peg_in_hole/resources/cylinder.pcd",*cloud_model) < 0) {
+//            if (pcl::io::loadPCDFile(argv[1], *cloud_model) < 0) {
+                ROS_INFO("Error loading cloud %s. \n", argv[1]);
+                return (-1);
+            }
+
+
+            pcl::console::TicToc time;
+            time.tic();
+            pcl::fromPCLPointCloud2(*cloud2_scene, *cloud_down_sampled);
+
+            pcl::IndicesPtr passed_inliers (new pcl::Indices);
+            pcl::IndicesPtr inliers_outlier_removed (new pcl::Indices);
+
+            pcl::PassThrough<PointT> pass(true);
+            pass.setInputCloud (cloud_down_sampled);
+//            pass.setIndices(inliers_without_plane);
+            pass.setFilterFieldName ("z");
+            pass.setFilterLimits (-0.001, 0.001);
+            pass.setNegative(true);
+            pass.filter(*passed_inliers);
+            pcl::copyPointCloud(*cloud_down_sampled,*passed_inliers,*cloud_passed);
+            pcl::io::savePCDFileASCII ("cloud_passed.pcd", *cloud_passed);//保存pcd
+
+//            /******  Statistical Removal  ******/
+            pcl::StatisticalOutlierRemoval<PointT> sor_rm_outlier;
+            sor_rm_outlier.setInputCloud(cloud_down_sampled);
+            sor_rm_outlier.setIndices(passed_inliers);
+            sor_rm_outlier.setMeanK(30);
+            sor_rm_outlier.setStddevMulThresh(1);
+            sor_rm_outlier.filter(*inliers_outlier_removed);
+            pcl::copyPointCloud(*cloud_down_sampled,*inliers_outlier_removed,*cloud_outlier_removed);
+            pcl::io::savePCDFileASCII ("final_cloud.pcd", *cloud_outlier_removed);//保存pcd
+
+            /******  ICP registration  ******/
+            float sum_x = 0;
+            float sum_y = 0;
+            float sum_z = 0;
+            float trans_x = 0;
+            float trans_y = 0;
+            float trans_z = 0;
+
+            for (size_t i = 0; i < cloud_outlier_removed->points.size(); ++i) {
+                sum_x += cloud_outlier_removed->points[i].x;
+                sum_y += cloud_outlier_removed->points[i].y;
+                sum_z += cloud_outlier_removed->points[i].z;
+            }
+            trans_x = sum_x / cloud_outlier_removed->points.size();
+            trans_y = sum_y / cloud_outlier_removed->points.size();
+            trans_z = sum_z / cloud_outlier_removed->points.size();
+
+            // Set initial alignment estimate found using robot odometry.
+            Eigen::AngleAxisf init_rotation(0, Eigen::Vector3f::UnitZ());
+            Eigen::Translation3f init_translation(trans_x, trans_y, trans_z);
+            Eigen::Matrix4f init_guess = (init_translation * init_rotation).matrix();
+
+            Eigen::Matrix4d eigen_transform = Eigen::Matrix4d::Identity();
+            pcl::IterativeClosestPoint<PointT, PointT> icp;
+            icp.setMaxCorrespondenceDistance(0.01);
+            icp.setMaximumIterations(200);
+            icp.setInputSource(cloud_model);
+//            icp.setIndices(inliers_without_plane);
+            icp.setInputTarget(cloud_outlier_removed);
+            icp.align(*final_cloud, init_guess);
+
+            ROS_INFO("Finished the pose estimation in %f ms", time.toc());
+
+            if (icp.hasConverged()) {
+                std::cout << "\nICP has converged, score is " << icp.getFitnessScore() << std::endl;
+                std::cout << "\nICP transformation 100 : cloud_model -> cloud_cube" << std::endl;
+                eigen_transform = icp.getFinalTransformation().cast<double>();
+
+            } else {
+                ROS_INFO("\nICP has not converged!\n");
+            }
+        }
+        /******  transform broadcaster  ******/
+        static tf::TransformBroadcaster br;
+        tf::Transform transform;
+        tf::Matrix3x3 transm_r;
+//        tf::transformEigenToTF()
+        transm_r.setValue(eigen_transform(0, 0), eigen_transform(0, 1), eigen_transform(0, 2),
+                          eigen_transform(1, 0), eigen_transform(1, 1), eigen_transform(1, 2),
+                          eigen_transform(2, 0), eigen_transform(2, 1), eigen_transform(2, 2));
+        tf::Quaternion q;
+        transm_r.getRotation(q);
+        transform.setOrigin(tf::Vector3(eigen_transform(0, 3), eigen_transform(1, 3), eigen_transform(2, 3)));
+        transform.setRotation(q);
+        br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "eye_to_hand_depth_optical_frame", "cylinder"));
+
+        loop_rate.sleep();
+    }
+
+    return(0);
+}

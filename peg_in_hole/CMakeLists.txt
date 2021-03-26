@@ -27,6 +27,7 @@ find_package(catkin REQUIRED COMPONENTS
         tf
         tf_system
         visp_bridge
+		tf_conversions
         )
 
 ## System dependencies are found with CMake's conventions
@@ -220,6 +221,10 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
+
+add_executable(segment_object_grasped src/segment_object_grasped.cpp)
+target_link_libraries(segment_object_grasped ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(segment_object_grasped tf_system_generate_messages_cpp)
 
 add_executable(pub_cylinder_frame src/pub_cylinder_frame.cpp)
 target_link_libraries(pub_cylinder_frame ${PCL_LIBRARIES} ${catkin_LIBRARIES})

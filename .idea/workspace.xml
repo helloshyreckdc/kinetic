@@ -3,6 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="segment_object_grasped" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf_system_generate_messages_lisp" />
       <config projectName="Project" targetName="roscpp_generate_messages_py" />
@@ -127,72 +128,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba4fb15d-170c-4fda-8efd-ef878e25c653" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy_handeye/docs/example_launch/ur5_kinect_calibration.launch" beforeDir="false" afterPath="$PROJECT_DIR$/easy_handeye/docs/example_launch/ur5_kinect_calibration.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force_system/config/gravity_bias.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/force_system/config/gravity_bias.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force_system/src/averaged_calibrated_force_repub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/force_system/src/averaged_calibrated_force_repub.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force_system/src/gravity_compensated_force_repub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/force_system/src/gravity_compensated_force_repub.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/config/gravity_bias.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/config/gravity_bias.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/launch/pbd_pre.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/launch/ur_system.launch" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/launch/ur_system.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbd/launch/xtion.launch" beforeDir="false" afterPath="$PROJECT_DIR$/pbd/launch/xtion.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realsense-ros" beforeDir="false" afterPath="$PROJECT_DIR$/realsense-ros" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_system/src/backup_pub_assembly_base_frame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tf_system/src/backup_pub_assembly_base_frame.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_system/src/pub_assembly_base_frame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tf_system/src/pub_assembly_base_frame.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/universal_robot/ur_description/urdf/ur5.urdf.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/universal_robot/ur_description/urdf/ur5.urdf.xacro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/.gitmodules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/CHANGELOG.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/cmd_line/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/cmd_line/cmd_line.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/cmd_line/cmd_line.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/data/config.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/data/pattern.wrl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/data/pattern.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/datamatrix/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/datamatrix/detector.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/datamatrix/detector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/detector_base.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/detector_base.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/qrcode/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/qrcode/detector.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/detectors/qrcode/detector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/examples/complex.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/examples/simple.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/events.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/logfilewriter.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/states.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/threading.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/threading.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/tracking.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/libauto_tracker/tracking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/flashcode_mbt/script.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/sr300.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tracklive_firewire.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tracklive_usb.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/launch/tutorial.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/models/calibration.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/models/pattern.cao" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/models/pattern.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/models/pattern.wrl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/models/pattern.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/rosdoc.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/names.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/names.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/node.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/src/node.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_visp/visp_auto_tracker/visp_auto_tracker.bag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visp_tutorial/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/visp_tutorial/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/peg_in_hole/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/config/gravity_bias.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/launch/pbd_pre.launch" beforeDir="false" afterPath="$PROJECT_DIR$/peg_in_hole/launch/test.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/peg_in_hole/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/assembly_base_model.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/ball.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/cylinder.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/cylinder.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/full_scene_with_obj.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/full_scene_without_obj.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/hole_cube.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/hole_cube.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/hole_cube.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/hole_cube.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/scene_with_obj.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/scene_without_obj.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/small_cokecan.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/resources/yellow_cube.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/src/pub_cylinder_frame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/peg_in_hole/src/pub_cylinder_frame.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peg_in_hole/src/record.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -211,29 +167,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/peg_in_hole/src/pub_cylinder_frame.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/peg_in_hole/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
-              <caret line="224" column="41" selection-start-line="224" selection-start-column="41" selection-end-line="224" selection-end-column="41" />
+              <caret line="225" column="41" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/peg_in_hole/src/pub_cylinder_frame.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="180" column="1" selection-start-line="180" selection-start-column="1" selection-end-line="180" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/peg_in_hole/package.xml">
+        <entry file="file://$PROJECT_DIR$/peg_in_hole/src/segment_object_grasped.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+            <state relative-caret-position="304">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -338,7 +294,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -561,6 +517,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pub_cylinder_frame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="pub_cylinder_frame" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="pub_cylinder_frame">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -612,6 +573,11 @@
       </method>
     </configuration>
     <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="segment_object_grasped" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="segment_object_grasped" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="segment_object_grasped">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -917,6 +883,7 @@
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.pub_cylinder_frame" />
       <item itemvalue="CMake Application.roscpp_generate_messages_cpp" />
       <item itemvalue="CMake Application.roscpp_generate_messages_eus" />
       <item itemvalue="CMake Application.roscpp_generate_messages_lisp" />
@@ -927,6 +894,7 @@
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.segment_object_grasped" />
       <item itemvalue="CMake Application.run_tests" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_eus" />
@@ -1098,7 +1066,7 @@
       <workItem from="1594799438761" duration="3000" />
       <workItem from="1600159783319" duration="5000" />
       <workItem from="1605686181212" duration="949000" />
-      <workItem from="1616648814609" duration="6126000" />
+      <workItem from="1616648814609" duration="17090000" />
     </task>
     <task id="LOCAL-00001" summary="test clion git">
       <created>1564562420341</created>
@@ -1174,7 +1142,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71408000" />
+    <option name="totallyTimeSpent" value="82372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -1428,22 +1396,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/peg_in_hole/package.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+        <state relative-caret-position="557">
+          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/peg_in_hole/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="224" column="41" selection-start-line="224" selection-start-column="41" selection-end-line="224" selection-end-column="41" />
+          <caret line="225" column="41" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peg_in_hole/src/segment_object_grasped.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/peg_in_hole/src/pub_cylinder_frame.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="406">
+          <caret line="180" column="1" selection-start-line="180" selection-start-column="1" selection-end-line="180" selection-end-column="1" />
         </state>
       </provider>
     </entry>
