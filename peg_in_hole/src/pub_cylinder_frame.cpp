@@ -22,11 +22,15 @@
 #include <pcl/console/parse.h>
 
 #include <tf_conversions/tf_eigen.h>
+#include <tf/transform_listener.h>
 
 
 using namespace std;
-typedef pcl::PointXYZRGB PointT;
+typedef pcl::PointXYZ PointT;
+//typedef pcl::PointXYZRGB PointT;
 typedef pcl::PointCloud<PointT> PointCloudT;
+
+tf::TransformListener* tf_listener_ptr;
 
 template <typename PointSource, typename PointTarget, typename Scalar = float>
 class IterativeClosestPoint_Exposed : public pcl::IterativeClosestPoint<PointSource, PointTarget, Scalar> {
@@ -77,6 +81,9 @@ int main(int argc, char** argv)
     ros::init(argc, argv, "pub_cylinder_frame");
     ros::NodeHandle node;
 
+    tf::TransformListener listener;
+    tf_listener_ptr = &listener;
+
     ros::Subscriber scene_sub = node.subscribe("/passed_cloud",10,cloudCB);
 
     ros::Rate loop_rate(50);
@@ -87,9 +94,13 @@ int main(int argc, char** argv)
     bool recompute_cylinder_frame;
 
 //    Eigen::Matrix4d trans_inverse;
-    Eigen::Matrix4d eigen_transform;
+    Eigen::Matrix4d eigen_camera2object;
 
 
+    /******  transform broadcaster  ******/
+    static tf::TransformBroadcaster br;
+    tf::Transform camera2object;
+    tf::StampedTransform gripper2camera;
 
 
     while(ros::ok())
@@ -102,7 +113,7 @@ int main(int argc, char** argv)
             //Load the template
             if (pcl::io::loadPCDFile("/home/shyreckdc/catkin_ws/src/peg_in_hole/resources/cylinder.pcd",*cloud_model) < 0) {
 //            if (pcl::io::loadPCDFile(argv[1], *cloud_model) < 0) {
-                ROS_INFO("Error loading cloud %s. \n", argv[1]);
+                ROS_INFO("Error loading cloud");
                 return (-1);
             }
 
@@ -122,7 +133,7 @@ int main(int argc, char** argv)
             pass.setNegative(true);
             pass.filter(*passed_inliers);
             pcl::copyPointCloud(*cloud_down_sampled,*passed_inliers,*cloud_passed);
-            pcl::io::savePCDFileASCII ("cloud_passed.pcd", *cloud_passed);//保存pcd
+            pcl::io::savePCDFileASCII ("/home/shyreckdc/catkin_ws/src/peg_in_hole/resources/cloud_passed.pcd", *cloud_passed);//保存pcd
 
 //            /******  Statistical Removal  ******/
             pcl::StatisticalOutlierRemoval<PointT> sor_rm_outlier;
@@ -132,7 +143,7 @@ int main(int argc, char** argv)
             sor_rm_outlier.setStddevMulThresh(1);
             sor_rm_outlier.filter(*inliers_outlier_removed);
             pcl::copyPointCloud(*cloud_down_sampled,*inliers_outlier_removed,*cloud_outlier_removed);
-            pcl::io::savePCDFileASCII ("final_cloud.pcd", *cloud_outlier_removed);//保存pcd
+            pcl::io::savePCDFileASCII ("/home/shyreckdc/catkin_ws/src/peg_in_hole/resources/final_cloud.pcd", *cloud_outlier_removed);//保存pcd
 
             /******  ICP registration  ******/
             float sum_x = 0;
@@ -156,7 +167,7 @@ int main(int argc, char** argv)
             Eigen::Translation3f init_translation(trans_x, trans_y, trans_z);
             Eigen::Matrix4f init_guess = (init_translation * init_rotation).matrix();
 
-            Eigen::Matrix4d eigen_transform = Eigen::Matrix4d::Identity();
+            Eigen::Matrix4d eigen_camera2object = Eigen::Matrix4d::Identity();
             pcl::IterativeClosestPoint<PointT, PointT> icp;
             icp.setMaxCorrespondenceDistance(0.01);
             icp.setMaximumIterations(200);
@@ -170,25 +181,36 @@ int main(int argc, char** argv)
             if (icp.hasConverged()) {
                 std::cout << "\nICP has converged, score is " << icp.getFitnessScore() << std::endl;
                 std::cout << "\nICP transformation 100 : cloud_model -> cloud_cube" << std::endl;
-                eigen_transform = icp.getFinalTransformation().cast<double>();
+                eigen_camera2object = icp.getFinalTransformation().cast<double>();
+                tf::transformEigenToTF((Eigen::Affine3d)eigen_camera2object, camera2object);
 
             } else {
                 ROS_INFO("\nICP has not converged!\n");
+                return -2;
             }
         }
-        /******  transform broadcaster  ******/
-        static tf::TransformBroadcaster br;
-        tf::Transform transform;
-        tf::Matrix3x3 transm_r;
-//        tf::transformEigenToTF()
-        transm_r.setValue(eigen_transform(0, 0), eigen_transform(0, 1), eigen_transform(0, 2),
-                          eigen_transform(1, 0), eigen_transform(1, 1), eigen_transform(1, 2),
-                          eigen_transform(2, 0), eigen_transform(2, 1), eigen_transform(2, 2));
-        tf::Quaternion q;
-        transm_r.getRotation(q);
-        transform.setOrigin(tf::Vector3(eigen_transform(0, 3), eigen_transform(1, 3), eigen_transform(2, 3)));
-        transform.setRotation(q);
-        br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "eye_to_hand_depth_optical_frame", "cylinder"));
+
+       // tf::Matrix3x3 transm_r;
+       // transm_r.setValue(eigen_camera2object(0, 0), eigen_camera2object(0, 1), eigen_camera2object(0, 2),
+       //                   eigen_camera2object(1, 0), eigen_camera2object(1, 1), eigen_camera2object(1, 2),
+       //                   eigen_camera2object(2, 0), eigen_camera2object(2, 1), eigen_camera2object(2, 2));
+       // tf::Quaternion q;
+       // transm_r.getRotation(q);
+       // transform.setOrigin(tf::Vector3(eigen_camera2object(0, 3), eigen_camera2object(1, 3), eigen_camera2object(2, 3)));
+       // transform.setRotation(q);
+
+        try{
+            tf_listener_ptr->lookupTransform("gripper_center", "eye_to_hand_depth_optical_frame", ros::Time(0), gripper2camera);
+        }
+        catch (tf::TransformException &ex) {
+            ROS_ERROR("%s", ex.what());
+        }
+
+        tf::Transform gripper2object = gripper2camera*camera2object;
+
+
+
+        br.sendTransform(tf::StampedTransform(gripper2object, ros::Time::now(), "gripper_center", "cylinder"));
 
         loop_rate.sleep();
     }

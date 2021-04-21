@@ -109,8 +109,8 @@ void cloudCB(const pcl::PCLPointCloud2ConstPtr& input)
 
 //    pass_function(raw_cloud, gripper_center_x-0.2, gripper_center_x+0.2, gripper_center_y-0.02, gripper_center_y+0.2,
 //            gripper_center_z-0.2, gripper_center_z+0.2,output_indices, removed_indices, false);  // pass through scene
-    pass_function(raw_cloud, -0.05, 0.05, -0.05, +0.05,
-                  -0.02, 0.05,output_indices, removed_indices, false, eigen_transform);  // pass through scene
+    pass_function(raw_cloud, -0.05, 0.050, -0.050, +0.050,
+                  -0.00, 0.10,output_indices, removed_indices, false, eigen_transform);  // pass through scene
 
 //    cout << "output size" << output_indices->size() << endl;
 //    cout << "removed size" << removed_indices->size() << endl;

@@ -7,10 +7,9 @@
 <include file="$(find ur5_moveit_config)/launch/ur5_moveit_planning_execution.launch">
 <arg name="limited" value="true" />
 </include>
-<!--
+
 <include file="$(find ur5_moveit_config)/launch/moveit_rviz.launch">
 <arg name="config" value="true" />
 </include>
--->
 
 </launch>

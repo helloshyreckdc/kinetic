@@ -230,6 +230,10 @@ add_executable(pub_cylinder_frame src/pub_cylinder_frame.cpp)
 target_link_libraries(pub_cylinder_frame ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 add_dependencies(pub_cylinder_frame tf_system_generate_messages_cpp)
 
+add_executable(check_obs src/check_obs.cpp)
+target_link_libraries(check_obs ${PCL_LIBRARIES} ${catkin_LIBRARIES})
+add_dependencies(check_obs tf_system_generate_messages_cpp)
+
 #add_executable(replay_traj src/replay_traj.cpp)
 #target_link_libraries(replay_traj ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 #add_dependencies(replay_traj tf_system_generate_messages_cpp)
